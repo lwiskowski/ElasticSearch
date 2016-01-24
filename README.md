@@ -94,7 +94,13 @@ ERROR: JAVA_HOME is set to an invalid directory: /Users/Java/JavaVirtualMachines
 Please set the JAVA_HOME variable in your environment to match the
 location of your Java installation.
 
-I will update the README.md soon on compilation and building the project. If you have questions, I will be
-available on the group facebook chat.
+To build and run the project; navigate to the project directory using change directory on the terminal.
+Enter this command:
+
+    graddle run
+
+It will download all the plugin required by the jar files, then it will build the project and run it!
+
+***Currently, mine failed to build. It throws an error on one if the file in elastic search.***
 
 
