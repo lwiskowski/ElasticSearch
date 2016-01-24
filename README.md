@@ -20,7 +20,7 @@ On the Terminal, check the version of your JDK by entering the command:
 
 If you recieve an error message, you will have to ensure that JDK or JRE is installed.
 
-Go to http://gradle.org/gradle-download/ to download graddle (the first option, "complete distribution", is 
+Go to http://gradle.org/gradle-download/ to download gradle (the first option, "complete distribution", is 
 recommended). Unzip the file.
 
 At this point, ensure you're on the admin user directory on the terminal. The current directory on your 
@@ -29,10 +29,10 @@ The "~" should be before your name
 
 Enter the following command on your terminal:
 
-    mkdir graddle
+    mkdir gradle
 
-Go to finder, open this folder. Copy the unzipped downloaded gradder folder (it should have this name
-graddle-2.10) and paste it in the graddle folder. 
+Go to finder, open this folder. Copy the unzipped downloaded gradle folder (it should have this name
+gradle-2.10) and paste it in the gradle folder. 
 
 On the terminal, enter this command:
 
@@ -67,9 +67,9 @@ I will link my JAVA_HOME to the location using the command:
 
     export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home
 
-Now, you can check if graddle is linked using the command:
+Now, you can check if gradle is linked using the command:
     
-    graddle -version
+    gradle -version
 
 You should see the following output:
 
@@ -97,7 +97,7 @@ location of your Java installation.
 To build and run the project; navigate to the project directory using change directory on the terminal.
 Enter this command:
 
-    graddle run
+    gradle run
 
 It will download all the plugin required by the jar files, then it will build the project and run it!
 
