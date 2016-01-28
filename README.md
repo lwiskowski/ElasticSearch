@@ -96,13 +96,28 @@ ERROR: JAVA_HOME is set to an invalid directory: /Users/Java/JavaVirtualMachines
 Please set the JAVA_HOME variable in your environment to match the
 location of your Java installation.
 
-To build and run the project; navigate to the project directory using change directory on the terminal.
+To build the project, navigate to the project directory using change directory on the terminal.
 Enter this command:
 
-    gradle run
+    gradle assembe
 
-It will download all the plugin required by the jar files, then it will build the project and run it!
+It will download all the plugin required by the jar files, then it will build the project.
 
-***Currently, mine failed to build. It throws an error on one if the file in elastic search.***
+To run elasticsearch, navigate to root\distribution\zip\build\distributions\, and unzip the folder located in that directory.
 
+Open the unzipped folder, and go into the bin directory. You can run elasticsearch from there.
+
+
+------------------------------------------------------------
+Importing into Eclipse IDE
+------------------------------------------------------------
+
+1. Run the command 'gradle eclipse' in Gradle.
+
+2. Once step 1 is finished, open Eclipse and click File | Import
+
+3. Expand 'General' and select 'Existing Projects into Workspace'
+
+4. Select your elasticsearch directory as your root, ensure that the 'Search for nested projects' box is
+checked, and click next.
 
