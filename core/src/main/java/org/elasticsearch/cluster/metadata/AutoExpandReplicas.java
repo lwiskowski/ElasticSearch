@@ -42,7 +42,7 @@ final class AutoExpandReplicas {
             throw new IllegalArgumentException("failed to parse [" + IndexMetaData.SETTING_AUTO_EXPAND_REPLICAS + "] from value: [" + value + "] at index " + dash);
         }
         final String sMin = value.substring(0, dash);
-        try {
+        try {//test suite error found here
             min = Integer.parseInt(sMin);
         } catch (NumberFormatException e) {
             throw new IllegalArgumentException("failed to parse [" + IndexMetaData.SETTING_AUTO_EXPAND_REPLICAS + "] from value: [" + value + "] at index "  + dash, e);
@@ -51,7 +51,7 @@ final class AutoExpandReplicas {
         if (sMax.equals(ALL_NODES_VALUE)) {
             max = Integer.MAX_VALUE;
         } else {
-            try {
+            try {//test suite error occured here
                 max = Integer.parseInt(sMax);
             } catch (NumberFormatException e) {
                 throw new IllegalArgumentException("failed to parse [" + IndexMetaData.SETTING_AUTO_EXPAND_REPLICAS + "] from value: [" + value + "] at index "  + dash, e);

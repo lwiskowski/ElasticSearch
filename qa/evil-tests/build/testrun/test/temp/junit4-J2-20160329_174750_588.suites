@@ -1,3 +1,0 @@
-org.elasticsearch.common.cli.CliToolTests
-org.elasticsearch.plugins.PluginManagerUnitTests
-org.elasticsearch.bootstrap.EvilJarHellTests

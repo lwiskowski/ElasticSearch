@@ -1,3 +1,0 @@
-org.elasticsearch.tribe.TribeUnitTests
-org.elasticsearch.bootstrap.BootstrapCliParserTests
-org.elasticsearch.bootstrap.SeccompTests

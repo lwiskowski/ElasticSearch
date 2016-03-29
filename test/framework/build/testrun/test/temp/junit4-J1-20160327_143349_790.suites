@@ -1,3 +1,0 @@
-org.elasticsearch.test.rest.test.SetupSectionParserTests
-org.elasticsearch.test.test.LoggingListenerTests
-org.elasticsearch.test.rest.test.AssertionParsersTestsorg.elasticsearch.test.rest.test.RestApiParserTests

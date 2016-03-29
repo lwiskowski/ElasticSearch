@@ -1,6 +1,0 @@
-org.elasticsearch.plan.a.BinaryOperatorTests
-org.elasticsearch.plan.a.WhenThingsGoWrongTests
-org.elasticsearch.plan.a.MultiplicationTests
-org.elasticsearch.plan.a.StringTests
-org.elasticsearch.plan.a.AndTests
-org.elasticsearch.plan.a.FloatOverflowEnabledTestsorg.elasticsearch.plan.a.DefTests
