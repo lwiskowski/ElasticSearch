@@ -1,0 +1,3 @@
+org.elasticsearch.index.analysis.SimpleIcuAnalysisTests=3869
+org.elasticsearch.index.analysis.SimpleIcuCollationTokenFilterTests=4117
+org.elasticsearch.index.analysis.SimpleIcuNormalizerCharFilterTests=3903

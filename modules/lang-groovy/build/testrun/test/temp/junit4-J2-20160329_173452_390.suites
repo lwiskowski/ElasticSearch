@@ -1,0 +1,7 @@
+org.elasticsearch.messy.tests.ScriptQuerySearchTests
+org.elasticsearch.messy.tests.MinTests
+org.elasticsearch.messy.tests.SimpleSortTests
+org.elasticsearch.messy.tests.DoubleTermsTests
+org.elasticsearch.messy.tests.IndicesRequestTests
+org.elasticsearch.messy.tests.GeoDistanceTests
+org.elasticsearch.messy.tests.TDigestPercentilesTests

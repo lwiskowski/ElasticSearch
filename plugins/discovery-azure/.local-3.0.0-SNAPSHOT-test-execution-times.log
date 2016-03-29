@@ -1,0 +1,3 @@
+org.elasticsearch.discovery.azure.AzureMinimumMasterNodesTests=601
+org.elasticsearch.discovery.azure.AzureSimpleTests=13224
+org.elasticsearch.discovery.azure.AzureTwoStartedNodesTests=671

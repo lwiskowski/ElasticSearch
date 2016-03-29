@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="discovery-azure-3.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plugins/discovery-azure/build/distributions/discovery-azure-3.0.0-SNAPSHOT.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="elasticsearch-3.0.0-SNAPSHOT1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/distribution/integ-test-zip/build/distributions/elasticsearch-3.0.0-SNAPSHOT.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

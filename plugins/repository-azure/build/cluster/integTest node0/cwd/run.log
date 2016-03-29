@@ -1,0 +1,13 @@
+[2016-03-29 17:46:05,356][INFO ][node                     ] [Sea Urchin] version[3.0.0-SNAPSHOT], pid[29489], build[ee1aa82/2016-03-29T21:22:11.347Z]
+[2016-03-29 17:46:05,356][INFO ][node                     ] [Sea Urchin] initializing ...
+[2016-03-29 17:46:05,607][INFO ][plugins                  ] [Sea Urchin] modules [], plugins [repository-azure], sites []
+[2016-03-29 17:46:05,626][INFO ][env                      ] [Sea Urchin] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [235.7gb], net total_space [370.9gb], spins? [unknown], types [hfs]
+[2016-03-29 17:46:05,627][INFO ][env                      ] [Sea Urchin] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-03-29 17:46:07,115][INFO ][node                     ] [Sea Urchin] initialized
+[2016-03-29 17:46:07,115][INFO ][node                     ] [Sea Urchin] starting ...
+[2016-03-29 17:46:07,175][INFO ][transport                ] [Sea Urchin] publish_address {127.0.0.1:50110}, bound_addresses {[fe80::1]:50108}, {[::1]:50109}, {127.0.0.1:50110}
+[2016-03-29 17:46:07,182][INFO ][discovery                ] [Sea Urchin] plugins_repository-azure_integTest/18sly4CSTqGBhrrOUXETNA
+[2016-03-29 17:46:10,203][INFO ][cluster.service          ] [Sea Urchin] new_master {Sea Urchin}{18sly4CSTqGBhrrOUXETNA}{127.0.0.1}{127.0.0.1:50110}[testattr=>test], reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-03-29 17:46:10,222][INFO ][http                     ] [Sea Urchin] publish_address {127.0.0.1:50120}, bound_addresses {[fe80::1]:50118}, {[::1]:50119}, {127.0.0.1:50120}
+[2016-03-29 17:46:10,223][INFO ][node                     ] [Sea Urchin] started
+[2016-03-29 17:46:10,232][INFO ][gateway                  ] [Sea Urchin] recovered [0] indices into cluster_state

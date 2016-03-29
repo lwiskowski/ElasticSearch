@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="repository-s3-3.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plugins/repository-s3/build/distributions/repository-s3-3.0.0-SNAPSHOT.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

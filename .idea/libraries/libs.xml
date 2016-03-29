@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plugins/mapper-size/build/libs/mapper-size-3.0.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/mapper-size/build/libs/mapper-size-3.0.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/mapper-size/build/libs/mapper-size-3.0.0-SNAPSHOT-javadoc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

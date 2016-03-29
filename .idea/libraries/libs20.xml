@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="libs20">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/test/framework/build/libs/framework-3.0.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/test/framework/build/libs/framework-3.0.0-SNAPSHOT-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/test/framework/build/libs/framework-3.0.0-SNAPSHOT-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

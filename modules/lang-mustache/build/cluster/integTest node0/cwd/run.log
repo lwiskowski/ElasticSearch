@@ -1,0 +1,360 @@
+[2016-03-29 17:36:58,546][INFO ][node                     ] [Living Hulk] version[3.0.0-SNAPSHOT], pid[28154], build[ee1aa82/2016-03-29T21:22:11.347Z]
+[2016-03-29 17:36:58,546][INFO ][node                     ] [Living Hulk] initializing ...
+[2016-03-29 17:36:58,770][INFO ][plugins                  ] [Living Hulk] modules [lang-mustache], plugins [], sites []
+[2016-03-29 17:36:58,789][INFO ][env                      ] [Living Hulk] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [236.3gb], net total_space [370.9gb], spins? [unknown], types [hfs]
+[2016-03-29 17:36:58,789][INFO ][env                      ] [Living Hulk] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-03-29 17:37:00,180][INFO ][node                     ] [Living Hulk] initialized
+[2016-03-29 17:37:00,180][INFO ][node                     ] [Living Hulk] starting ...
+[2016-03-29 17:37:00,243][INFO ][transport                ] [Living Hulk] publish_address {127.0.0.1:49560}, bound_addresses {[fe80::1]:49558}, {[::1]:49559}, {127.0.0.1:49560}
+[2016-03-29 17:37:00,250][INFO ][discovery                ] [Living Hulk] modules_lang-mustache_integTest/bjNaZa_lRxucjHh71ibNGQ
+[2016-03-29 17:37:03,271][INFO ][cluster.service          ] [Living Hulk] new_master {Living Hulk}{bjNaZa_lRxucjHh71ibNGQ}{127.0.0.1}{127.0.0.1:49560}[testattr=>test], reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-03-29 17:37:03,283][INFO ][http                     ] [Living Hulk] publish_address {127.0.0.1:49569}, bound_addresses {[fe80::1]:49567}, {[::1]:49568}, {127.0.0.1:49569}
+[2016-03-29 17:37:03,285][INFO ][node                     ] [Living Hulk] started
+[2016-03-29 17:37:03,297][INFO ][gateway                  ] [Living Hulk] recovered [0] indices into cluster_state
+[2016-03-29 17:37:05,269][INFO ][cluster.metadata         ] [Living Hulk] [.scripts] creating index, cause [auto(index api)], templates [], shards [1]/[0], mappings [mustache]
+[2016-03-29 17:37:05,388][INFO ][cluster.routing.allocation] [Living Hulk] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[.scripts][0]] ...]).
+[2016-03-29 17:37:05,554][INFO ][cluster.metadata         ] [Living Hulk] [test] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [testtype]
+[2016-03-29 17:37:05,587][INFO ][cluster.routing.allocation] [Living Hulk] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4]] ...]).
+[2016-03-29 17:37:05,601][INFO ][cluster.metadata         ] [Living Hulk] [test] update_mapping [testtype]
+[2016-03-29 17:37:05,703][INFO ][rest.suppressed          ] /_render/template Params: {}
+ScriptException[Failed to compile inline script [{ "query": { "match": { "text": "{{{my_value}}" } }, "size": {{my_size}} }] using lang [mustache]]; nested: MustacheException[Improperly closed variable in query-template:1];
+	at org.elasticsearch.script.ScriptService.compileInternal(ScriptService.java:312)
+	at org.elasticsearch.script.ScriptService.compile(ScriptService.java:256)
+	at org.elasticsearch.script.ScriptService.executable(ScriptService.java:441)
+	at org.elasticsearch.action.admin.cluster.validate.template.TransportRenderSearchTemplateAction$1.doRun(TransportRenderSearchTemplateAction.java:60)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.github.mustachejava.MustacheException: Improperly closed variable in query-template:1
+	at com.github.mustachejava.MustacheParser.compile(MustacheParser.java:171)
+	at com.github.mustachejava.MustacheParser.compile(MustacheParser.java:38)
+	at com.github.mustachejava.DefaultMustacheFactory.compile(DefaultMustacheFactory.java:179)
+	at com.github.mustachejava.DefaultMustacheFactory.compile(DefaultMustacheFactory.java:174)
+	at org.elasticsearch.script.mustache.MustacheScriptEngineService.compile(MustacheScriptEngineService.java:89)
+	at org.elasticsearch.script.ScriptService.compileInternal(ScriptService.java:310)
+	... 7 more
+[2016-03-29 17:37:05,718][INFO ][cluster.metadata         ] [Living Hulk] [test_1] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [test]
+[2016-03-29 17:37:05,749][INFO ][cluster.routing.allocation] [Living Hulk] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test_1][4]] ...]).
+[2016-03-29 17:37:05,756][INFO ][cluster.metadata         ] [Living Hulk] [test_1] update_mapping [test]
+[2016-03-29 17:37:05,838][INFO ][cluster.metadata         ] [Living Hulk] [.scripts] creating index, cause [auto(index api)], templates [], shards [1]/[0], mappings [mustache]
+[2016-03-29 17:37:05,848][INFO ][cluster.routing.allocation] [Living Hulk] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[.scripts][0]] ...]).
+[2016-03-29 17:37:05,884][INFO ][rest.suppressed          ] /_search/template/1 Params: {id=1}
+java.lang.IllegalArgumentException: Unable to parse [{"query":{"match{{}}_all":{}},"size":"{{my_size}}"}] lang [mustache]
+	at org.elasticsearch.script.ScriptService.validate(ScriptService.java:379)
+	at org.elasticsearch.script.ScriptService.putScriptToIndex(ScriptService.java:393)
+	at org.elasticsearch.action.indexedscripts.put.TransportPutIndexedScriptAction.doExecute(TransportPutIndexedScriptAction.java:51)
+	at org.elasticsearch.action.indexedscripts.put.TransportPutIndexedScriptAction.doExecute(TransportPutIndexedScriptAction.java:37)
+	at org.elasticsearch.action.support.TransportAction.doExecute(TransportAction.java:113)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:101)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:74)
+	at org.elasticsearch.client.node.NodeClient.doExecute(NodeClient.java:65)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:387)
+	at org.elasticsearch.client.FilterClient.doExecute(FilterClient.java:57)
+	at org.elasticsearch.rest.BaseRestHandler$HeadersAndContextCopyClient.doExecute(BaseRestHandler.java:88)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:387)
+	at org.elasticsearch.client.support.AbstractClient.putIndexedScript(AbstractClient.java:535)
+	at org.elasticsearch.rest.action.script.RestPutIndexedScriptAction.handleRequest(RestPutIndexedScriptAction.java:106)
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:58)
+	at org.elasticsearch.rest.RestController.executeHandler(RestController.java:212)
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:173)
+	at org.elasticsearch.http.HttpServer.internalDispatchRequest(HttpServer.java:138)
+	at org.elasticsearch.http.HttpServer$Dispatcher.dispatchRequest(HttpServer.java:96)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.dispatchRequest(NettyHttpServerTransport.java:392)
+	at org.elasticsearch.http.netty.HttpRequestHandler.messageReceived(HttpRequestHandler.java:67)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.messageReceived(HttpPipeliningHandler.java:85)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpChunkAggregator.messageReceived(HttpChunkAggregator.java:145)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:108)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:459)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:536)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:83)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.github.mustachejava.MustacheException: Empty mustache in query-template:1
+	at com.github.mustachejava.MustacheParser.compile(MustacheParser.java:110)
+	at com.github.mustachejava.MustacheParser.compile(MustacheParser.java:38)
+	at com.github.mustachejava.DefaultMustacheFactory.compile(DefaultMustacheFactory.java:179)
+	at com.github.mustachejava.DefaultMustacheFactory.compile(DefaultMustacheFactory.java:174)
+	at org.elasticsearch.script.mustache.MustacheScriptEngineService.compile(MustacheScriptEngineService.java:89)
+	at org.elasticsearch.script.ScriptService.validate(ScriptService.java:368)
+	... 57 more
+[2016-03-29 17:37:05,887][INFO ][rest.suppressed          ] /_search/template/1 Params: {id=1}
+java.lang.IllegalArgumentException: Unable to parse [{"query":{"match{{}}_all":{}},"size":"{{my_size}}"}] lang [mustache]
+	at org.elasticsearch.script.ScriptService.validate(ScriptService.java:379)
+	at org.elasticsearch.script.ScriptService.putScriptToIndex(ScriptService.java:393)
+	at org.elasticsearch.action.indexedscripts.put.TransportPutIndexedScriptAction.doExecute(TransportPutIndexedScriptAction.java:51)
+	at org.elasticsearch.action.indexedscripts.put.TransportPutIndexedScriptAction.doExecute(TransportPutIndexedScriptAction.java:37)
+	at org.elasticsearch.action.support.TransportAction.doExecute(TransportAction.java:113)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:101)
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:74)
+	at org.elasticsearch.client.node.NodeClient.doExecute(NodeClient.java:65)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:387)
+	at org.elasticsearch.client.FilterClient.doExecute(FilterClient.java:57)
+	at org.elasticsearch.rest.BaseRestHandler$HeadersAndContextCopyClient.doExecute(BaseRestHandler.java:88)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:387)
+	at org.elasticsearch.client.support.AbstractClient.putIndexedScript(AbstractClient.java:535)
+	at org.elasticsearch.rest.action.script.RestPutIndexedScriptAction.handleRequest(RestPutIndexedScriptAction.java:106)
+	at org.elasticsearch.rest.BaseRestHandler.handleRequest(BaseRestHandler.java:58)
+	at org.elasticsearch.rest.RestController.executeHandler(RestController.java:212)
+	at org.elasticsearch.rest.RestController.dispatchRequest(RestController.java:173)
+	at org.elasticsearch.http.HttpServer.internalDispatchRequest(HttpServer.java:138)
+	at org.elasticsearch.http.HttpServer$Dispatcher.dispatchRequest(HttpServer.java:96)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.dispatchRequest(NettyHttpServerTransport.java:392)
+	at org.elasticsearch.http.netty.HttpRequestHandler.messageReceived(HttpRequestHandler.java:67)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.http.netty.pipelining.HttpPipeliningHandler.messageReceived(HttpPipeliningHandler.java:85)
+	at org.jboss.netty.channel.SimpleChannelHandler.handleUpstream(SimpleChannelHandler.java:88)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpChunkAggregator.messageReceived(HttpChunkAggregator.java:145)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.handler.codec.http.HttpContentDecoder.messageReceived(HttpContentDecoder.java:108)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:296)
+	at org.jboss.netty.handler.codec.frame.FrameDecoder.unfoldAndFireMessageReceived(FrameDecoder.java:459)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.callDecode(ReplayingDecoder.java:536)
+	at org.jboss.netty.handler.codec.replay.ReplayingDecoder.messageReceived(ReplayingDecoder.java:435)
+	at org.jboss.netty.channel.SimpleChannelUpstreamHandler.handleUpstream(SimpleChannelUpstreamHandler.java:70)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline$DefaultChannelHandlerContext.sendUpstream(DefaultChannelPipeline.java:791)
+	at org.elasticsearch.common.netty.OpenChannelsHandler.handleUpstream(OpenChannelsHandler.java:83)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:564)
+	at org.jboss.netty.channel.DefaultChannelPipeline.sendUpstream(DefaultChannelPipeline.java:559)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:268)
+	at org.jboss.netty.channel.Channels.fireMessageReceived(Channels.java:255)
+	at org.jboss.netty.channel.socket.nio.NioWorker.read(NioWorker.java:88)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.process(AbstractNioWorker.java:108)
+	at org.jboss.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:337)
+	at org.jboss.netty.channel.socket.nio.AbstractNioWorker.run(AbstractNioWorker.java:89)
+	at org.jboss.netty.channel.socket.nio.NioWorker.run(NioWorker.java:178)
+	at org.jboss.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.jboss.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.github.mustachejava.MustacheException: Empty mustache in query-template:1
+	at com.github.mustachejava.MustacheParser.compile(MustacheParser.java:110)
+	at com.github.mustachejava.MustacheParser.compile(MustacheParser.java:38)
+	at com.github.mustachejava.DefaultMustacheFactory.compile(DefaultMustacheFactory.java:179)
+	at com.github.mustachejava.DefaultMustacheFactory.compile(DefaultMustacheFactory.java:174)
+	at org.elasticsearch.script.mustache.MustacheScriptEngineService.compile(MustacheScriptEngineService.java:89)
+	at org.elasticsearch.script.ScriptService.validate(ScriptService.java:368)
+	... 57 more
+[2016-03-29 17:37:05,903][INFO ][cluster.metadata         ] [Living Hulk] [test] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [testtype]
+[2016-03-29 17:37:05,930][INFO ][cluster.routing.allocation] [Living Hulk] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4]] ...]).
+[2016-03-29 17:37:05,936][INFO ][cluster.metadata         ] [Living Hulk] [test] update_mapping [testtype]
+[2016-03-29 17:37:06,016][INFO ][cluster.metadata         ] [Living Hulk] [.scripts] creating index, cause [auto(index api)], templates [], shards [1]/[0], mappings [mustache]
+[2016-03-29 17:37:06,025][INFO ][cluster.routing.allocation] [Living Hulk] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[.scripts][0]] ...]).
+[2016-03-29 17:37:06,066][INFO ][rest.suppressed          ] /_render/template Params: {}
+ScriptException[Failed to compile inline script [{"query":{"match":{"text":"{{{my_value}}"}},"aggs":{"my_terms":{"terms":{"field":"{{my_field}}"}}}}] using lang [mustache]]; nested: MustacheException[Improperly closed variable in query-template:1];
+	at org.elasticsearch.script.ScriptService.compileInternal(ScriptService.java:312)
+	at org.elasticsearch.script.ScriptService.compile(ScriptService.java:256)
+	at org.elasticsearch.script.ScriptService.executable(ScriptService.java:441)
+	at org.elasticsearch.action.admin.cluster.validate.template.TransportRenderSearchTemplateAction$1.doRun(TransportRenderSearchTemplateAction.java:60)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.github.mustachejava.MustacheException: Improperly closed variable in query-template:1
+	at com.github.mustachejava.MustacheParser.compile(MustacheParser.java:171)
+	at com.github.mustachejava.MustacheParser.compile(MustacheParser.java:38)
+	at com.github.mustachejava.DefaultMustacheFactory.compile(DefaultMustacheFactory.java:179)
+	at com.github.mustachejava.DefaultMustacheFactory.compile(DefaultMustacheFactory.java:174)
+	at org.elasticsearch.script.mustache.MustacheScriptEngineService.compile(MustacheScriptEngineService.java:89)
+	at org.elasticsearch.script.ScriptService.compileInternal(ScriptService.java:310)
+	... 7 more
+[2016-03-29 17:37:06,076][INFO ][cluster.metadata         ] [Living Hulk] [test] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [testtype]
+[2016-03-29 17:37:06,100][INFO ][cluster.routing.allocation] [Living Hulk] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4], [test][4]] ...]).
+[2016-03-29 17:37:06,106][INFO ][cluster.metadata         ] [Living Hulk] [test] update_mapping [testtype]
+[2016-03-29 17:37:06,134][INFO ][cluster.metadata         ] [Living Hulk] [.scripts] creating index, cause [auto(index api)], templates [], shards [1]/[0], mappings [mustache]
+[2016-03-29 17:37:06,143][INFO ][cluster.routing.allocation] [Living Hulk] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[.scripts][0]] ...]).
+[2016-03-29 17:37:06,165][DEBUG][action.search.type       ] [Living Hulk] [test][2], node[bjNaZa_lRxucjHh71ibNGQ], [P], v[2], s[STARTED], a[id=hYjtBFRtT2iMjk02BZ19aQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4a7beae9] lastShard [true]
+RemoteTransportException[[Living Hulk][127.0.0.1:49560][indices:data/read/search[phase/query]]]; nested: IllegalArgumentException[Unable to find on disk file script [simple1] using lang [mustache]];
+Caused by: java.lang.IllegalArgumentException: Unable to find on disk file script [simple1] using lang [mustache]
+	at org.elasticsearch.script.ScriptService.compileInternal(ScriptService.java:286)
+	at org.elasticsearch.script.ScriptService.compile(ScriptService.java:256)
+	at org.elasticsearch.script.ScriptService.executable(ScriptService.java:441)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:569)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:535)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:286)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:354)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:351)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:65)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:342)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-03-29 17:37:06,165][DEBUG][action.search.type       ] [Living Hulk] [test][1], node[bjNaZa_lRxucjHh71ibNGQ], [P], v[2], s[STARTED], a[id=lS4vXjm0TwSbuiaM5kVuvg]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4a7beae9] lastShard [true]
+RemoteTransportException[[Living Hulk][127.0.0.1:49560][indices:data/read/search[phase/query]]]; nested: IllegalArgumentException[Unable to find on disk file script [simple1] using lang [mustache]];
+Caused by: java.lang.IllegalArgumentException: Unable to find on disk file script [simple1] using lang [mustache]
+	at org.elasticsearch.script.ScriptService.compileInternal(ScriptService.java:286)
+	at org.elasticsearch.script.ScriptService.compile(ScriptService.java:256)
+	at org.elasticsearch.script.ScriptService.executable(ScriptService.java:441)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:569)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:535)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:286)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:354)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:351)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:65)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:342)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-03-29 17:37:06,165][DEBUG][action.search.type       ] [Living Hulk] [test][3], node[bjNaZa_lRxucjHh71ibNGQ], [P], v[2], s[STARTED], a[id=5P4amVWKQcqAOfX9qWPl3g]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4a7beae9] lastShard [true]
+RemoteTransportException[[Living Hulk][127.0.0.1:49560][indices:data/read/search[phase/query]]]; nested: IllegalArgumentException[Unable to find on disk file script [simple1] using lang [mustache]];
+Caused by: java.lang.IllegalArgumentException: Unable to find on disk file script [simple1] using lang [mustache]
+	at org.elasticsearch.script.ScriptService.compileInternal(ScriptService.java:286)
+	at org.elasticsearch.script.ScriptService.compile(ScriptService.java:256)
+	at org.elasticsearch.script.ScriptService.executable(ScriptService.java:441)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:569)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:535)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:286)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:354)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:351)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:65)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:342)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-03-29 17:37:06,165][DEBUG][action.search.type       ] [Living Hulk] [.scripts][0], node[bjNaZa_lRxucjHh71ibNGQ], [P], v[2], s[STARTED], a[id=pkYgIZ-AQdehzl8Ov4vyUQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4a7beae9] lastShard [true]
+RemoteTransportException[[Living Hulk][127.0.0.1:49560][indices:data/read/search[phase/query]]]; nested: IllegalArgumentException[Unable to find on disk file script [simple1] using lang [mustache]];
+Caused by: java.lang.IllegalArgumentException: Unable to find on disk file script [simple1] using lang [mustache]
+	at org.elasticsearch.script.ScriptService.compileInternal(ScriptService.java:286)
+	at org.elasticsearch.script.ScriptService.compile(ScriptService.java:256)
+	at org.elasticsearch.script.ScriptService.executable(ScriptService.java:441)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:569)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:535)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:286)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:354)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:351)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:65)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:342)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-03-29 17:37:06,165][DEBUG][action.search.type       ] [Living Hulk] [test][4], node[bjNaZa_lRxucjHh71ibNGQ], [P], v[2], s[STARTED], a[id=wto0pTS-SQKqkFLZi2wrCQ]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4a7beae9] lastShard [true]
+RemoteTransportException[[Living Hulk][127.0.0.1:49560][indices:data/read/search[phase/query]]]; nested: IllegalArgumentException[Unable to find on disk file script [simple1] using lang [mustache]];
+Caused by: java.lang.IllegalArgumentException: Unable to find on disk file script [simple1] using lang [mustache]
+	at org.elasticsearch.script.ScriptService.compileInternal(ScriptService.java:286)
+	at org.elasticsearch.script.ScriptService.compile(ScriptService.java:256)
+	at org.elasticsearch.script.ScriptService.executable(ScriptService.java:441)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:569)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:535)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:286)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:354)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:351)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:65)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:342)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-03-29 17:37:06,165][DEBUG][action.search.type       ] [Living Hulk] [test][0], node[bjNaZa_lRxucjHh71ibNGQ], [P], v[2], s[STARTED], a[id=VFVT-HriT1CkYMterFMjUg]: Failed to execute [org.elasticsearch.action.search.SearchRequest@4a7beae9]
+RemoteTransportException[[Living Hulk][127.0.0.1:49560][indices:data/read/search[phase/query]]]; nested: IllegalArgumentException[Unable to find on disk file script [simple1] using lang [mustache]];
+Caused by: java.lang.IllegalArgumentException: Unable to find on disk file script [simple1] using lang [mustache]
+	at org.elasticsearch.script.ScriptService.compileInternal(ScriptService.java:286)
+	at org.elasticsearch.script.ScriptService.compile(ScriptService.java:256)
+	at org.elasticsearch.script.ScriptService.executable(ScriptService.java:441)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:569)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:535)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:286)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:354)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:351)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:65)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:342)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-03-29 17:37:06,167][DEBUG][action.search.type       ] [Living Hulk] All shards failed for phase: [query]
+RemoteTransportException[[Living Hulk][127.0.0.1:49560][indices:data/read/search[phase/query]]]; nested: IllegalArgumentException[Unable to find on disk file script [simple1] using lang [mustache]];
+Caused by: java.lang.IllegalArgumentException: Unable to find on disk file script [simple1] using lang [mustache]
+	at org.elasticsearch.script.ScriptService.compileInternal(ScriptService.java:286)
+	at org.elasticsearch.script.ScriptService.compile(ScriptService.java:256)
+	at org.elasticsearch.script.ScriptService.executable(ScriptService.java:441)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:569)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:535)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:286)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:354)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:351)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:65)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:342)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-03-29 17:37:06,167][INFO ][rest.suppressed          ] /_search/template Params: {}
+Failed to execute phase [query], all shards failed; shardFailures {[bjNaZa_lRxucjHh71ibNGQ][.scripts][0]: RemoteTransportException[[Living Hulk][127.0.0.1:49560][indices:data/read/search[phase/query]]]; nested: IllegalArgumentException[Unable to find on disk file script [simple1] using lang [mustache]]; }{[bjNaZa_lRxucjHh71ibNGQ][test][0]: RemoteTransportException[[Living Hulk][127.0.0.1:49560][indices:data/read/search[phase/query]]]; nested: IllegalArgumentException[Unable to find on disk file script [simple1] using lang [mustache]]; }{[bjNaZa_lRxucjHh71ibNGQ][test][1]: RemoteTransportException[[Living Hulk][127.0.0.1:49560][indices:data/read/search[phase/query]]]; nested: IllegalArgumentException[Unable to find on disk file script [simple1] using lang [mustache]]; }{[bjNaZa_lRxucjHh71ibNGQ][test][2]: RemoteTransportException[[Living Hulk][127.0.0.1:49560][indices:data/read/search[phase/query]]]; nested: IllegalArgumentException[Unable to find on disk file script [simple1] using lang [mustache]]; }{[bjNaZa_lRxucjHh71ibNGQ][test][3]: RemoteTransportException[[Living Hulk][127.0.0.1:49560][indices:data/read/search[phase/query]]]; nested: IllegalArgumentException[Unable to find on disk file script [simple1] using lang [mustache]]; }{[bjNaZa_lRxucjHh71ibNGQ][test][4]: RemoteTransportException[[Living Hulk][127.0.0.1:49560][indices:data/read/search[phase/query]]]; nested: IllegalArgumentException[Unable to find on disk file script [simple1] using lang [mustache]]; }
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction.onFirstPhaseResult(TransportSearchTypeAction.java:231)
+	at org.elasticsearch.action.search.type.TransportSearchTypeAction$BaseAsyncAction$1.onFailure(TransportSearchTypeAction.java:175)
+	at org.elasticsearch.action.ActionListenerResponseHandler.handleException(ActionListenerResponseHandler.java:46)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:802)
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:780)
+	at org.elasticsearch.transport.TransportService$4.onFailure(TransportService.java:353)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: RemoteTransportException[[Living Hulk][127.0.0.1:49560][indices:data/read/search[phase/query]]]; nested: IllegalArgumentException[Unable to find on disk file script [simple1] using lang [mustache]];
+Caused by: java.lang.IllegalArgumentException: Unable to find on disk file script [simple1] using lang [mustache]
+	at org.elasticsearch.script.ScriptService.compileInternal(ScriptService.java:286)
+	at org.elasticsearch.script.ScriptService.compile(ScriptService.java:256)
+	at org.elasticsearch.script.ScriptService.executable(ScriptService.java:441)
+	at org.elasticsearch.search.SearchService.createContext(SearchService.java:569)
+	at org.elasticsearch.search.SearchService.createAndPutContext(SearchService.java:535)
+	at org.elasticsearch.search.SearchService.executeQueryPhase(SearchService.java:286)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:354)
+	at org.elasticsearch.search.action.SearchServiceTransportAction$SearchQueryTransportHandler.messageReceived(SearchServiceTransportAction.java:351)
+	at org.elasticsearch.transport.TransportRequestHandler.messageReceived(TransportRequestHandler.java:33)
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:65)
+	at org.elasticsearch.transport.TransportService$4.doRun(TransportService.java:342)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)

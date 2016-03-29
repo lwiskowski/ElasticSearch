@@ -1,0 +1,2 @@
+org.elasticsearch.mapper.attachments.LanguageDetectionAttachmentMapperTests
+org.elasticsearch.mapper.attachments.TikaDocTests

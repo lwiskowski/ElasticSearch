@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="libs10">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/modules/lang-mustache/build/libs/lang-mustache-3.0.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/modules/lang-mustache/build/libs/lang-mustache-3.0.0-SNAPSHOT-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/modules/lang-mustache/build/libs/lang-mustache-3.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

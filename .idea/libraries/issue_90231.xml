@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="issue_90231">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/core/src/test/resources/org/elasticsearch/cluster/routing/issue_9023.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

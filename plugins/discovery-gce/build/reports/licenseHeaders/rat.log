@@ -1,0 +1,51 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2016-03-29T17:40:09-04:00
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 14
+
+Apache Licensed: 14
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/discovery-gce/src/main/java/org/elasticsearch/cloud/gce/GceComputeService.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/discovery-gce/src/main/java/org/elasticsearch/cloud/gce/GceComputeServiceImpl.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/discovery-gce/src/main/java/org/elasticsearch/cloud/gce/GceModule.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/discovery-gce/src/main/java/org/elasticsearch/cloud/gce/network/GceNameResolver.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/discovery-gce/src/main/java/org/elasticsearch/discovery/gce/GceDiscovery.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/discovery-gce/src/main/java/org/elasticsearch/discovery/gce/GceUnicastHostsProvider.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/discovery-gce/src/main/java/org/elasticsearch/discovery/gce/RetryHttpInitializerWrapper.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/discovery-gce/src/main/java/org/elasticsearch/plugin/discovery/gce/GceDiscoveryPlugin.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/discovery-gce/src/test/java/org/elasticsearch/discovery/gce/DiscoveryGCERestIT.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/discovery-gce/src/test/java/org/elasticsearch/discovery/gce/GceComputeServiceMock.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/discovery-gce/src/test/java/org/elasticsearch/discovery/gce/GceDiscoverySettingsTests.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/discovery-gce/src/test/java/org/elasticsearch/discovery/gce/GceDiscoveryTests.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/discovery-gce/src/test/java/org/elasticsearch/discovery/gce/GceNetworkTests.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/discovery-gce/src/test/java/org/elasticsearch/discovery/gce/RetryHttpInitializerWrapperTests.java
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 

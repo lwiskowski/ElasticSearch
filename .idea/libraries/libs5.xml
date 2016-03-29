@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="libs5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/buildSrc/build/libs/build-tools-3.0.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/buildSrc/build/libs/build-tools-3.0.0-SNAPSHOT-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

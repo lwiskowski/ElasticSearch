@@ -1,0 +1,43 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2016-03-29T17:38:36-04:00
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 6
+
+Apache Licensed: 6
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/analysis-stempel/src/main/java/org/elasticsearch/index/analysis/pl/PolishAnalyzerProvider.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/analysis-stempel/src/main/java/org/elasticsearch/index/analysis/pl/PolishStemTokenFilterFactory.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/analysis-stempel/src/main/java/org/elasticsearch/plugin/analysis/stempel/AnalysisStempelPlugin.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/analysis-stempel/src/test/java/org/elasticsearch/index/analysis/AnalysisPolishRestIT.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/analysis-stempel/src/test/java/org/elasticsearch/index/analysis/PolishAnalysisTests.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/analysis-stempel/src/test/java/org/elasticsearch/index/analysis/SimplePolishTokenFilterTests.java
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 

@@ -1,0 +1,4 @@
+org.elasticsearch.test.rest.test.TestSectionParserTests
+org.elasticsearch.test.rest.test.RestTestParserTests
+org.elasticsearch.test.rest.test.FileUtilsTestsorg.elasticsearch.test.test.LoggingListenerTests
+org.elasticsearch.test.test.VersionUtilsTests

@@ -1,0 +1,13 @@
+org.elasticsearch.bootstrap.BootstrapCliParserTests=260
+org.elasticsearch.bootstrap.ESPolicyUnitTests=35
+org.elasticsearch.bootstrap.EvilJarHellTests=41
+org.elasticsearch.bootstrap.EvilSecurityTests=72
+org.elasticsearch.bootstrap.SeccompTests=41
+org.elasticsearch.common.cli.CheckFileCommandTests=1985
+org.elasticsearch.common.cli.CliToolTests=1962
+org.elasticsearch.node.internal.EvilInternalSettingsPreparerTests=1387
+org.elasticsearch.plugins.PluginManagerPermissionTests=1287
+org.elasticsearch.plugins.PluginManagerTests=6281
+org.elasticsearch.plugins.PluginManagerUnitTests=51
+org.elasticsearch.plugins.PluginSecurityTests=101
+org.elasticsearch.tribe.TribeUnitTests=5293

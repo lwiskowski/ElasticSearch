@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="analysis-phonetic-3.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plugins/analysis-phonetic/build/distributions/analysis-phonetic-3.0.0-SNAPSHOT.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

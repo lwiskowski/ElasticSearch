@@ -1,0 +1,2 @@
+org.elasticsearch.mapper.attachments.MetadataMapperTests
+org.elasticsearch.mapper.attachments.TikaImplTests

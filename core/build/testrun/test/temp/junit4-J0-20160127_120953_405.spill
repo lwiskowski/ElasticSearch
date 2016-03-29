@@ -1,0 +1,8 @@
+[2016-01-27 12:09:54,305][WARN ][org.elasticsearch.bootstrap] Unable to lock JVM Memory: error=78,reason=Function not implemented
+[2016-01-27 12:09:54,306][WARN ][org.elasticsearch.bootstrap] This can result in part of the JVM being swapped out.
+TEST: now index more
+[2016-01-27 12:10:35,064][WARN ][org.elasticsearch.test.transport] Transport response handler not found of id [0]
+[2016-01-27 12:10:38,940][WARN ][org.elasticsearch.common.breaker] New used memory 12240 [11.9kb] from field [test] would be larger than configured breaker: 12239 [11.9kb], breaking
+[2016-01-27 12:10:38,942][WARN ][org.elasticsearch.common.breaker] New used memory 16 [16b] from field [myfield] would be larger than configured breaker: 15 [15b], breaking
+[2016-01-27 12:10:38,942][WARN ][org.elasticsearch.common.breaker] New used memory 19 [19b] from field [myfield] would be larger than configured breaker: 15 [15b], breaking
+[2016-01-27 12:10:38,949][WARN ][org.elasticsearch.common.breaker] [request] New used memory 11195 [10.9kb] for data of [test] would be larger than configured breaker: 11194 [10.9kb], breaking

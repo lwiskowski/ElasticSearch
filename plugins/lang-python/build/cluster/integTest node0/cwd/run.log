@@ -1,0 +1,37 @@
+[2016-03-29 17:44:12,629][INFO ][node                     ] [Tempest] version[3.0.0-SNAPSHOT], pid[29212], build[ee1aa82/2016-03-29T21:22:11.347Z]
+[2016-03-29 17:44:12,630][INFO ][node                     ] [Tempest] initializing ...
+[2016-03-29 17:44:12,918][INFO ][plugins                  ] [Tempest] modules [], plugins [lang-python], sites []
+[2016-03-29 17:44:12,937][INFO ][env                      ] [Tempest] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [235.8gb], net total_space [370.9gb], spins? [unknown], types [hfs]
+[2016-03-29 17:44:12,937][INFO ][env                      ] [Tempest] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-03-29 17:44:16,465][INFO ][node                     ] [Tempest] initialized
+[2016-03-29 17:44:16,465][INFO ][node                     ] [Tempest] starting ...
+[2016-03-29 17:44:16,523][INFO ][transport                ] [Tempest] publish_address {127.0.0.1:50008}, bound_addresses {[fe80::1]:50006}, {[::1]:50007}, {127.0.0.1:50008}
+[2016-03-29 17:44:16,530][INFO ][discovery                ] [Tempest] plugins_lang-python_integTest/khf5qnshShqlJLpDCqGYKA
+[2016-03-29 17:44:19,556][INFO ][cluster.service          ] [Tempest] new_master {Tempest}{khf5qnshShqlJLpDCqGYKA}{127.0.0.1}{127.0.0.1:50008}[testattr=>test], reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-03-29 17:44:19,569][INFO ][http                     ] [Tempest] publish_address {127.0.0.1:50017}, bound_addresses {[fe80::1]:50015}, {[::1]:50016}, {127.0.0.1:50017}
+[2016-03-29 17:44:19,570][INFO ][node                     ] [Tempest] started
+[2016-03-29 17:44:19,585][INFO ][gateway                  ] [Tempest] recovered [0] indices into cluster_state
+[2016-03-29 17:44:21,288][INFO ][cluster.metadata         ] [Tempest] [test] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [test]
+[2016-03-29 17:44:21,456][INFO ][cluster.routing.allocation] [Tempest] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4]] ...]).
+[2016-03-29 17:44:21,472][INFO ][cluster.metadata         ] [Tempest] [test] update_mapping [test]
+[2016-03-29 17:44:21,683][INFO ][cluster.metadata         ] [Tempest] [test] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [test]
+[2016-03-29 17:44:21,711][INFO ][cluster.routing.allocation] [Tempest] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4], [test][4]] ...]).
+[2016-03-29 17:44:21,717][INFO ][cluster.metadata         ] [Tempest] [test] update_mapping [test]
+[2016-03-29 17:44:21,876][INFO ][cluster.metadata         ] [Tempest] [test] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [test]
+[2016-03-29 17:44:21,906][INFO ][cluster.routing.allocation] [Tempest] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4], [test][4]] ...]).
+[2016-03-29 17:44:21,912][INFO ][cluster.metadata         ] [Tempest] [test] update_mapping [test]
+[2016-03-29 17:44:21,965][INFO ][cluster.metadata         ] [Tempest] [test] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [test]
+[2016-03-29 17:44:21,992][INFO ][cluster.routing.allocation] [Tempest] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4], [test][4]] ...]).
+[2016-03-29 17:44:22,002][INFO ][cluster.metadata         ] [Tempest] [test] update_mapping [test]
+[2016-03-29 17:44:22,093][INFO ][cluster.metadata         ] [Tempest] [test] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [test]
+[2016-03-29 17:44:22,115][INFO ][cluster.routing.allocation] [Tempest] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4], [test][4]] ...]).
+[2016-03-29 17:44:22,121][INFO ][cluster.metadata         ] [Tempest] [test] update_mapping [test]
+[2016-03-29 17:44:22,169][INFO ][cluster.metadata         ] [Tempest] [test] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [test]
+[2016-03-29 17:44:22,190][INFO ][cluster.routing.allocation] [Tempest] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4]] ...]).
+[2016-03-29 17:44:22,197][INFO ][cluster.metadata         ] [Tempest] [test] update_mapping [test]
+[2016-03-29 17:44:22,285][INFO ][cluster.metadata         ] [Tempest] [test] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [test]
+[2016-03-29 17:44:22,326][INFO ][cluster.routing.allocation] [Tempest] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4], [test][4]] ...]).
+[2016-03-29 17:44:22,332][INFO ][cluster.metadata         ] [Tempest] [test] update_mapping [test]
+[2016-03-29 17:44:22,385][INFO ][cluster.metadata         ] [Tempest] [test] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [test]
+[2016-03-29 17:44:22,416][INFO ][cluster.routing.allocation] [Tempest] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4], [test][4]] ...]).
+[2016-03-29 17:44:22,423][INFO ][cluster.metadata         ] [Tempest] [test] update_mapping [test]

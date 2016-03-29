@@ -1,0 +1,4 @@
+org.elasticsearch.test.rest.test.DoSectionParserTests
+org.elasticsearch.test.test.VersionUtilsTests
+org.elasticsearch.test.rest.test.SkipSectionParserTestsorg.elasticsearch.test.rest.test.JsonPathTests
+org.elasticsearch.test.rest.test.RestApiParserTests

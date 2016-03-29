@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="legacy_translogs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/core/src/test/resources/org/elasticsearch/index/translog/legacy_translogs.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

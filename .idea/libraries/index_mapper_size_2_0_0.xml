@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="index-mapper-size-2.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plugins/mapper-size/src/test/resources/indices/bwc/index-mapper-size-2.0.0.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

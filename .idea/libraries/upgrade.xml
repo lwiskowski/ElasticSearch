@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="upgrade">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/core/build/resources/test/org/elasticsearch/action/admin/indices/upgrade/index-0.90.6.zip!/" />
+      <root url="jar://$PROJECT_DIR$/core/build/resources/test/org/elasticsearch/action/admin/indices/upgrade/index-conflicting-mappings-1.7.0.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

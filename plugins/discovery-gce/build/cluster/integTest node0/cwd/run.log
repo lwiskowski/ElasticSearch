@@ -1,0 +1,13 @@
+[2016-03-29 17:40:15,353][INFO ][node                     ] [Stanley Stewart] version[3.0.0-SNAPSHOT], pid[28745], build[ee1aa82/2016-03-29T21:22:11.347Z]
+[2016-03-29 17:40:15,354][INFO ][node                     ] [Stanley Stewart] initializing ...
+[2016-03-29 17:40:15,602][INFO ][plugins                  ] [Stanley Stewart] modules [], plugins [discovery-gce], sites []
+[2016-03-29 17:40:15,619][INFO ][env                      ] [Stanley Stewart] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [236gb], net total_space [370.9gb], spins? [unknown], types [hfs]
+[2016-03-29 17:40:15,620][INFO ][env                      ] [Stanley Stewart] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-03-29 17:40:16,998][INFO ][node                     ] [Stanley Stewart] initialized
+[2016-03-29 17:40:16,999][INFO ][node                     ] [Stanley Stewart] starting ...
+[2016-03-29 17:40:17,059][INFO ][transport                ] [Stanley Stewart] publish_address {127.0.0.1:49847}, bound_addresses {[fe80::1]:49845}, {[::1]:49846}, {127.0.0.1:49847}
+[2016-03-29 17:40:17,065][INFO ][discovery                ] [Stanley Stewart] plugins_discovery-gce_integTest/8sNnpVISSjCcJaeQCm4ySA
+[2016-03-29 17:40:20,085][INFO ][cluster.service          ] [Stanley Stewart] new_master {Stanley Stewart}{8sNnpVISSjCcJaeQCm4ySA}{127.0.0.1}{127.0.0.1:49847}[testattr=>test], reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-03-29 17:40:20,099][INFO ][http                     ] [Stanley Stewart] publish_address {127.0.0.1:49856}, bound_addresses {[fe80::1]:49854}, {[::1]:49855}, {127.0.0.1:49856}
+[2016-03-29 17:40:20,100][INFO ][node                     ] [Stanley Stewart] started
+[2016-03-29 17:40:20,109][INFO ][gateway                  ] [Stanley Stewart] recovered [0] indices into cluster_state

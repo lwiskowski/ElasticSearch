@@ -1,0 +1,9 @@
+org.elasticsearch.mapper.attachments.DateAttachmentMapperTests=4977
+org.elasticsearch.mapper.attachments.EncryptedDocMapperTests=9467
+org.elasticsearch.mapper.attachments.LanguageDetectionAttachmentMapperTests=7556
+org.elasticsearch.mapper.attachments.MetadataMapperTests=8309
+org.elasticsearch.mapper.attachments.MultifieldAttachmentMapperTests=1980
+org.elasticsearch.mapper.attachments.SimpleAttachmentMapperTests=133
+org.elasticsearch.mapper.attachments.TikaDocTests=8309
+org.elasticsearch.mapper.attachments.TikaImplTests=26
+org.elasticsearch.mapper.attachments.VariousDocTests=4259

@@ -1,0 +1,13 @@
+[2016-03-29 17:39:58,361][INFO ][node                     ] [Super-Nova] version[3.0.0-SNAPSHOT], pid[28691], build[ee1aa82/2016-03-29T21:22:11.347Z]
+[2016-03-29 17:39:58,361][INFO ][node                     ] [Super-Nova] initializing ...
+[2016-03-29 17:39:58,755][INFO ][plugins                  ] [Super-Nova] modules [], plugins [discovery-ec2], sites []
+[2016-03-29 17:39:58,774][INFO ][env                      ] [Super-Nova] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [236gb], net total_space [370.9gb], spins? [unknown], types [hfs]
+[2016-03-29 17:39:58,774][INFO ][env                      ] [Super-Nova] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-03-29 17:40:00,206][INFO ][node                     ] [Super-Nova] initialized
+[2016-03-29 17:40:00,206][INFO ][node                     ] [Super-Nova] starting ...
+[2016-03-29 17:40:00,264][INFO ][transport                ] [Super-Nova] publish_address {127.0.0.1:49826}, bound_addresses {[fe80::1]:49824}, {[::1]:49825}, {127.0.0.1:49826}
+[2016-03-29 17:40:00,271][INFO ][discovery                ] [Super-Nova] plugins_discovery-ec2_integTest/dr7tA_JsQymVouA_WeV0BQ
+[2016-03-29 17:40:03,298][INFO ][cluster.service          ] [Super-Nova] new_master {Super-Nova}{dr7tA_JsQymVouA_WeV0BQ}{127.0.0.1}{127.0.0.1:49826}[testattr=>test], reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-03-29 17:40:03,313][INFO ][http                     ] [Super-Nova] publish_address {127.0.0.1:49835}, bound_addresses {[fe80::1]:49833}, {[::1]:49834}, {127.0.0.1:49835}
+[2016-03-29 17:40:03,314][INFO ][node                     ] [Super-Nova] started
+[2016-03-29 17:40:03,324][INFO ][gateway                  ] [Super-Nova] recovered [0] indices into cluster_state

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="lang-expression1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/distribution/build/modules/lang-expression/antlr4-runtime-4.5.1-1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/distribution/build/modules/lang-expression/asm-tree-5.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/distribution/build/modules/lang-expression/asm-commons-5.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/distribution/build/modules/lang-expression/lucene-expressions-5.5.0-snapshot-1721183.jar!/" />
+      <root url="jar://$PROJECT_DIR$/distribution/build/modules/lang-expression/lang-expression-3.0.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/distribution/build/modules/lang-expression/asm-5.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

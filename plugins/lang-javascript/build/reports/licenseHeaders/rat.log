@@ -1,0 +1,50 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2016-03-29T17:42:53-04:00
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 13
+
+Apache Licensed: 13
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/lang-javascript/src/main/java/org/elasticsearch/plugin/javascript/JavaScriptPlugin.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/lang-javascript/src/main/java/org/elasticsearch/script/javascript/JavaScriptScriptEngineService.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/lang-javascript/src/main/java/org/elasticsearch/script/javascript/support/NativeList.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/lang-javascript/src/main/java/org/elasticsearch/script/javascript/support/NativeMap.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/lang-javascript/src/main/java/org/elasticsearch/script/javascript/support/ScriptValueConverter.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/lang-javascript/src/main/java/org/elasticsearch/script/javascript/support/ScriptableLinkedHashMap.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/lang-javascript/src/main/java/org/elasticsearch/script/javascript/support/ScriptableMap.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/lang-javascript/src/main/java/org/elasticsearch/script/javascript/support/ScriptableWrappedMap.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/lang-javascript/src/test/java/org/elasticsearch/script/javascript/JavaScriptScriptEngineTests.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/lang-javascript/src/test/java/org/elasticsearch/script/javascript/JavaScriptScriptMultiThreadedTests.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/lang-javascript/src/test/java/org/elasticsearch/script/javascript/JavaScriptSecurityTests.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/lang-javascript/src/test/java/org/elasticsearch/script/javascript/LangJavaScriptRestIT.java
+  AL    /Users/ogbonnayacngwu/CSE2410_spring2016_projectileDysfunction/plugins/lang-javascript/src/test/java/org/elasticsearch/script/javascript/SimpleBench.java
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="lang-python-3.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plugins/lang-python/build/distributions/lang-python-3.0.0-SNAPSHOT.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

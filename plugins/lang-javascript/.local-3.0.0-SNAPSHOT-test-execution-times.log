@@ -1,0 +1,3 @@
+org.elasticsearch.script.javascript.JavaScriptScriptEngineTests=2470
+org.elasticsearch.script.javascript.JavaScriptScriptMultiThreadedTests=7379
+org.elasticsearch.script.javascript.JavaScriptSecurityTests=1717

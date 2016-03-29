@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="bootstrap1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/core/src/test/resources/org/elasticsearch/bootstrap/duplicate-xmlbeans-classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/core/src/test/resources/org/elasticsearch/bootstrap/duplicate-classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

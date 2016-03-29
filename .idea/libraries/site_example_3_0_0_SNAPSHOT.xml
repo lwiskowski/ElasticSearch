@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="site-example-3.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plugins/site-example/build/distributions/site-example-3.0.0-SNAPSHOT.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

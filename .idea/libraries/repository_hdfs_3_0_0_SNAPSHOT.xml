@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="repository-hdfs-3.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plugins/repository-hdfs/build/distributions/repository-hdfs-3.0.0-SNAPSHOT.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

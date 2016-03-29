@@ -1,0 +1,3 @@
+org.elasticsearch.action.deletebyquery.IndexDeleteByQueryResponseTests=1620
+org.elasticsearch.action.deletebyquery.TransportDeleteByQueryActionTests=9006
+org.elasticsearch.plugin.deletebyquery.DeleteByQueryTests=9570

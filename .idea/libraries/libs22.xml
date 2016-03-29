@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="libs22">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/test/fixtures/hdfs-fixture/build/libs/hdfs-fixture-3.0.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/test/fixtures/hdfs-fixture/build/libs/hdfs-fixture-3.0.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/test/fixtures/hdfs-fixture/build/libs/hdfs-fixture-3.0.0-SNAPSHOT-javadoc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

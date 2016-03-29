@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/modules/lang-groovy/src/test/resources/org/elasticsearch/messy/tests/conf/conf.iml" filepath="$PROJECT_DIR$/modules/lang-groovy/src/test/resources/org/elasticsearch/messy/tests/conf/conf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/src/test/resources/org/elasticsearch/script/config/config.iml" filepath="$PROJECT_DIR$/core/src/test/resources/org/elasticsearch/script/config/config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/build/resources/test/org/elasticsearch/script/config/config1.iml" filepath="$PROJECT_DIR$/core/build/resources/test/org/elasticsearch/script/config/config1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qa/vagrant/src/test/resources/packaging/scripts/example/example.iml" filepath="$PROJECT_DIR$/qa/vagrant/src/test/resources/packaging/scripts/example/example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/delete-by-query/src/main/main.iml" filepath="$PROJECT_DIR$/plugins/delete-by-query/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/discovery-multicast/src/main/main1.iml" filepath="$PROJECT_DIR$/plugins/discovery-multicast/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/lang-python/src/main/main10.iml" filepath="$PROJECT_DIR$/plugins/lang-python/src/main/main10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/analysis-icu/src/main/main11.iml" filepath="$PROJECT_DIR$/plugins/analysis-icu/src/main/main11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/analysis-stempel/src/main/main12.iml" filepath="$PROJECT_DIR$/plugins/analysis-stempel/src/main/main12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/jvm-example/src/main/main13.iml" filepath="$PROJECT_DIR$/plugins/jvm-example/src/main/main13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/mapper-attachments/src/main/main14.iml" filepath="$PROJECT_DIR$/plugins/mapper-attachments/src/main/main14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/lang-expression/src/main/main15.iml" filepath="$PROJECT_DIR$/modules/lang-expression/src/main/main15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/discovery-gce/src/main/main16.iml" filepath="$PROJECT_DIR$/plugins/discovery-gce/src/main/main16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/mapper-murmur3/src/main/main17.iml" filepath="$PROJECT_DIR$/plugins/mapper-murmur3/src/main/main17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/discovery-azure/src/main/main18.iml" filepath="$PROJECT_DIR$/plugins/discovery-azure/src/main/main18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/src/main/main19.iml" filepath="$PROJECT_DIR$/core/src/main/main19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/lang-groovy/src/main/main2.iml" filepath="$PROJECT_DIR$/modules/lang-groovy/src/main/main2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/discovery-ec2/src/main/main20.iml" filepath="$PROJECT_DIR$/plugins/discovery-ec2/src/main/main20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/store-smb/src/main/main21.iml" filepath="$PROJECT_DIR$/plugins/store-smb/src/main/main21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/repository-s3/src/main/main22.iml" filepath="$PROJECT_DIR$/plugins/repository-s3/src/main/main22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/lang-plan-a/src/main/main23.iml" filepath="$PROJECT_DIR$/plugins/lang-plan-a/src/main/main23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/analysis-phonetic/src/main/main24.iml" filepath="$PROJECT_DIR$/plugins/analysis-phonetic/src/main/main24.iml" />
+      <module fileurl="file://$PROJECT_DIR$/buildSrc/src/main/main25.iml" filepath="$PROJECT_DIR$/buildSrc/src/main/main25.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/repository-azure/src/main/main26.iml" filepath="$PROJECT_DIR$/plugins/repository-azure/src/main/main26.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/fixtures/example-fixture/src/main/main27.iml" filepath="$PROJECT_DIR$/test/fixtures/example-fixture/src/main/main27.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/mapper-size/src/main/main28.iml" filepath="$PROJECT_DIR$/plugins/mapper-size/src/main/main28.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/repository-hdfs/src/main/main3.iml" filepath="$PROJECT_DIR$/plugins/repository-hdfs/src/main/main3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/lang-mustache/src/main/main4.iml" filepath="$PROJECT_DIR$/modules/lang-mustache/src/main/main4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/analysis-kuromoji/src/main/main5.iml" filepath="$PROJECT_DIR$/plugins/analysis-kuromoji/src/main/main5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/analysis-smartcn/src/main/main6.iml" filepath="$PROJECT_DIR$/plugins/analysis-smartcn/src/main/main6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/framework/src/main/main7.iml" filepath="$PROJECT_DIR$/test/framework/src/main/main7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/fixtures/hdfs-fixture/src/main/main8.iml" filepath="$PROJECT_DIR$/test/fixtures/hdfs-fixture/src/main/main8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/lang-javascript/src/main/main9.iml" filepath="$PROJECT_DIR$/plugins/lang-javascript/src/main/main9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qa/evil-tests/src/test/test.iml" filepath="$PROJECT_DIR$/qa/evil-tests/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/analysis-icu/src/test/test1.iml" filepath="$PROJECT_DIR$/plugins/analysis-icu/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/jvm-example/src/test/test10.iml" filepath="$PROJECT_DIR$/plugins/jvm-example/src/test/test10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/discovery-gce/src/test/test11.iml" filepath="$PROJECT_DIR$/plugins/discovery-gce/src/test/test11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/lang-expression/src/test/test12.iml" filepath="$PROJECT_DIR$/modules/lang-expression/src/test/test12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/framework/src/test/test13.iml" filepath="$PROJECT_DIR$/test/framework/src/test/test13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qa/smoke-test-plugins/src/test/test14.iml" filepath="$PROJECT_DIR$/qa/smoke-test-plugins/src/test/test14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/analysis-smartcn/src/test/test15.iml" filepath="$PROJECT_DIR$/plugins/analysis-smartcn/src/test/test15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/repository-s3/src/test/test16.iml" filepath="$PROJECT_DIR$/plugins/repository-s3/src/test/test16.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/discovery-azure/src/test/test17.iml" filepath="$PROJECT_DIR$/plugins/discovery-azure/src/test/test17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qa/smoke-test-client/src/test/test18.iml" filepath="$PROJECT_DIR$/qa/smoke-test-client/src/test/test18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/lang-mustache/src/test/test19.iml" filepath="$PROJECT_DIR$/modules/lang-mustache/src/test/test19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distribution/tar/src/test/test2.iml" filepath="$PROJECT_DIR$/distribution/tar/src/test/test2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/mapper-murmur3/src/test/test20.iml" filepath="$PROJECT_DIR$/plugins/mapper-murmur3/src/test/test20.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/src/test/test21.iml" filepath="$PROJECT_DIR$/core/src/test/test21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/analysis-kuromoji/src/test/test22.iml" filepath="$PROJECT_DIR$/plugins/analysis-kuromoji/src/test/test22.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distribution/integ-test-zip/src/test/test23.iml" filepath="$PROJECT_DIR$/distribution/integ-test-zip/src/test/test23.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/store-smb/src/test/test24.iml" filepath="$PROJECT_DIR$/plugins/store-smb/src/test/test24.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qa/smoke-test-multinode/src/test/test25.iml" filepath="$PROJECT_DIR$/qa/smoke-test-multinode/src/test/test25.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modules/lang-groovy/src/test/test26.iml" filepath="$PROJECT_DIR$/modules/lang-groovy/src/test/test26.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/lang-python/src/test/test27.iml" filepath="$PROJECT_DIR$/plugins/lang-python/src/test/test27.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/analysis-phonetic/src/test/test28.iml" filepath="$PROJECT_DIR$/plugins/analysis-phonetic/src/test/test28.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distribution/zip/src/test/test29.iml" filepath="$PROJECT_DIR$/distribution/zip/src/test/test29.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/repository-azure/src/test/test3.iml" filepath="$PROJECT_DIR$/plugins/repository-azure/src/test/test3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distribution/deb/src/test/test30.iml" filepath="$PROJECT_DIR$/distribution/deb/src/test/test30.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/discovery-ec2/src/test/test31.iml" filepath="$PROJECT_DIR$/plugins/discovery-ec2/src/test/test31.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/lang-javascript/src/test/test32.iml" filepath="$PROJECT_DIR$/plugins/lang-javascript/src/test/test32.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/discovery-multicast/src/test/test33.iml" filepath="$PROJECT_DIR$/plugins/discovery-multicast/src/test/test33.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/delete-by-query/src/test/test34.iml" filepath="$PROJECT_DIR$/plugins/delete-by-query/src/test/test34.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/repository-hdfs/src/test/test35.iml" filepath="$PROJECT_DIR$/plugins/repository-hdfs/src/test/test35.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/lang-plan-a/src/test/test4.iml" filepath="$PROJECT_DIR$/plugins/lang-plan-a/src/test/test4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/mapper-attachments/src/test/test5.iml" filepath="$PROJECT_DIR$/plugins/mapper-attachments/src/test/test5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/mapper-size/src/test/test6.iml" filepath="$PROJECT_DIR$/plugins/mapper-size/src/test/test6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distribution/rpm/src/test/test7.iml" filepath="$PROJECT_DIR$/distribution/rpm/src/test/test7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/analysis-stempel/src/test/test8.iml" filepath="$PROJECT_DIR$/plugins/analysis-stempel/src/test/test8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/plugins/site-example/src/test/test9.iml" filepath="$PROJECT_DIR$/plugins/site-example/src/test/test9.iml" />
+    </modules>
+  </component>
+</project>

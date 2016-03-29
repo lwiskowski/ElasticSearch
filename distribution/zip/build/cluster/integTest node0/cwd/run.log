@@ -1,0 +1,13 @@
+[2016-03-29 17:37:21,071][INFO ][node                     ] [Gorgon] version[3.0.0-SNAPSHOT], pid[28227], build[ee1aa82/2016-03-29T21:22:11.347Z]
+[2016-03-29 17:37:21,071][INFO ][node                     ] [Gorgon] initializing ...
+[2016-03-29 17:37:21,418][INFO ][plugins                  ] [Gorgon] modules [lang-mustache, lang-expression, lang-groovy], plugins [], sites []
+[2016-03-29 17:37:21,435][INFO ][env                      ] [Gorgon] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [236.3gb], net total_space [370.9gb], spins? [unknown], types [hfs]
+[2016-03-29 17:37:21,435][INFO ][env                      ] [Gorgon] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-03-29 17:37:22,862][INFO ][node                     ] [Gorgon] initialized
+[2016-03-29 17:37:22,863][INFO ][node                     ] [Gorgon] starting ...
+[2016-03-29 17:37:22,924][INFO ][transport                ] [Gorgon] publish_address {127.0.0.1:49609}, bound_addresses {[fe80::1]:49607}, {[::1]:49608}, {127.0.0.1:49609}
+[2016-03-29 17:37:22,931][INFO ][discovery                ] [Gorgon] distribution_zip_integTest/6lGCzuO_QdGKHRv2rukgQw
+[2016-03-29 17:37:25,954][INFO ][cluster.service          ] [Gorgon] new_master {Gorgon}{6lGCzuO_QdGKHRv2rukgQw}{127.0.0.1}{127.0.0.1:49609}[testattr=>test], reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-03-29 17:37:25,968][INFO ][http                     ] [Gorgon] publish_address {127.0.0.1:49620}, bound_addresses {[fe80::1]:49618}, {[::1]:49619}, {127.0.0.1:49620}
+[2016-03-29 17:37:25,970][INFO ][node                     ] [Gorgon] started
+[2016-03-29 17:37:25,978][INFO ][gateway                  ] [Gorgon] recovered [0] indices into cluster_state

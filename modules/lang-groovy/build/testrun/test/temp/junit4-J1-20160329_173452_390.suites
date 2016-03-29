@@ -1,0 +1,11 @@
+org.elasticsearch.messy.tests.ScriptIndexSettingsTests
+org.elasticsearch.messy.tests.MinDocCountTests
+org.elasticsearch.messy.tests.SearchStatsTests
+org.elasticsearch.messy.tests.DateRangeTests
+org.elasticsearch.messy.tests.IndexedScriptTests
+org.elasticsearch.messy.tests.FunctionScoreTests
+org.elasticsearch.messy.tests.TDigestPercentileRanksTestsorg.elasticsearch.messy.tests.BucketSelectorTests
+org.elasticsearch.messy.tests.BulkTests
+org.elasticsearch.messy.tests.ExtendedStatsTests
+org.elasticsearch.messy.tests.HistogramTests
+org.elasticsearch.script.groovy.GroovySecurityTests

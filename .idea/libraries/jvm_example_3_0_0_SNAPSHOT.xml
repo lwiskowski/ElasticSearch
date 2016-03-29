@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="jvm-example-3.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plugins/jvm-example/build/distributions/jvm-example-3.0.0-SNAPSHOT.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

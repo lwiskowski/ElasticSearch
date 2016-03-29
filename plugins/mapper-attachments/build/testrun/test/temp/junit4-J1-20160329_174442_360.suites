@@ -1,0 +1,2 @@
+org.elasticsearch.mapper.attachments.EncryptedDocMapperTests
+org.elasticsearch.mapper.attachments.SimpleAttachmentMapperTests

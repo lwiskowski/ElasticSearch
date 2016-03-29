@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="bwc_index_2.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/core/build/resources/test/indices/percolator/bwc_index_2.0.0.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

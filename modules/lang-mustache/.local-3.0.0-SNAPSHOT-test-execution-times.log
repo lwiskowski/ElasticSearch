@@ -1,0 +1,7 @@
+org.elasticsearch.messy.tests.ContextAndHeaderTransportTests=15920
+org.elasticsearch.messy.tests.RenderSearchTemplateTests=12817
+org.elasticsearch.messy.tests.SuggestSearchTests=18814
+org.elasticsearch.messy.tests.TemplateQueryParserTests=7727
+org.elasticsearch.messy.tests.TemplateQueryTests=5874
+org.elasticsearch.script.mustache.MustacheScriptEngineTests=55
+org.elasticsearch.script.mustache.MustacheTests=33

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lang-groovy1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/distribution/build/modules/lang-groovy/groovy-2.4.4-indy.jar!/" />
+      <root url="jar://$PROJECT_DIR$/distribution/build/modules/lang-groovy/lang-groovy-3.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

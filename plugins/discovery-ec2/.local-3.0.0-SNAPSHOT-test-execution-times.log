@@ -1,0 +1,5 @@
+org.elasticsearch.cloud.aws.AWSSignersTests=66
+org.elasticsearch.discovery.ec2.Ec2DiscoverySettingsTests=2546
+org.elasticsearch.discovery.ec2.Ec2DiscoveryTests=3757
+org.elasticsearch.discovery.ec2.Ec2DiscoveryUpdateSettingsTests=1730
+org.elasticsearch.discovery.ec2.Ec2NetworkTests=8757

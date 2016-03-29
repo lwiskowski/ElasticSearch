@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="analysis-stempel-3.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plugins/analysis-stempel/build/distributions/analysis-stempel-3.0.0-SNAPSHOT.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

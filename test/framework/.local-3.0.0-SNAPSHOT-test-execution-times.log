@@ -1,0 +1,15 @@
+org.elasticsearch.test.rest.BlacklistedPathPatternMatcherTests=46,47,3759,33,58
+org.elasticsearch.test.rest.test.AssertionParsersTests=691,88,5193,71,150
+org.elasticsearch.test.rest.test.DoSectionParserTests=836,207,4547,145,139
+org.elasticsearch.test.rest.test.FileUtilsTests=4924,84,295,76,2380
+org.elasticsearch.test.rest.test.JsonPathTests=850,469,312,206,101
+org.elasticsearch.test.rest.test.RestApiParserFailingTests=471,61,53,37,45
+org.elasticsearch.test.rest.test.RestApiParserTests=573,341,35,45,40
+org.elasticsearch.test.rest.test.RestTestParserTests=1071,72,4807,57,48
+org.elasticsearch.test.rest.test.SetSectionParserTests=427,4266,254,3888,2888
+org.elasticsearch.test.rest.test.SetupSectionParserTests=35,4573,96,3730,3495
+org.elasticsearch.test.rest.test.SkipSectionParserTests=85,3747,48,3521,3155
+org.elasticsearch.test.rest.test.TestSectionParserTests=71,4178,61,3479,718
+org.elasticsearch.test.test.InternalTestClusterTests=4534,6514,8092,5026,4700
+org.elasticsearch.test.test.LoggingListenerTests=4479,37,44,46,65
+org.elasticsearch.test.test.VersionUtilsTests=4134,30,48,36,25

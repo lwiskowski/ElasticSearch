@@ -1,0 +1,13 @@
+[2016-03-29 17:47:14,587][INFO ][node                     ] [Toro] version[3.0.0-SNAPSHOT], pid[29683], build[ee1aa82/2016-03-29T21:22:11.347Z]
+[2016-03-29 17:47:14,587][INFO ][node                     ] [Toro] initializing ...
+[2016-03-29 17:47:14,693][INFO ][plugins                  ] [Toro] modules [], plugins [site-example], sites [site-example]
+[2016-03-29 17:47:14,713][INFO ][env                      ] [Toro] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [235.6gb], net total_space [370.9gb], spins? [unknown], types [hfs]
+[2016-03-29 17:47:14,713][INFO ][env                      ] [Toro] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-03-29 17:47:16,161][INFO ][node                     ] [Toro] initialized
+[2016-03-29 17:47:16,161][INFO ][node                     ] [Toro] starting ...
+[2016-03-29 17:47:16,224][INFO ][transport                ] [Toro] publish_address {127.0.0.1:50235}, bound_addresses {[fe80::1]:50233}, {[::1]:50234}, {127.0.0.1:50235}
+[2016-03-29 17:47:16,231][INFO ][discovery                ] [Toro] plugins_site-example_integTest/i-oRI8LZQxuooDYf4j_gqg
+[2016-03-29 17:47:19,251][INFO ][cluster.service          ] [Toro] new_master {Toro}{i-oRI8LZQxuooDYf4j_gqg}{127.0.0.1}{127.0.0.1:50235}[testattr=>test], reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-03-29 17:47:19,265][INFO ][http                     ] [Toro] publish_address {127.0.0.1:50244}, bound_addresses {[fe80::1]:50242}, {[::1]:50243}, {127.0.0.1:50244}
+[2016-03-29 17:47:19,266][INFO ][node                     ] [Toro] started
+[2016-03-29 17:47:19,274][INFO ][gateway                  ] [Toro] recovered [0] indices into cluster_state

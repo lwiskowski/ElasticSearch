@@ -1,0 +1,3 @@
+org.elasticsearch.script.expression.ExpressionTests=9757
+org.elasticsearch.script.expression.IndexedExpressionTests=10768
+org.elasticsearch.script.expression.MoreExpressionTests=14450

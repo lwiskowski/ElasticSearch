@@ -1,0 +1,15 @@
+[2016-03-29 17:47:02,381][INFO ][node                     ] [Dragon of the Moon] version[3.0.0-SNAPSHOT], pid[29640], build[ee1aa82/2016-03-29T21:22:11.347Z]
+[2016-03-29 17:47:02,382][INFO ][node                     ] [Dragon of the Moon] initializing ...
+[2016-03-29 17:47:02,781][INFO ][plugins                  ] [Dragon of the Moon] modules [], plugins [repository-s3], sites []
+[2016-03-29 17:47:02,800][INFO ][env                      ] [Dragon of the Moon] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [235.6gb], net total_space [370.9gb], spins? [unknown], types [hfs]
+[2016-03-29 17:47:02,800][INFO ][env                      ] [Dragon of the Moon] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-03-29 17:47:04,275][INFO ][node                     ] [Dragon of the Moon] initialized
+[2016-03-29 17:47:04,275][INFO ][node                     ] [Dragon of the Moon] starting ...
+[2016-03-29 17:47:04,334][INFO ][transport                ] [Dragon of the Moon] publish_address {127.0.0.1:50217}, bound_addresses {[fe80::1]:50215}, {[::1]:50216}, {127.0.0.1:50217}
+[2016-03-29 17:47:04,341][INFO ][discovery                ] [Dragon of the Moon] plugins_repository-s3_integTest/TwnlTXWGSvmuZ5e1_xtuAA
+[2016-03-29 17:47:07,366][INFO ][cluster.service          ] [Dragon of the Moon] new_master {Dragon of the Moon}{TwnlTXWGSvmuZ5e1_xtuAA}{127.0.0.1}{127.0.0.1:50217}[testattr=>test], reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-03-29 17:47:07,383][INFO ][http                     ] [Dragon of the Moon] publish_address {127.0.0.1:50226}, bound_addresses {[fe80::1]:50224}, {[::1]:50225}, {127.0.0.1:50226}
+[2016-03-29 17:47:07,384][INFO ][node                     ] [Dragon of the Moon] started
+[2016-03-29 17:47:07,395][INFO ][gateway                  ] [Dragon of the Moon] recovered [0] indices into cluster_state
+[2016-03-29 17:47:11,655][INFO ][repositories             ] [Dragon of the Moon] put repository [test_repo_s3_1]
+[2016-03-29 17:47:11,816][INFO ][repositories             ] [Dragon of the Moon] delete repository [test_repo_s3_1]

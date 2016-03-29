@@ -1,0 +1,3 @@
+org.elasticsearch.script.python.PythonScriptEngineTests=8460
+org.elasticsearch.script.python.PythonScriptMultiThreadedTests=8347
+org.elasticsearch.script.python.PythonSecurityTests=8559

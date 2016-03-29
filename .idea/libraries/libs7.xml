@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="libs7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plugins/delete-by-query/build/libs/delete-by-query-3.0.0-SNAPSHOT-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/delete-by-query/build/libs/delete-by-query-3.0.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/delete-by-query/build/libs/delete-by-query-3.0.0-SNAPSHOT-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

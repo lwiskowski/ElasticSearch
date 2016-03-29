@@ -1,0 +1,15 @@
+[2016-03-29 17:45:22,967][INFO ][node                     ] [Cerise] version[3.0.0-SNAPSHOT], pid[29372], build[ee1aa82/2016-03-29T21:22:11.347Z]
+[2016-03-29 17:45:22,967][INFO ][node                     ] [Cerise] initializing ...
+[2016-03-29 17:45:23,207][INFO ][plugins                  ] [Cerise] modules [], plugins [mapper-murmur3], sites []
+[2016-03-29 17:45:23,226][INFO ][env                      ] [Cerise] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [235.7gb], net total_space [370.9gb], spins? [unknown], types [hfs]
+[2016-03-29 17:45:23,226][INFO ][env                      ] [Cerise] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-03-29 17:45:24,759][INFO ][node                     ] [Cerise] initialized
+[2016-03-29 17:45:24,759][INFO ][node                     ] [Cerise] starting ...
+[2016-03-29 17:45:24,821][INFO ][transport                ] [Cerise] publish_address {127.0.0.1:50053}, bound_addresses {[fe80::1]:50051}, {[::1]:50052}, {127.0.0.1:50053}
+[2016-03-29 17:45:24,829][INFO ][discovery                ] [Cerise] plugins_mapper-murmur3_integTest/0wDN894VRJOHgSSVUZhUIA
+[2016-03-29 17:45:27,855][INFO ][cluster.service          ] [Cerise] new_master {Cerise}{0wDN894VRJOHgSSVUZhUIA}{127.0.0.1}{127.0.0.1:50053}[testattr=>test], reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-03-29 17:45:27,872][INFO ][http                     ] [Cerise] publish_address {127.0.0.1:50063}, bound_addresses {[fe80::1]:50061}, {[::1]:50062}, {127.0.0.1:50063}
+[2016-03-29 17:45:27,873][INFO ][node                     ] [Cerise] started
+[2016-03-29 17:45:27,887][INFO ][gateway                  ] [Cerise] recovered [0] indices into cluster_state
+[2016-03-29 17:45:29,792][INFO ][cluster.metadata         ] [Cerise] [test] creating index, cause [api], templates [], shards [5]/[1], mappings [type1]
+[2016-03-29 17:45:30,006][INFO ][cluster.routing.allocation] [Cerise] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4]] ...]).

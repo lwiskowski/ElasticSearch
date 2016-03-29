@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="index-mapper-murmur3-2.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plugins/mapper-murmur3/src/test/resources/indices/bwc/index-mapper-murmur3-2.0.0.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,2 @@
+org.elasticsearch.index.mapper.size.MapperSizeRestIT=381
+org.elasticsearch.index.mapper.size.SizeMappingIT=3012

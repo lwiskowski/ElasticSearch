@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="rest-api-spec-3.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/rest-api-spec/build/libs/rest-api-spec-3.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

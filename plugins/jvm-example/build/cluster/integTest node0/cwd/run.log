@@ -1,0 +1,13 @@
+[2016-03-29 17:42:43,157][INFO ][node                     ] [Marvel Man] version[3.0.0-SNAPSHOT], pid[29000], build[ee1aa82/2016-03-29T21:22:11.347Z]
+[2016-03-29 17:42:43,157][INFO ][node                     ] [Marvel Man] initializing ...
+[2016-03-29 17:42:43,389][INFO ][plugins                  ] [Marvel Man] modules [], plugins [jvm-example], sites []
+[2016-03-29 17:42:43,408][INFO ][env                      ] [Marvel Man] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [236gb], net total_space [370.9gb], spins? [unknown], types [hfs]
+[2016-03-29 17:42:43,408][INFO ][env                      ] [Marvel Man] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-03-29 17:42:44,854][INFO ][node                     ] [Marvel Man] initialized
+[2016-03-29 17:42:44,855][INFO ][node                     ] [Marvel Man] starting ...
+[2016-03-29 17:42:44,911][INFO ][transport                ] [Marvel Man] publish_address {127.0.0.1:49916}, bound_addresses {[fe80::1]:49914}, {[::1]:49915}, {127.0.0.1:49916}
+[2016-03-29 17:42:44,920][INFO ][discovery                ] [Marvel Man] plugins_jvm-example_integTest/nNnhVM5dROSOnIPkH4CdQw
+[2016-03-29 17:42:47,947][INFO ][cluster.service          ] [Marvel Man] new_master {Marvel Man}{nNnhVM5dROSOnIPkH4CdQw}{127.0.0.1}{127.0.0.1:49916}[testattr=>test], reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-03-29 17:42:47,963][INFO ][http                     ] [Marvel Man] publish_address {127.0.0.1:49925}, bound_addresses {[fe80::1]:49923}, {[::1]:49924}, {127.0.0.1:49925}
+[2016-03-29 17:42:47,966][INFO ][node                     ] [Marvel Man] started
+[2016-03-29 17:42:47,976][INFO ][gateway                  ] [Marvel Man] recovered [0] indices into cluster_state

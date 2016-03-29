@@ -1,0 +1,13 @@
+[2016-03-29 17:47:39,892][INFO ][node                     ] [Paladin] version[3.0.0-SNAPSHOT], pid[29750], build[ee1aa82/2016-03-29T21:22:11.347Z]
+[2016-03-29 17:47:39,892][INFO ][node                     ] [Paladin] initializing ...
+[2016-03-29 17:47:40,111][INFO ][plugins                  ] [Paladin] modules [], plugins [store-smb], sites []
+[2016-03-29 17:47:40,129][INFO ][env                      ] [Paladin] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [235.6gb], net total_space [370.9gb], spins? [unknown], types [hfs]
+[2016-03-29 17:47:40,129][INFO ][env                      ] [Paladin] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-03-29 17:47:41,582][INFO ][node                     ] [Paladin] initialized
+[2016-03-29 17:47:41,582][INFO ][node                     ] [Paladin] starting ...
+[2016-03-29 17:47:41,641][INFO ][transport                ] [Paladin] publish_address {127.0.0.1:50271}, bound_addresses {[fe80::1]:50269}, {[::1]:50270}, {127.0.0.1:50271}
+[2016-03-29 17:47:41,648][INFO ][discovery                ] [Paladin] plugins_store-smb_integTest/t_2xPHU9Rjq8X9RyewQ-zQ
+[2016-03-29 17:47:44,675][INFO ][cluster.service          ] [Paladin] new_master {Paladin}{t_2xPHU9Rjq8X9RyewQ-zQ}{127.0.0.1}{127.0.0.1:50271}[testattr=>test], reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-03-29 17:47:44,691][INFO ][http                     ] [Paladin] publish_address {127.0.0.1:50281}, bound_addresses {[fe80::1]:50279}, {[::1]:50280}, {127.0.0.1:50281}
+[2016-03-29 17:47:44,692][INFO ][node                     ] [Paladin] started
+[2016-03-29 17:47:44,702][INFO ][gateway                  ] [Paladin] recovered [0] indices into cluster_state

@@ -1,0 +1,3 @@
+org.elasticsearch.mapper.attachments.DateAttachmentMapperTests
+org.elasticsearch.mapper.attachments.MultifieldAttachmentMapperTests
+org.elasticsearch.mapper.attachments.VariousDocTests

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="discovery-gce-3.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plugins/discovery-gce/build/distributions/discovery-gce-3.0.0-SNAPSHOT.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

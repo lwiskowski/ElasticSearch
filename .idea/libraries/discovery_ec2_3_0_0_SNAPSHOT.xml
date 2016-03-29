@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="discovery-ec2-3.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plugins/discovery-ec2/build/distributions/discovery-ec2-3.0.0-SNAPSHOT.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

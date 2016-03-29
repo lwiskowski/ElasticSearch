@@ -1,0 +1,12 @@
+[2016-03-29 17:48:13,627][INFO ][node                     ] [Bedlam II] version[3.0.0-SNAPSHOT], pid[29873], build[ee1aa82/2016-03-29T21:22:11.347Z]
+[2016-03-29 17:48:13,627][INFO ][node                     ] [Bedlam II] initializing ...
+[2016-03-29 17:48:14,117][INFO ][plugins                  ] [Bedlam II] modules [lang-mustache, lang-expression, lang-groovy], plugins [], sites []
+[2016-03-29 17:48:14,142][INFO ][env                      ] [Bedlam II] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [235.5gb], net total_space [370.9gb], spins? [unknown], types [hfs]
+[2016-03-29 17:48:14,142][INFO ][env                      ] [Bedlam II] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-03-29 17:48:16,231][INFO ][node                     ] [Bedlam II] initialized
+[2016-03-29 17:48:16,232][INFO ][node                     ] [Bedlam II] starting ...
+[2016-03-29 17:48:16,290][INFO ][transport                ] [Bedlam II] publish_address {127.0.0.1:9501}, bound_addresses {[fe80::1]:9501}, {[::1]:9501}, {127.0.0.1:9501}
+[2016-03-29 17:48:16,296][INFO ][discovery                ] [Bedlam II] qa_smoke-test-multinode_integTest/kiIi_tLjThWjWITnAQ-56w
+[2016-03-29 17:48:19,347][INFO ][cluster.service          ] [Bedlam II] detected_master {Baron Macabre}{Q4qDHvp0Q7qVZ3ygZNSGXg}{127.0.0.1}{127.0.0.1:9500}[testattr=>test], added {{Baron Macabre}{Q4qDHvp0Q7qVZ3ygZNSGXg}{127.0.0.1}{127.0.0.1:9500}[testattr=>test],}, reason: zen-disco-receive(from master [master {Baron Macabre}{Q4qDHvp0Q7qVZ3ygZNSGXg}{127.0.0.1}{127.0.0.1:9500}[testattr=>test] committed version [3]])
+[2016-03-29 17:48:19,371][INFO ][http                     ] [Bedlam II] publish_address {127.0.0.1:9401}, bound_addresses {[fe80::1]:9401}, {[::1]:9401}, {127.0.0.1:9401}
+[2016-03-29 17:48:19,372][INFO ][node                     ] [Bedlam II] started

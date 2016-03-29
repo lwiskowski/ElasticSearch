@@ -1,0 +1,3 @@
+org.elasticsearch.test.rest.test.SkipSectionParserTests
+org.elasticsearch.test.rest.test.RestApiParserTests
+org.elasticsearch.test.rest.test.DoSectionParserTestsorg.elasticsearch.test.test.InternalTestClusterTests

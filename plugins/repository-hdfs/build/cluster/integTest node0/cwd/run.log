@@ -1,0 +1,126 @@
+[2016-03-29 17:46:35,624][INFO ][node                     ] [Curtis Connors] version[3.0.0-SNAPSHOT], pid[29570], build[ee1aa82/2016-03-29T21:22:11.347Z]
+[2016-03-29 17:46:35,624][INFO ][node                     ] [Curtis Connors] initializing ...
+[2016-03-29 17:46:35,998][INFO ][plugins                  ] [Curtis Connors] modules [], plugins [repository-hdfs], sites []
+[2016-03-29 17:46:36,015][INFO ][env                      ] [Curtis Connors] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [235.6gb], net total_space [370.9gb], spins? [unknown], types [hfs]
+[2016-03-29 17:46:36,015][INFO ][env                      ] [Curtis Connors] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-03-29 17:46:37,391][INFO ][node                     ] [Curtis Connors] initialized
+[2016-03-29 17:46:37,391][INFO ][node                     ] [Curtis Connors] starting ...
+[2016-03-29 17:46:37,453][INFO ][transport                ] [Curtis Connors] publish_address {127.0.0.1:50142}, bound_addresses {[fe80::1]:50140}, {[::1]:50141}, {127.0.0.1:50142}
+[2016-03-29 17:46:37,460][INFO ][discovery                ] [Curtis Connors] plugins_repository-hdfs_integTest/D-CRG0ALTXqHjdz65o1P4A
+[2016-03-29 17:46:40,485][INFO ][cluster.service          ] [Curtis Connors] new_master {Curtis Connors}{D-CRG0ALTXqHjdz65o1P4A}{127.0.0.1}{127.0.0.1:50142}[testattr=>test], reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-03-29 17:46:40,500][INFO ][http                     ] [Curtis Connors] publish_address {127.0.0.1:50152}, bound_addresses {[fe80::1]:50150}, {[::1]:50151}, {127.0.0.1:50152}
+[2016-03-29 17:46:40,502][INFO ][node                     ] [Curtis Connors] started
+[2016-03-29 17:46:40,511][INFO ][gateway                  ] [Curtis Connors] recovered [0] indices into cluster_state
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[2016-03-29 17:46:42,811][WARN ][org.apache.hadoop.util.NativeCodeLoader] Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2016-03-29 17:46:42,906][INFO ][repositories             ] [Curtis Connors] put repository [test_repository_create]
+[2016-03-29 17:46:43,595][INFO ][repositories             ] [Curtis Connors] delete repository [test_repository_create]
+[2016-03-29 17:46:43,753][INFO ][repositories             ] [Curtis Connors] put repository [test_restore_repository]
+[2016-03-29 17:46:43,874][INFO ][cluster.metadata         ] [Curtis Connors] [test_index] creating index, cause [api], templates [], shards [1]/[0], mappings []
+[2016-03-29 17:46:43,998][INFO ][cluster.routing.allocation] [Curtis Connors] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[test_index][0]] ...]).
+[2016-03-29 17:46:44,093][INFO ][snapshots                ] [Curtis Connors] snapshot [test_restore_repository:test_restore] is done
+[2016-03-29 17:46:44,124][INFO ][cluster.metadata         ] [Curtis Connors] closing indices [[test_index]]
+[2016-03-29 17:46:44,170][WARN ][org.apache.hadoop.hdfs.DFSClient] DFSInputStream has been closed already
+[2016-03-29 17:46:44,174][WARN ][org.apache.hadoop.hdfs.DFSClient] DFSInputStream has been closed already
+[2016-03-29 17:46:44,178][WARN ][org.apache.hadoop.hdfs.DFSClient] DFSInputStream has been closed already
+[2016-03-29 17:46:44,200][WARN ][org.apache.hadoop.hdfs.DFSClient] DFSInputStream has been closed already
+[2016-03-29 17:46:44,212][INFO ][snapshots                ] [Curtis Connors] restore [test_restore_repository:test_restore] is done
+[2016-03-29 17:46:44,214][INFO ][cluster.routing.allocation] [Curtis Connors] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[test_index][0], [test_index][0]] ...]).
+[2016-03-29 17:46:44,231][WARN ][org.apache.hadoop.hdfs.DFSClient] DFSInputStream has been closed already
+[2016-03-29 17:46:44,233][WARN ][org.apache.hadoop.hdfs.DFSClient] DFSInputStream has been closed already
+[2016-03-29 17:46:44,236][WARN ][org.apache.hadoop.hdfs.DFSClient] DFSInputStream has been closed already
+[2016-03-29 17:46:44,667][WARN ][org.apache.hadoop.hdfs.DFSClient] DFSInputStream has been closed already
+[2016-03-29 17:46:44,673][INFO ][repositories             ] [Curtis Connors] delete repository [test_restore_repository]
+[2016-03-29 17:46:44,695][WARN ][repositories             ] [Curtis Connors] failed to create repository [hdfs][misconfigured_repository]
+java.lang.IllegalArgumentException: Invalid scheme [file] specified in uri [file://bogus]; only 'hdfs' uri allowed for hdfs snapshot/restore
+	at org.elasticsearch.repositories.hdfs.HdfsRepository.doStart(HdfsRepository.java:83)
+	at org.elasticsearch.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:68)
+	at org.elasticsearch.repositories.RepositoriesService.createRepositoryHolder(RepositoriesService.java:411)
+	at org.elasticsearch.repositories.RepositoriesService.registerRepository(RepositoriesService.java:373)
+	at org.elasticsearch.repositories.RepositoriesService.access$100(RepositoriesService.java:60)
+	at org.elasticsearch.repositories.RepositoriesService$1.execute(RepositoriesService.java:115)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:447)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:761)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-03-29 17:46:44,698][WARN ][repositories             ] [Curtis Connors] failed to create repository [misconfigured_repository]
+RepositoryException[[misconfigured_repository] failed to create repository]; nested: IllegalArgumentException[Invalid scheme [file] specified in uri [file://bogus]; only 'hdfs' uri allowed for hdfs snapshot/restore];
+	at org.elasticsearch.repositories.RepositoriesService.createRepositoryHolder(RepositoriesService.java:415)
+	at org.elasticsearch.repositories.RepositoriesService.registerRepository(RepositoriesService.java:373)
+	at org.elasticsearch.repositories.RepositoriesService.access$100(RepositoriesService.java:60)
+	at org.elasticsearch.repositories.RepositoriesService$1.execute(RepositoriesService.java:115)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:447)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:761)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Invalid scheme [file] specified in uri [file://bogus]; only 'hdfs' uri allowed for hdfs snapshot/restore
+	at org.elasticsearch.repositories.hdfs.HdfsRepository.doStart(HdfsRepository.java:83)
+	at org.elasticsearch.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:68)
+	at org.elasticsearch.repositories.RepositoriesService.createRepositoryHolder(RepositoriesService.java:411)
+	... 11 more
+[2016-03-29 17:46:44,698][INFO ][rest.suppressed          ] /_snapshot/misconfigured_repository Params: {repository=misconfigured_repository}
+RepositoryException[[misconfigured_repository] failed to create repository]; nested: IllegalArgumentException[Invalid scheme [file] specified in uri [file://bogus]; only 'hdfs' uri allowed for hdfs snapshot/restore];
+	at org.elasticsearch.repositories.RepositoriesService.createRepositoryHolder(RepositoriesService.java:415)
+	at org.elasticsearch.repositories.RepositoriesService.registerRepository(RepositoriesService.java:373)
+	at org.elasticsearch.repositories.RepositoriesService.access$100(RepositoriesService.java:60)
+	at org.elasticsearch.repositories.RepositoriesService$1.execute(RepositoriesService.java:115)
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:45)
+	at org.elasticsearch.cluster.service.InternalClusterService.runTasksForExecutor(InternalClusterService.java:447)
+	at org.elasticsearch.cluster.service.InternalClusterService$UpdateTask.run(InternalClusterService.java:761)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:231)
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:194)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.IllegalArgumentException: Invalid scheme [file] specified in uri [file://bogus]; only 'hdfs' uri allowed for hdfs snapshot/restore
+	at org.elasticsearch.repositories.hdfs.HdfsRepository.doStart(HdfsRepository.java:83)
+	at org.elasticsearch.common.component.AbstractLifecycleComponent.start(AbstractLifecycleComponent.java:68)
+	at org.elasticsearch.repositories.RepositoriesService.createRepositoryHolder(RepositoriesService.java:411)
+	... 11 more
+[2016-03-29 17:46:44,723][INFO ][repositories             ] [Curtis Connors] put repository [test_snapshot_repository]
+[2016-03-29 17:46:44,768][INFO ][cluster.metadata         ] [Curtis Connors] [test_index] creating index, cause [api], templates [], shards [1]/[1], mappings []
+[2016-03-29 17:46:44,777][INFO ][cluster.routing.allocation] [Curtis Connors] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test_index][0]] ...]).
+[2016-03-29 17:46:44,831][INFO ][snapshots                ] [Curtis Connors] snapshot [test_snapshot_repository:test_snapshot] is done
+[2016-03-29 17:46:44,854][WARN ][org.apache.hadoop.hdfs.DFSClient] DFSInputStream has been closed already
+[2016-03-29 17:46:44,856][WARN ][org.apache.hadoop.hdfs.DFSClient] DFSInputStream has been closed already
+[2016-03-29 17:46:44,860][WARN ][org.apache.hadoop.hdfs.DFSClient] DFSInputStream has been closed already
+[2016-03-29 17:46:44,877][WARN ][org.apache.hadoop.hdfs.DFSClient] DFSInputStream has been closed already
+[2016-03-29 17:46:44,882][INFO ][repositories             ] [Curtis Connors] delete repository [test_snapshot_repository]
+[2016-03-29 17:46:44,911][INFO ][repositories             ] [Curtis Connors] put repository [test_repository_verify]
+[2016-03-29 17:46:44,970][INFO ][repositories             ] [Curtis Connors] delete repository [test_repository_verify]
+[2016-03-29 17:46:44,989][INFO ][repositories             ] [Curtis Connors] put repository [test_snapshot_get_repository]
+[2016-03-29 17:46:45,030][INFO ][cluster.metadata         ] [Curtis Connors] [test_index] creating index, cause [api], templates [], shards [1]/[0], mappings []
+[2016-03-29 17:46:45,037][INFO ][cluster.routing.allocation] [Curtis Connors] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[test_index][0]] ...]).
+[2016-03-29 17:46:45,084][INFO ][snapshots                ] [Curtis Connors] snapshot [test_snapshot_get_repository:test_snapshot_get] is done
+[2016-03-29 17:46:45,108][WARN ][org.apache.hadoop.hdfs.DFSClient] DFSInputStream has been closed already
+[2016-03-29 17:46:45,114][WARN ][org.apache.hadoop.hdfs.DFSClient] DFSInputStream has been closed already
+[2016-03-29 17:46:45,117][WARN ][org.apache.hadoop.hdfs.DFSClient] DFSInputStream has been closed already
+[2016-03-29 17:46:45,120][WARN ][org.apache.hadoop.hdfs.DFSClient] DFSInputStream has been closed already
+[2016-03-29 17:46:45,122][WARN ][org.apache.hadoop.hdfs.DFSClient] DFSInputStream has been closed already
+[2016-03-29 17:46:45,125][WARN ][org.apache.hadoop.hdfs.DFSClient] DFSInputStream has been closed already
+[2016-03-29 17:46:45,142][WARN ][org.apache.hadoop.hdfs.DFSClient] DFSInputStream has been closed already
+[2016-03-29 17:46:45,146][INFO ][repositories             ] [Curtis Connors] delete repository [test_snapshot_get_repository]
+[2016-03-29 17:46:45,170][INFO ][repositories             ] [Curtis Connors] put repository [test_repo_hdfs_1]
+[2016-03-29 17:46:45,609][INFO ][repositories             ] [Curtis Connors] delete repository [test_repo_hdfs_1]
+[2016-03-29 17:46:45,612][INFO ][rest.suppressed          ] /_snapshot/test_repo_hdfs_1 Params: {repository=test_repo_hdfs_1}
+RepositoryMissingException[[test_repo_hdfs_1] missing]
+	at org.elasticsearch.action.admin.cluster.repositories.get.TransportGetRepositoriesAction.masterOperation(TransportGetRepositoriesAction.java:100)
+	at org.elasticsearch.action.admin.cluster.repositories.get.TransportGetRepositoriesAction.masterOperation(TransportGetRepositoriesAction.java:49)
+	at org.elasticsearch.action.support.master.TransportMasterNodeAction.masterOperation(TransportMasterNodeAction.java:78)
+	at org.elasticsearch.action.support.master.TransportMasterNodeAction$AsyncSingleAction$3.doRun(TransportMasterNodeAction.java:162)
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[2016-03-29 17:46:45,624][INFO ][repositories             ] [Curtis Connors] put repository [test_repo_hdfs_1]
+[2016-03-29 17:46:45,667][INFO ][repositories             ] [Curtis Connors] delete repository [test_repo_hdfs_1]

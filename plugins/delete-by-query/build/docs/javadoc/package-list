@@ -1,0 +1,3 @@
+org.elasticsearch.action.deletebyquery
+org.elasticsearch.plugin.deletebyquery
+org.elasticsearch.rest.action.deletebyquery

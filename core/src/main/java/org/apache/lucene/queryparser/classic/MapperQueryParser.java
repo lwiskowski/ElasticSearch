@@ -511,6 +511,7 @@ public class MapperQueryParser extends QueryParser {
                 IOUtils.closeWhileHandlingException(source);
             }
         }
+        //System.out.println(termStr);
 
         if (tlist.size() == 1) {
             return super.getPrefixQuery(field, tlist.get(0));
@@ -518,7 +519,14 @@ public class MapperQueryParser extends QueryParser {
             // build a boolean query with prefix on each one...
             List<BooleanClause> clauses = new ArrayList<>();
             for (String token : tlist) {
-                clauses.add(new BooleanClause(super.getPrefixQuery(field, token), BooleanClause.Occur.SHOULD));
+                if (token == "and") {
+                    clauses.add(new BooleanClause(super.getPrefixQuery(field, token), BooleanClause.Occur.MUST));
+                    
+                } else {
+                    clauses.add(new BooleanClause(super.getPrefixQuery(field, token), BooleanClause.Occur.SHOULD));
+                    //System.out.println(super.getPrefixQuery(field, token));
+                }
+                //System.out.println (token);
             }
             return getBooleanQuery(clauses, true);
         }

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="libs29">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plugins/store-smb/build/libs/store-smb-3.0.0-SNAPSHOT-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/store-smb/build/libs/store-smb-3.0.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/store-smb/build/libs/store-smb-3.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

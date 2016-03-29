@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="libs3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/plugins/analysis-smartcn/build/libs/analysis-smartcn-3.0.0-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/analysis-smartcn/build/libs/analysis-smartcn-3.0.0-SNAPSHOT-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/plugins/analysis-smartcn/build/libs/analysis-smartcn-3.0.0-SNAPSHOT-javadoc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

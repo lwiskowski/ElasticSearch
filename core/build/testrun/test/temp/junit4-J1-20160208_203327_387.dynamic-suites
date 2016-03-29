@@ -1,0 +1,13 @@
+org.elasticsearch.common.geo.builders.CircleBuilderTests
+org.elasticsearch.common.logging.log4j.Log4jESLoggerTests
+org.elasticsearch.common.lucene.search.function.ScriptScoreFunctionTests
+org.elasticsearch.common.recycler.QueueRecyclerTests
+org.elasticsearch.common.xcontent.smile.SmileXContentTests
+org.elasticsearch.fieldstats.FieldStatsTests
+org.elasticsearch.index.analysis.PreBuiltTokenFilterFactoryFactoryTests
+org.elasticsearch.index.engine.InternalEngineTests
+org.elasticsearch.index.mapper.internal.ParentFieldTypeTests
+org.elasticsearch.index.mapper.multifield.MultiFieldTests
+org.elasticsearch.index.mapper.source.DefaultSourceMappingTests
+org.elasticsearch.index.mapper.typelevels.ParseMappingTypeLevelTests
+org.elasticsearch.index.percolator.PercolatorFieldMapperTests

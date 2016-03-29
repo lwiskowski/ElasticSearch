@@ -1,0 +1,23 @@
+[2016-03-29 17:38:11,854][INFO ][node                     ] [Collector] version[3.0.0-SNAPSHOT], pid[28394], build[ee1aa82/2016-03-29T21:22:11.347Z]
+[2016-03-29 17:38:11,854][INFO ][node                     ] [Collector] initializing ...
+[2016-03-29 17:38:12,077][INFO ][plugins                  ] [Collector] modules [], plugins [analysis-phonetic], sites []
+[2016-03-29 17:38:12,095][INFO ][env                      ] [Collector] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [236.2gb], net total_space [370.9gb], spins? [unknown], types [hfs]
+[2016-03-29 17:38:12,095][INFO ][env                      ] [Collector] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-03-29 17:38:13,472][INFO ][node                     ] [Collector] initialized
+[2016-03-29 17:38:13,472][INFO ][node                     ] [Collector] starting ...
+[2016-03-29 17:38:13,529][INFO ][transport                ] [Collector] publish_address {127.0.0.1:49663}, bound_addresses {[fe80::1]:49661}, {[::1]:49662}, {127.0.0.1:49663}
+[2016-03-29 17:38:13,536][INFO ][discovery                ] [Collector] plugins_analysis-phonetic_integTest/nYPB_7t1T5OIW3JrB1PoIA
+[2016-03-29 17:38:16,556][INFO ][cluster.service          ] [Collector] new_master {Collector}{nYPB_7t1T5OIW3JrB1PoIA}{127.0.0.1}{127.0.0.1:49663}[testattr=>test], reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-03-29 17:38:16,569][INFO ][http                     ] [Collector] publish_address {127.0.0.1:49674}, bound_addresses {[fe80::1]:49672}, {[::1]:49673}, {127.0.0.1:49674}
+[2016-03-29 17:38:16,571][INFO ][node                     ] [Collector] started
+[2016-03-29 17:38:16,579][INFO ][gateway                  ] [Collector] recovered [0] indices into cluster_state
+[2016-03-29 17:38:18,401][INFO ][cluster.metadata         ] [Collector] [phonetic_sample] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-03-29 17:38:18,567][INFO ][cluster.routing.allocation] [Collector] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[phonetic_sample][4]] ...]).
+[2016-03-29 17:38:18,755][INFO ][cluster.metadata         ] [Collector] [phonetic_sample] creating index, cause [api], templates [], shards [5]/[1], mappings [type]
+[2016-03-29 17:38:18,781][INFO ][cluster.routing.allocation] [Collector] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[phonetic_sample][0], [phonetic_sample][0], [phonetic_sample][4]] ...]).
+[2016-03-29 17:38:18,950][INFO ][cluster.metadata         ] [Collector] [phonetic_sample] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-03-29 17:38:18,972][INFO ][cluster.routing.allocation] [Collector] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[phonetic_sample][2], [phonetic_sample][0], [phonetic_sample][2], [phonetic_sample][0], [phonetic_sample][4]] ...]).
+[2016-03-29 17:38:19,161][INFO ][cluster.metadata         ] [Collector] [phonetic_sample] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-03-29 17:38:19,190][INFO ][cluster.routing.allocation] [Collector] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[phonetic_sample][4], [phonetic_sample][4]] ...]).
+[2016-03-29 17:38:19,251][INFO ][cluster.metadata         ] [Collector] [phonetic_sample] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2016-03-29 17:38:19,278][INFO ][cluster.routing.allocation] [Collector] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[phonetic_sample][0], [phonetic_sample][0], [phonetic_sample][4]] ...]).
