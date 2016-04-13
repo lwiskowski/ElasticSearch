@@ -26,6 +26,7 @@ import org.apache.lucene.search.MatchNoDocsQuery;
 import org.apache.lucene.search.Query;
 import org.apache.lucene.search.join.JoinUtil;
 import org.apache.lucene.search.join.ScoreMode;
+import org.elasticsearch.common.collect.Tuple; //imports Tuple to the class
 import org.elasticsearch.common.io.stream.StreamInput;
 import org.elasticsearch.common.io.stream.StreamOutput;
 import org.elasticsearch.common.lucene.search.Queries;
@@ -39,9 +40,12 @@ import org.elasticsearch.index.query.support.QueryInnerHits;
 import org.elasticsearch.search.fetch.innerhits.InnerHitsContext;
 import org.elasticsearch.search.fetch.innerhits.InnerHitsSubSearchContext;
 
+
 import java.io.IOException;
 import java.util.Locale;
 import java.util.Objects;
+import java.util.Map;
+import java.util.Collections;
 
 /**
  * A query builder for <tt>has_child</tt> queries.
@@ -205,13 +209,14 @@ public class HasChildQueryBuilder extends AbstractQueryBuilder<HasChildQueryBuil
 
     @Override
     protected Query doToQuery(QueryShardContext context) throws IOException {
-        String[] previousTypes = QueryShardContext.setTypesWithPrevious(type);
+        /*String[] previousTypes = QueryShardContext.setTypesWithPrevious(type);
         Query innerQuery;
         try {
             innerQuery = query.toQuery(context);
         } finally {
             QueryShardContext.setTypes(previousTypes);
-        }
+        }*/
+        Query innerQuery = processInnerQuery(context, query, type, queryInnerHits); //redeclared innerQuerry
         if (innerQuery == null) {
             return null;
         }
@@ -223,7 +228,7 @@ public class HasChildQueryBuilder extends AbstractQueryBuilder<HasChildQueryBuil
         if (parentFieldMapper.active() == false) {
             throw new QueryShardException(context, "[" + NAME + "] _parent field has no parent type configured");
         }
-        if (queryInnerHits != null) {
+        /*if (queryInnerHits != null) {
             try (XContentParser parser = queryInnerHits.getXcontentParser()) {
                 XContentParser.Token token = parser.nextToken();
                 if (token != XContentParser.Token.START_OBJECT) {
@@ -237,8 +242,8 @@ public class HasChildQueryBuilder extends AbstractQueryBuilder<HasChildQueryBuil
                     context.addInnerHits(name, parentChildInnerHits);
                 }
             }
-        }
-
+        }*/
+        processInnerHits(queryInnerHits, context, innerQuery, type, childDocMapper); //processes the querry
         String parentType = parentFieldMapper.type();
         DocumentMapper parentDocMapper = context.getMapperService().documentMapper(parentType);
         if (parentDocMapper == null) {
@@ -260,6 +265,44 @@ public class HasChildQueryBuilder extends AbstractQueryBuilder<HasChildQueryBuil
             maxChildren = Integer.MAX_VALUE;
         }
         return new LateParsingQuery(parentDocMapper.typeFilter(), innerQuery, minChildren(), maxChildren, parentType, scoreMode, parentChildIndexFieldData);
+    }
+    
+    //new method to process querry
+    static Query processInnerQuery(QueryShardContext context, QueryBuilder query, String type, QueryInnerHits queryInnerHits) throws IOException {
+                String[] previousTypes = QueryShardContext.setTypesWithPrevious(type);
+                boolean previous = context.hasParentQueryWithInnerHits();
+                try {
+                        context.setHasParentQueryWithInnerHits(queryInnerHits != null);
+                        return query.toQuery(context);
+                    } finally {
+                            QueryShardContext.setTypes(previousTypes);
+                            context.setHasParentQueryWithInnerHits(previous);
+                    }
+    }
+    
+    //new method to process inner hits
+    static void processInnerHits(QueryInnerHits queryInnerHits, QueryShardContext context, Query innerQuery, String type, DocumentMapper documentMapper) throws IOException {
+        if (queryInnerHits == null) {
+                return;
+        }
+        
+        try (XContentParser parser = queryInnerHits.getXcontentParser()) {
+            XContentParser.Token token = parser.nextToken();
+                if (token != XContentParser.Token.START_OBJECT) {
+                    throw new IllegalStateException("start object expected but was: [" + token + "]");
+                }
+                InnerHitsSubSearchContext innerHits = context.getInnerHitsContext(parser);
+                if (innerHits != null) {
+                    ParsedQuery parsedQuery = new ParsedQuery(innerQuery, context.copyNamedQueries());
+                    String name = innerHits.getName() != null ? innerHits.getName() : type;
+                    InnerHitsContext.ParentChildInnerHits parentChildInnerHits = new InnerHitsContext.ParentChildInnerHits(innerHits.getSubSearchContext(), parsedQuery, context.getChildInnerHits(), context.getMapperService(), documentMapper);
+                    if (context.hasParentQueryWithInnerHits()) {
+                        context.setChildInnerHits(name, parentChildInnerHits);
+                    } else {
+                        context.addInnerHits(name, parentChildInnerHits);
+                    }
+                }
+            }
     }
 
     final static class LateParsingQuery extends Query {

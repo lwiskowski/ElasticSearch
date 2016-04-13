@@ -31,6 +31,7 @@ import org.elasticsearch.common.Nullable;
 import org.elasticsearch.common.ParseFieldMatcher;
 import org.elasticsearch.common.ParsingException;
 import org.elasticsearch.common.bytes.BytesReference;
+import org.elasticsearch.common.collect.Tuple; //import Tuple to the module
 import org.elasticsearch.common.lucene.search.Queries;
 import org.elasticsearch.common.xcontent.XContentFactory;
 import org.elasticsearch.common.xcontent.XContentParser;
@@ -109,7 +110,9 @@ public class QueryShardContext {
     private NestedScope nestedScope;
     private QueryParseContext parseContext;
     boolean isFilter; // pkg private for testing
-
+    private boolean hasParentQueryWithInnerHits; //for innerhits
+    private Map<String, InnerHitsContext.BaseInnerHits> childInnerHits; //for child inner hits
+    
     public QueryShardContext(IndexSettings indexSettings, Client client, BitsetFilterCache bitsetFilterCache, IndexFieldDataService indexFieldDataService, MapperService mapperService, SimilarityService similarityService, ScriptService scriptService,
                              final IndicesQueriesRegistry indicesQueriesRegistry) {
         this.indexSettings = indexSettings;
@@ -244,6 +247,29 @@ public class QueryShardContext {
             innerHitsContext = sc.innerHits();
         }
         innerHitsContext.addInnerHitDefinition(name, context);
+    }
+    
+    //add method to set chhild inner hits
+    public void setChildInnerHits(String name, InnerHitsContext.BaseInnerHits innerHits) {
+        this.childInnerHits = Collections.singletonMap(name, innerHits);
+    }
+    
+    
+    //return Any inner hits that an inner query has processed if {@link #hasParentQueryWithInnerHits()} was set
+    //to true before processing the inner query.
+    public Map<String, InnerHitsContext.BaseInnerHits>  getChildInnerHits() {
+        return childInnerHits;
+    }
+    
+    
+    //return Whether a parent query in the dsl has inner hits enabled
+    public boolean hasParentQueryWithInnerHits() {
+        return hasParentQueryWithInnerHits;
+    }
+    
+    //method to set the booleans value of parent querry with inner hits.
+    public void setHasParentQueryWithInnerHits(boolean hasParentQueryWithInnerHits) {
+        this.hasParentQueryWithInnerHits = hasParentQueryWithInnerHits;
     }
 
     public Collection<String> simpleMatchToIndexNames(String pattern) {
