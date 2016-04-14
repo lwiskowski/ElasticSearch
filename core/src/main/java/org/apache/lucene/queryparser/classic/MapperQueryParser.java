@@ -22,8 +22,10 @@ package org.apache.lucene.queryparser.classic;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
+import org.apache.lucene.analysis.tokenattributes.PositionIncrementAttribute; //new import
 import org.apache.lucene.index.Term;
 import org.apache.lucene.search.BooleanClause;
+import org.apache.lucene.search.BooleanQuery; //new import
 import org.apache.lucene.search.BoostQuery;
 import org.apache.lucene.search.DisjunctionMaxQuery;
 import org.apache.lucene.search.FuzzyQuery;
@@ -31,6 +33,7 @@ import org.apache.lucene.search.MatchNoDocsQuery;
 import org.apache.lucene.search.MultiPhraseQuery;
 import org.apache.lucene.search.PhraseQuery;
 import org.apache.lucene.search.Query;
+import org.apache.lucene.search.SynonymQuery; //new import
 import org.apache.lucene.util.IOUtils;
 import org.apache.lucene.util.automaton.RegExp;
 import org.elasticsearch.common.lucene.search.Queries;
@@ -485,7 +488,9 @@ public class MapperQueryParser extends QueryParser {
         if (!settings.analyzeWildcard()) {
             return super.getPrefixQuery(field, termStr);
         }
-        List<String> tlist;
+
+        //change from type List<String> to type List<List<String>>
+        List<List<String>> tlist;
         // get Analyzer from superclass and tokenize the term
         TokenStream source = null;
         try {
@@ -496,15 +501,28 @@ public class MapperQueryParser extends QueryParser {
                 return super.getPrefixQuery(field, termStr);
             }
             tlist = new ArrayList<>();
-            CharTermAttribute termAtt = source.addAttribute(CharTermAttribute.class);
 
+            //create list to keep track of currentPosition
+            List<String> currentPosition = new ArrayList<>();
+            CharTermAttribute termAtt = source.addAttribute(CharTermAttribute.class);
+            //add position Attribute
+            PositionIncrementAttribute positionAttribute = source.addAttribute(PositionIncrementAttribute.class);
             while (true) {
                 try {
                     if (!source.incrementToken()) break;
                 } catch (IOException e) {
                     break;
                 }
-                tlist.add(termAtt.toString());
+                //tlist.add(termAtt.toString());
+                //populate tlist with currentPosition Lists
+                if (currentPosition.isEmpty() == false && positionAttribute.getPositionIncrement() > 0) {
+                    tlist.add(currentPosition);
+                    currentPosition = new ArrayList<>();
+                }
+                currentPosition.add(termAtt.toString());
+            }
+            if (currentPosition.isEmpty() == false) {
+                tlist.add(currentPosition);
             }
         } finally {
             if (source != null) {
@@ -513,23 +531,65 @@ public class MapperQueryParser extends QueryParser {
         }
         //System.out.println(termStr);
 
-        if (tlist.size() == 1) {
-            return super.getPrefixQuery(field, tlist.get(0));
+        //check if the size of first postion in the list is 1
+        //check if the size of the list is 1
+        List<BooleanClause> clauses = new ArrayList<>();
+        if (tlist.size() == 1 && tlist.get(0).size() == 1) {
+            return super.getPrefixQuery(field, tlist.get(0).get(0));
         } else {
             // build a boolean query with prefix on each one...
-            List<BooleanClause> clauses = new ArrayList<>();
-            for (String token : tlist) {
-                if (token == "and") {
-                    clauses.add(new BooleanClause(super.getPrefixQuery(field, token), BooleanClause.Occur.MUST));
-                    
+            //elastic search builds the boolean query with each prefix
+            //our implemetation will build it on the end of the list only
+
+            /*for (String token : tlist) {
+                //if (token == "and") {
+                  //  clauses.add(new BooleanClause(super.getPrefixQuery(field, token), BooleanClause.Occur.MUST));
                 } else {
                     clauses.add(new BooleanClause(super.getPrefixQuery(field, token), BooleanClause.Occur.SHOULD));
                     //System.out.println(super.getPrefixQuery(field, token));
-                }
+                }*/
                 //System.out.println (token);
+           for (int pos = 0; pos < tlist.size(); pos++) {
+                List<String> plist = tlist.get(pos);
+                boolean isLastPos = (pos == tlist.size()-1);
+                Query posQuery;
+                if (plist.size() == 1) {
+                    if (isLastPos) {
+                        posQuery = getPrefixQuery(field, plist.get(0));
+                    } else {
+                        posQuery = newTermQuery(new Term(field, plist.get(0)));
+                    }
+                } else if (isLastPos == false) {
+                    // build a synonym query for terms in the same position.
+                    Term[] terms = new Term[plist.size()];
+                    for (int i = 0; i < plist.size(); i++) {
+                        terms[i] = new Term(field, plist.get(i));
+                    }
+                    posQuery = new SynonymQuery(terms);
+                } else {
+                    List<BooleanClause> innerClauses = new ArrayList<>();
+                    for (String token : plist) {
+                        innerClauses.add(new BooleanClause(getPrefixQuery(field, token),
+                            BooleanClause.Occur.SHOULD));
+                    }
+                    posQuery = getBooleanQueryCoordDisabled(innerClauses);
+                }
+                clauses.add(new BooleanClause(posQuery,
+                    getDefaultOperator() == Operator.AND ? BooleanClause.Occur.MUST : BooleanClause.Occur.SHOULD));
             }
-            return getBooleanQuery(clauses, true);
+            return getBooleanQuery(clauses);
         }
+
+    }
+
+    //getBooleanQueryCoordDisabled method
+    protected Query getBooleanQueryCoordDisabled(List<BooleanClause> clauses) throws ParseException {
+        BooleanQuery.Builder builder = new BooleanQuery.Builder();
+        builder.setDisableCoord(true);
+        for (BooleanClause clause : clauses) {
+            builder.add(clause);
+        }
+        return fixNegativeQueryIfNeeded(builder.build());
     }
 
     @Override
