@@ -1,0 +1,37 @@
+[2016-04-18 03:17:38,420][INFO ][node                     ] [Albert] version[3.0.0-SNAPSHOT], pid[4246], build[6508b0f/2016-04-18T06:58:38.616Z]
+[2016-04-18 03:17:38,421][INFO ][node                     ] [Albert] initializing ...
+[2016-04-18 03:17:38,641][INFO ][plugins                  ] [Albert] modules [], plugins [lang-python], sites []
+[2016-04-18 03:17:38,658][INFO ][env                      ] [Albert] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [112.3gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2016-04-18 03:17:38,659][INFO ][env                      ] [Albert] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-04-18 03:17:42,106][INFO ][node                     ] [Albert] initialized
+[2016-04-18 03:17:42,106][INFO ][node                     ] [Albert] starting ...
+[2016-04-18 03:17:42,182][INFO ][transport                ] [Albert] publish_address {127.0.0.1:59169}, bound_addresses {[fe80::1]:59167}, {[::1]:59168}, {127.0.0.1:59169}
+[2016-04-18 03:17:42,193][INFO ][discovery                ] [Albert] plugins_lang-python_integTest/1S14zLqTTsex64PYQa9rkg
+[2016-04-18 03:17:45,222][INFO ][cluster.service          ] [Albert] new_master {Albert}{1S14zLqTTsex64PYQa9rkg}{127.0.0.1}{127.0.0.1:59169}[testattr=>test], reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-18 03:17:45,236][INFO ][http                     ] [Albert] publish_address {127.0.0.1:59178}, bound_addresses {[fe80::1]:59176}, {[::1]:59177}, {127.0.0.1:59178}
+[2016-04-18 03:17:45,237][INFO ][node                     ] [Albert] started
+[2016-04-18 03:17:45,247][INFO ][gateway                  ] [Albert] recovered [0] indices into cluster_state
+[2016-04-18 03:17:47,351][INFO ][cluster.metadata         ] [Albert] [test] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [test]
+[2016-04-18 03:17:47,532][INFO ][cluster.routing.allocation] [Albert] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4]] ...]).
+[2016-04-18 03:17:47,554][INFO ][cluster.metadata         ] [Albert] [test] update_mapping [test]
+[2016-04-18 03:17:47,778][INFO ][cluster.metadata         ] [Albert] [test] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [test]
+[2016-04-18 03:17:47,810][INFO ][cluster.routing.allocation] [Albert] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4]] ...]).
+[2016-04-18 03:17:47,821][INFO ][cluster.metadata         ] [Albert] [test] update_mapping [test]
+[2016-04-18 03:17:48,007][INFO ][cluster.metadata         ] [Albert] [test] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [test]
+[2016-04-18 03:17:48,049][INFO ][cluster.routing.allocation] [Albert] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4], [test][4]] ...]).
+[2016-04-18 03:17:48,061][INFO ][cluster.metadata         ] [Albert] [test] update_mapping [test]
+[2016-04-18 03:17:48,185][INFO ][cluster.metadata         ] [Albert] [test] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [test]
+[2016-04-18 03:17:48,211][INFO ][cluster.routing.allocation] [Albert] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4], [test][4]] ...]).
+[2016-04-18 03:17:48,219][INFO ][cluster.metadata         ] [Albert] [test] update_mapping [test]
+[2016-04-18 03:17:48,284][INFO ][cluster.metadata         ] [Albert] [test] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [test]
+[2016-04-18 03:17:48,307][INFO ][cluster.routing.allocation] [Albert] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4]] ...]).
+[2016-04-18 03:17:48,312][INFO ][cluster.metadata         ] [Albert] [test] update_mapping [test]
+[2016-04-18 03:17:48,361][INFO ][cluster.metadata         ] [Albert] [test] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [test]
+[2016-04-18 03:17:48,387][INFO ][cluster.routing.allocation] [Albert] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4], [test][4]] ...]).
+[2016-04-18 03:17:48,393][INFO ][cluster.metadata         ] [Albert] [test] update_mapping [test]
+[2016-04-18 03:17:48,480][INFO ][cluster.metadata         ] [Albert] [test] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [test]
+[2016-04-18 03:17:48,502][INFO ][cluster.routing.allocation] [Albert] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4], [test][4]] ...]).
+[2016-04-18 03:17:48,509][INFO ][cluster.metadata         ] [Albert] [test] update_mapping [test]
+[2016-04-18 03:17:48,569][INFO ][cluster.metadata         ] [Albert] [test] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [test]
+[2016-04-18 03:17:48,600][INFO ][cluster.routing.allocation] [Albert] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4], [test][4]] ...]).
+[2016-04-18 03:17:48,605][INFO ][cluster.metadata         ] [Albert] [test] update_mapping [test]

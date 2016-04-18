@@ -1,0 +1,13 @@
+[2016-04-18 03:14:34,394][INFO ][node                     ] [Puppet Master] version[3.0.0-SNAPSHOT], pid[4087], build[6508b0f/2016-04-18T06:58:38.616Z]
+[2016-04-18 03:14:34,395][INFO ][node                     ] [Puppet Master] initializing ...
+[2016-04-18 03:14:34,639][INFO ][plugins                  ] [Puppet Master] modules [], plugins [discovery-gce], sites []
+[2016-04-18 03:14:34,657][INFO ][env                      ] [Puppet Master] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [112.3gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2016-04-18 03:14:34,657][INFO ][env                      ] [Puppet Master] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-04-18 03:14:36,051][INFO ][node                     ] [Puppet Master] initialized
+[2016-04-18 03:14:36,052][INFO ][node                     ] [Puppet Master] starting ...
+[2016-04-18 03:14:36,124][INFO ][transport                ] [Puppet Master] publish_address {127.0.0.1:59052}, bound_addresses {[fe80::1]:59050}, {[::1]:59051}, {127.0.0.1:59052}
+[2016-04-18 03:14:36,132][INFO ][discovery                ] [Puppet Master] plugins_discovery-gce_integTest/m5G6kRZmR4WHI8tWhS0cJw
+[2016-04-18 03:14:39,161][INFO ][cluster.service          ] [Puppet Master] new_master {Puppet Master}{m5G6kRZmR4WHI8tWhS0cJw}{127.0.0.1}{127.0.0.1:59052}[testattr=>test], reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-18 03:14:39,175][INFO ][http                     ] [Puppet Master] publish_address {127.0.0.1:59061}, bound_addresses {[fe80::1]:59059}, {[::1]:59060}, {127.0.0.1:59061}
+[2016-04-18 03:14:39,177][INFO ][node                     ] [Puppet Master] started
+[2016-04-18 03:14:39,186][INFO ][gateway                  ] [Puppet Master] recovered [0] indices into cluster_state

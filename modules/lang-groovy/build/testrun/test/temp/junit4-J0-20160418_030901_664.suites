@@ -1,0 +1,8 @@
+org.elasticsearch.messy.tests.ContextAndHeaderTransportTests
+org.elasticsearch.messy.tests.StringTermsTests
+org.elasticsearch.messy.tests.RangeTests
+org.elasticsearch.messy.tests.ExtendedStatsTests
+org.elasticsearch.messy.tests.MaxTests
+org.elasticsearch.messy.tests.SearchFieldsTests
+org.elasticsearch.messy.tests.BucketScriptTests
+org.elasticsearch.messy.tests.IndexLookupTests

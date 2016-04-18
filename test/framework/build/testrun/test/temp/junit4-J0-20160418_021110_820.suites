@@ -1,0 +1,3 @@
+org.elasticsearch.test.rest.test.SetSectionParserTests
+org.elasticsearch.test.rest.BlacklistedPathPatternMatcherTests
+org.elasticsearch.test.rest.test.JsonPathTests

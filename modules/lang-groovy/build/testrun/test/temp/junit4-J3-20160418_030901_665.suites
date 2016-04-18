@@ -1,0 +1,7 @@
+org.elasticsearch.messy.tests.StatsTests
+org.elasticsearch.messy.tests.GeoShapeIntegrationTests
+org.elasticsearch.messy.tests.IPv4RangeTests
+org.elasticsearch.messy.tests.CardinalityTests
+org.elasticsearch.messy.tests.EquivalenceTests
+org.elasticsearch.messy.tests.LongTermsTests
+org.elasticsearch.messy.tests.RandomScoreFunctionTests

@@ -1,2 +1,2 @@
-org.elasticsearch.index.mapper.size.SizeFieldMapperUpgradeTests=6867
-org.elasticsearch.index.mapper.size.SizeMappingTests=6577
+org.elasticsearch.index.mapper.size.SizeFieldMapperUpgradeTests=6867,6795,6440
+org.elasticsearch.index.mapper.size.SizeMappingTests=6577,6642,6478

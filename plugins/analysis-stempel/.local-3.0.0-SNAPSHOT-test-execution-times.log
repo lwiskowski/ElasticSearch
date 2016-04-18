@@ -1,2 +1,2 @@
-org.elasticsearch.index.analysis.PolishAnalysisTests=2328
-org.elasticsearch.index.analysis.SimplePolishTokenFilterTests=2870
+org.elasticsearch.index.analysis.PolishAnalysisTests=2328,2609,2781
+org.elasticsearch.index.analysis.SimplePolishTokenFilterTests=2870,3202,3277

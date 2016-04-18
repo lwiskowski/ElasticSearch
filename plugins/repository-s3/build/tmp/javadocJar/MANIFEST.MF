@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Implementation-Title: org.elasticsearch.plugin#repository-s3;3.0.0-SNA
+ PSHOT
+Implementation-Version: 3.0.0-SNAPSHOT
+Built-Status: integration
+Built-By: lwiskowski
+Built-OS: Mac OS X
+Build-Date: 2016-04-18T07:20:17.447Z
+Gradle-Version: 2.10
+Created-By: 1.8.0_71-b15 (Oracle Corporation)
+Build-Java-Version: 1.8.0_71
+Module-Source: /plugins/repository-s3
+Module-Origin: https://github.fit.edu/lwiskowski2014/CSE2410_spring201
+ 6_projectileDysfunction.git
+Change: 6508b0f
+Branch: master
+X-Compile-Target-JDK: 1.8
+X-Compile-Source-JDK: 1.8
+X-Compile-Elasticsearch-Version: 3.0.0-SNAPSHOT
+X-Compile-Lucene-Version: 5.5.0-snapshot-1721183
+

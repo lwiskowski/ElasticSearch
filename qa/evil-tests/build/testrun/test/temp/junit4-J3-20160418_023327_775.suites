@@ -1,0 +1,3 @@
+org.elasticsearch.plugins.PluginSecurityTests
+org.elasticsearch.node.internal.EvilInternalSettingsPreparerTests
+org.elasticsearch.bootstrap.EvilSecurityTestsorg.elasticsearch.bootstrap.BootstrapCliParserTests

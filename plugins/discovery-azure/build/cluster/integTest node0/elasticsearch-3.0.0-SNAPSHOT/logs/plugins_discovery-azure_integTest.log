@@ -1,0 +1,13 @@
+[2016-04-18 03:13:50,890][INFO ][node                     ] [Poltergeist] version[3.0.0-SNAPSHOT], pid[4023], build[6508b0f/2016-04-18T06:58:38.616Z]
+[2016-04-18 03:13:50,891][INFO ][node                     ] [Poltergeist] initializing ...
+[2016-04-18 03:13:51,104][INFO ][plugins                  ] [Poltergeist] modules [], plugins [discovery-azure], sites []
+[2016-04-18 03:13:51,119][INFO ][env                      ] [Poltergeist] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [112.4gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2016-04-18 03:13:51,119][INFO ][env                      ] [Poltergeist] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-04-18 03:13:52,603][INFO ][node                     ] [Poltergeist] initialized
+[2016-04-18 03:13:52,604][INFO ][node                     ] [Poltergeist] starting ...
+[2016-04-18 03:13:52,664][INFO ][transport                ] [Poltergeist] publish_address {127.0.0.1:59014}, bound_addresses {[fe80::1]:59012}, {[::1]:59013}, {127.0.0.1:59014}
+[2016-04-18 03:13:52,671][INFO ][discovery                ] [Poltergeist] plugins_discovery-azure_integTest/RP-AU82ZS8mjlIEdqZHGyA
+[2016-04-18 03:13:55,697][INFO ][cluster.service          ] [Poltergeist] new_master {Poltergeist}{RP-AU82ZS8mjlIEdqZHGyA}{127.0.0.1}{127.0.0.1:59014}[testattr=>test], reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-18 03:13:55,719][INFO ][http                     ] [Poltergeist] publish_address {127.0.0.1:59023}, bound_addresses {[fe80::1]:59021}, {[::1]:59022}, {127.0.0.1:59023}
+[2016-04-18 03:13:55,721][INFO ][node                     ] [Poltergeist] started
+[2016-04-18 03:13:55,731][INFO ][gateway                  ] [Poltergeist] recovered [0] indices into cluster_state

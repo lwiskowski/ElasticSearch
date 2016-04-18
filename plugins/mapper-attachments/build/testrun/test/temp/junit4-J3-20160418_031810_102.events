@@ -1,0 +1,299 @@
+[
+ "BOOTSTRAP",
+ {
+  "defaultCharset": "UTF-8",
+  "pidString": "4268@host238-95.aruba.fit.edu",
+  "systemProperties": {
+   "awt.toolkit": "sun.lwawt.macosx.LWCToolkit",
+   "es.logger.level": "WARN",
+   "file.encoding": "UTF-8",
+   "file.encoding.pkg": "sun.io",
+   "file.separator": "/",
+   "ftp.nonProxyHosts": "local|*.local|169.254/16|*.169.254/16",
+   "gopherProxySet": "false",
+   "http.nonProxyHosts": "local|*.local|169.254/16|*.169.254/16",
+   "java.awt.graphicsenv": "sun.awt.CGraphicsEnvironment",
+   "java.awt.headless": "true",
+   "java.awt.printerjob": "sun.lwawt.macosx.CPrinterJob",
+   "java.class.path": "/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/build/classes/test:/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/build/resources/test:/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/generated-resources:/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/build/classes/main:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.tika/tika-core/1.11/d37a6b9080c8361e47b2050f69833fd61501ede9/tika-core-1.11.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.tika/tika-parsers/1.11/355dc05d842ed223fc682da472229473ba706d68/tika-parsers-1.11.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.4/b1b6ea3b7e4aa4f492509a4952029cd8e48019ad/commons-io-2.4.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.googlecode.juniversalchardet/juniversalchardet/1.0.3/cd49678784c46aa8789c060538e0154013bb421b/juniversalchardet-1.0.3.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.ccil.cowan.tagsoup/tagsoup/1.2.1/5584627487e984c03456266d3f8802eb85a9ce97/tagsoup-1.2.1.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/pdfbox/1.8.10/bc5d1254495be36d0a3b3d6c35f88d05200b9311/pdfbox-1.8.10.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/fontbox/1.8.10/41776c7713e3f3a1ce688bd96459fc597298c340/fontbox-1.8.10.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.pdfbox/jempbox/1.8.10/40df4e4ca884aadc20b82d5abd0a3679774c55a6/jempbox-1.8.10.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcmail-jdk15on/1.52/4995a870400e1554d1c7ed2afcb5d198fae12db9/bcmail-jdk15on-1.52.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.52/88a941faf9819d371e3174b5ed56a3f3f7d73269/bcprov-jdk15on-1.52.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.52/b8ffac2bbc6626f86909589c8cc63637cc936504/bcpkix-jdk15on-1.52.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml/3.13/c364a8f5422d613e3a56db3b4b889f2989d7ee73/poi-ooxml-3.13.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi/3.13/f59f504ba8c521e61e25f417ec652fd485010f3/poi-3.13.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-ooxml-schemas/3.13/56fb0b9f3ffc3d7f7fc9b59e17b5fa2c3ab921e7/poi-ooxml-schemas-3.13.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.xmlbeans/xmlbeans/2.6.0/29e80d2dd51f9dcdef8f9ffaee0d4dc1c9bbfc87/xmlbeans-2.6.0.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.poi/poi-scratchpad/3.13/9d763275e6c7fa05d47e2581606748669e88c55/poi-scratchpad-3.13.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.10/5eeb27c57eece1faf2d837868aeccc94d84dcc9a/commons-compress-1.10.jar:/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/core/build/libs/elasticsearch-3.0.0-SNAPSHOT.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.spatial4j/spatial4j/0.5/6e16edaf6b1ba76db7f08c2f3723fce3b358ecc3/spatial4j-0.5.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.vividsolutions/jts/1.13/3ccfb9b60f04d71add996a666ceb8902904fd805/jts-1.13.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/log4j/apache-log4j-extras/1.2.17/85863614d82185d7e51fe21c00aa9117a523a8b6/apache-log4j-extras-1.2.17.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.6.2/8619e95939167fb37245b5670135e4feb0ec7d50/slf4j-api-1.6.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.1.0/1c12d070e602efd8021891cdd7fd18bc129372d4/jna-4.1.0.jar:/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/test/framework/build/libs/framework-3.0.0-SNAPSHOT.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/5.5.0-snapshot-1721183/f6854c65c7f4c6d9de583f4daa4fd3ae8a3800f1/lucene-core-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-analyzers-common/5.5.0-snapshot-1721183/69e187ef1d2d9c9570363eb4186821e0341df5b8/lucene-analyzers-common-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-backward-codecs/5.5.0-snapshot-1721183/fa00a45ff9bc6a4df44db81f2e4e44ea94bf88e/lucene-backward-codecs-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-grouping/5.5.0-snapshot-1721183/e996e6c723eb415ba2cfa7f5e98bbf194a4918dd/lucene-grouping-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-highlighter/5.5.0-snapshot-1721183/3b7a5d97b10885f16eb53deb15d64c942b9f9fdb/lucene-highlighter-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-join/5.5.0-snapshot-1721183/e4dda3eeb76e340aa4713a3b20d68c4a1504e505/lucene-join-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-memory/5.5.0-snapshot-1721183/800442a5d7612ce4c8748831871b4d436a50554e/lucene-memory-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-misc/5.5.0-snapshot-1721183/bdf184de9b5773c7af3ae908af78eeb1e512470c/lucene-misc-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-queries/5.5.0-snapshot-1721183/fc59de52bd2c7e420edfd235723cb8b0dd44e92d/lucene-queries-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-queryparser/5.5.0-snapshot-1721183/1d341e6a4f11f3170773ccffdbe6815b45967e3d/lucene-queryparser-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-sandbox/5.5.0-snapshot-1721183/a1b02c2b595ac92f45f0d2be03841a3a7fcae1f1/lucene-sandbox-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-spatial/5.5.0-snapshot-1721183/e3ea422b56734329fb6974e9cf9f66478adb5793/lucene-spatial-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-spatial3d/5.5.0-snapshot-1721183/5eadbd4e63120b59ab6445e39489205f98420471/lucene-spatial3d-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-suggest/5.5.0-snapshot-1721183/a336287e65d082535f02a8427666dbe46b1b9b74/lucene-suggest-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.elasticsearch/securesm/1.0/c0c6cf986ba0057390bfcc80c366a0e3157f944b/securesm-1.0.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.3.1/1303efbc4b181e5a58bf2e967dc156a3132b97c0/commons-cli-1.3.1.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.carrotsearch/hppc/0.7.1/8b5057f74ea378c0150a1860874a3ebdcb713767/hppc-0.7.1.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.8.2/d27c24204c5e507b16fec01006b3d0f1ec42aed4/joda-time-2.8.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.joda/joda-convert/1.2/35ec554f0cd00c956cc69051514d9488b1374dec/joda-convert-1.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.6.2/123f29333b2c6b3516b14252b6e93226bfcd6e37/jackson-core-2.6.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/2.6.2/395d18c1a1dd730b8026ee59c4067e5d2b45ba6e/jackson-dataformat-smile-2.6.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.6.2/4ae23088dd3fae47c66843f2e4251d7255ee140e/jackson-dataformat-yaml-2.6.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.6.2/1e13c575f914c83761bb8e2aca7dfd9e4c647579/jackson-dataformat-cbor-2.6.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.10.5.Final/9ca7d55d246092bddd29b867706e2f6c7db701a0/netty-3.10.5.Final.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.tdunning/t-digest/3.0/84ccf145ac2215e6bfa63baa3101c0af41017cfc/t-digest-3.0.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.6/7495feb7f71ee124bd2a7e7d83590e296d71d80e/HdrHistogram-2.1.6.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.carrotsearch.randomizedtesting/randomizedtesting-runner/2.3.2/307965917fe8a22b7ee72deba39ef4b8e6ebc069/randomizedtesting-runner-2.3.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-all/1.3/63a21ebc981131004ad02e0434e799fd7f3a8d5a/hamcrest-all-1.3.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-test-framework/5.5.0-snapshot-1721183/a8d851d0ad82182b3a02f4b30c336e7aa0e173cb/lucene-test-framework-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-codecs/5.5.0-snapshot-1721183/8aa59442b028c7a2c1a516accb6142a8910ba5fc/lucene-codecs-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.6/4c47155e3e6c9a41a28db36680b828ced53b8af4/httpclient-4.3.6.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.3/f91b7a4aadc5cf486df6e4634748d7dd7a73f06d/httpcore-4.3.3.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.elasticsearch/securemock/1.2/98201d4ad5ac93f6b415ae9172d52b5e7cda490e/securemock-1.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.carrotsearch.randomizedtesting/junit4-ant/2.3.2/dc8f03f6111974092491f35b8269eb0fc57f52f7/junit4-ant-2.3.2.jar",
+   "java.class.version": "52.0",
+   "java.endorsed.dirs": "/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/endorsed",
+   "java.ext.dirs": "/Users/lwiskowski/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java",
+   "java.home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre",
+   "java.io.tmpdir": "./temp",
+   "java.library.path": "/Users/lwiskowski/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.",
+   "java.runtime.name": "Java(TM) SE Runtime Environment",
+   "java.runtime.version": "1.8.0_71-b15",
+   "java.specification.name": "Java Platform API Specification",
+   "java.specification.vendor": "Oracle Corporation",
+   "java.specification.version": "1.8",
+   "java.vendor": "Oracle Corporation",
+   "java.vendor.url": "http://java.oracle.com/",
+   "java.vendor.url.bug": "http://bugreport.sun.com/bugreport/",
+   "java.version": "1.8.0_71",
+   "java.vm.info": "mixed mode",
+   "java.vm.name": "Java HotSpot(TM) 64-Bit Server VM",
+   "java.vm.specification.name": "Java Virtual Machine Specification",
+   "java.vm.specification.vendor": "Oracle Corporation",
+   "java.vm.specification.version": "1.8",
+   "java.vm.vendor": "Oracle Corporation",
+   "java.vm.version": "25.71-b15",
+   "junit4.childvm.count": "4",
+   "junit4.childvm.cwd": "/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/build/testrun/test/J3",
+   "junit4.childvm.id": "3",
+   "junit4.memory.total": "514850816",
+   "junit4.pidString": "4268@host238-95.aruba.fit.edu",
+   "junit4.processors": "8",
+   "line.separator": "\n",
+   "os.arch": "x86_64",
+   "os.name": "Mac OS X",
+   "os.version": "10.11.4",
+   "path.separator": ":",
+   "socksNonProxyHosts": "local|*.local|169.254/16|*.169.254/16",
+   "sun.arch.data.model": "64",
+   "sun.boot.class.path": "/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/classes",
+   "sun.boot.library.path": "/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib",
+   "sun.cpu.endian": "little",
+   "sun.cpu.isalist": "",
+   "sun.io.unicode.encoding": "UnicodeBig",
+   "sun.java.command": "com.carrotsearch.ant.tasks.junit4.slave.SlaveMainSafe -eventsfile /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/build/testrun/test/temp/junit4-J3-20160418_031810_102.events @/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/build/testrun/test/temp/junit4-J3-20160418_031810_102.suites -stdin",
+   "sun.java.launcher": "SUN_STANDARD",
+   "sun.jnu.encoding": "UTF-8",
+   "sun.management.compiler": "HotSpot 64-Bit Tiered Compilers",
+   "sun.os.patch.level": "unknown",
+   "tests.artifact": "mapper-attachments",
+   "tests.ifNoTests": "fail",
+   "tests.maven": "true",
+   "tests.prefix": "tests",
+   "tests.security.manager": "true",
+   "tests.seed": "B9F8F9F38BB7A9EA",
+   "tests.task": ":plugins:mapper-attachments:test",
+   "user.country": "US",
+   "user.dir": "/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/build/testrun/test/J3",
+   "user.home": "/Users/lwiskowski",
+   "user.language": "en",
+   "user.name": "lwiskowski",
+   "user.timezone": ""
+  }
+ }
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.mapper.attachments.TikaImplTests",
+   "displayName": "org.elasticsearch.mapper.attachments.TikaImplTests",
+   "methodName": null,
+   "className": "org.elasticsearch.mapper.attachments.TikaImplTests",
+   "children": [
+    {
+     "id": "ID#testTikaLoads(org.elasticsearch.mapper.attachments.TikaImplTests)",
+     "displayName": "testTikaLoads(org.elasticsearch.mapper.attachments.TikaImplTests)",
+     "methodName": "testTikaLoads",
+     "className": "org.elasticsearch.mapper.attachments.TikaImplTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963890831
+ }
+]
+
+[
+ "APPEND_STDOUT",
+ {
+  "chunk": "[2016-04-18 03:18:11,164][WARN ][org.elasticsearch.bootstrap] Unable to lock JVM Memory: error=78,reason=Function not implemented%0A"
+ }
+]
+
+[
+ "APPEND_STDOUT",
+ {
+  "chunk": "[2016-04-18 03:18:11,165][WARN ][org.elasticsearch.bootstrap] This can result in part of the JVM being swapped out.%0A"
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testTikaLoads(org.elasticsearch.mapper.attachments.TikaImplTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testTikaLoads(org.elasticsearch.mapper.attachments.TikaImplTests)",
+  "startTimestamp": 1460963892852,
+  "executionTime": 1393
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.mapper.attachments.TikaImplTests",
+  "startTimestamp": 1460963890831,
+  "executionTime": 3457
+ }
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.mapper.attachments.MetadataMapperTests",
+   "displayName": "org.elasticsearch.mapper.attachments.MetadataMapperTests",
+   "methodName": null,
+   "className": "org.elasticsearch.mapper.attachments.MetadataMapperTests",
+   "children": [
+    {
+     "id": "ID#testIgnoreWithoutDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)",
+     "displayName": "testIgnoreWithoutDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)",
+     "methodName": "testIgnoreWithoutDate",
+     "className": "org.elasticsearch.mapper.attachments.MetadataMapperTests",
+     "children": []
+    },
+    {
+     "id": "ID#testWithoutDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)",
+     "displayName": "testWithoutDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)",
+     "methodName": "testWithoutDate",
+     "className": "org.elasticsearch.mapper.attachments.MetadataMapperTests",
+     "children": []
+    },
+    {
+     "id": "ID#testWithCorrectDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)",
+     "displayName": "testWithCorrectDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)",
+     "methodName": "testWithCorrectDate",
+     "className": "org.elasticsearch.mapper.attachments.MetadataMapperTests",
+     "children": []
+    },
+    {
+     "id": "ID#testIgnoreWithCorrectDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)",
+     "displayName": "testIgnoreWithCorrectDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)",
+     "methodName": "testIgnoreWithCorrectDate",
+     "className": "org.elasticsearch.mapper.attachments.MetadataMapperTests",
+     "children": []
+    },
+    {
+     "id": "ID#testIgnoreWithEmptyDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)",
+     "displayName": "testIgnoreWithEmptyDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)",
+     "methodName": "testIgnoreWithEmptyDate",
+     "className": "org.elasticsearch.mapper.attachments.MetadataMapperTests",
+     "children": []
+    },
+    {
+     "id": "ID#testWithEmptyDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)",
+     "displayName": "testWithEmptyDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)",
+     "methodName": "testWithEmptyDate",
+     "className": "org.elasticsearch.mapper.attachments.MetadataMapperTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963894305
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testIgnoreWithoutDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testIgnoreWithoutDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)",
+  "startTimestamp": 1460963894338,
+  "executionTime": 4119
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testWithoutDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testWithoutDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)",
+  "startTimestamp": 1460963898458,
+  "executionTime": 47
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testWithCorrectDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testWithCorrectDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)",
+  "startTimestamp": 1460963898505,
+  "executionTime": 266
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testIgnoreWithCorrectDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testIgnoreWithCorrectDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)",
+  "startTimestamp": 1460963898771,
+  "executionTime": 33
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testIgnoreWithEmptyDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testIgnoreWithEmptyDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)",
+  "startTimestamp": 1460963898804,
+  "executionTime": 279
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testWithEmptyDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testWithEmptyDate(org.elasticsearch.mapper.attachments.MetadataMapperTests)",
+  "startTimestamp": 1460963899084,
+  "executionTime": 28
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.mapper.attachments.MetadataMapperTests",
+  "startTimestamp": 1460963894305,
+  "executionTime": 4815
+ }
+]
+
+[
+ "IDLE",
+ {}
+]
+
+[
+ "QUIT",
+ {}
+]
+

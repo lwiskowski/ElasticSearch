@@ -1,0 +1,55 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2016-04-18T03:13:31-04:00
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 18
+
+Apache Licensed: 18
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-azure/src/main/java/org/elasticsearch/cloud/azure/AzureDiscoveryModule.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-azure/src/main/java/org/elasticsearch/cloud/azure/AzureServiceDisableException.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-azure/src/main/java/org/elasticsearch/cloud/azure/AzureServiceRemoteException.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-azure/src/main/java/org/elasticsearch/cloud/azure/management/AzureComputeService.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-azure/src/main/java/org/elasticsearch/cloud/azure/management/AzureComputeServiceImpl.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-azure/src/main/java/org/elasticsearch/cloud/azure/management/AzureComputeSettingsFilter.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-azure/src/main/java/org/elasticsearch/discovery/azure/AzureDiscovery.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-azure/src/main/java/org/elasticsearch/discovery/azure/AzureUnicastHostsProvider.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-azure/src/main/java/org/elasticsearch/plugin/discovery/azure/AzureDiscoveryPlugin.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-azure/src/test/java/org/elasticsearch/cloud/azure/AbstractAzureComputeServiceTestCase.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-azure/src/test/java/org/elasticsearch/cloud/azure/AbstractAzureTestCase.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-azure/src/test/java/org/elasticsearch/cloud/azure/AzureComputeServiceSimpleMock.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-azure/src/test/java/org/elasticsearch/cloud/azure/AzureComputeServiceTwoNodesMock.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-azure/src/test/java/org/elasticsearch/cloud/azure/management/AzureComputeServiceAbstractMock.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-azure/src/test/java/org/elasticsearch/discovery/azure/AzureDiscoveryRestIT.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-azure/src/test/java/org/elasticsearch/discovery/azure/AzureMinimumMasterNodesTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-azure/src/test/java/org/elasticsearch/discovery/azure/AzureSimpleTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-azure/src/test/java/org/elasticsearch/discovery/azure/AzureTwoStartedNodesTests.java
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 

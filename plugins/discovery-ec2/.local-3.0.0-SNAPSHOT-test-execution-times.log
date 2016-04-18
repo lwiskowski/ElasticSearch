@@ -1,5 +1,5 @@
-org.elasticsearch.cloud.aws.AWSSignersTests=66
-org.elasticsearch.discovery.ec2.Ec2DiscoverySettingsTests=2546
-org.elasticsearch.discovery.ec2.Ec2DiscoveryTests=3757
-org.elasticsearch.discovery.ec2.Ec2DiscoveryUpdateSettingsTests=1730
-org.elasticsearch.discovery.ec2.Ec2NetworkTests=8757
+org.elasticsearch.cloud.aws.AWSSignersTests=66,2912,3130
+org.elasticsearch.discovery.ec2.Ec2DiscoverySettingsTests=2546,3111,3152
+org.elasticsearch.discovery.ec2.Ec2DiscoveryTests=3757,4161,4327
+org.elasticsearch.discovery.ec2.Ec2DiscoveryUpdateSettingsTests=1730,1873,2290
+org.elasticsearch.discovery.ec2.Ec2NetworkTests=8757,6104,6164

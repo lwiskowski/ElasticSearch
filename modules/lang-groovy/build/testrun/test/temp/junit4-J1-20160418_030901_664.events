@@ -1,0 +1,4025 @@
+[
+ "BOOTSTRAP",
+ {
+  "defaultCharset": "UTF-8",
+  "pidString": "3740@host238-95.aruba.fit.edu",
+  "systemProperties": {
+   "awt.toolkit": "sun.lwawt.macosx.LWCToolkit",
+   "es.logger.level": "WARN",
+   "file.encoding": "UTF-8",
+   "file.encoding.pkg": "sun.io",
+   "file.separator": "/",
+   "ftp.nonProxyHosts": "local|*.local|169.254/16|*.169.254/16",
+   "gopherProxySet": "false",
+   "http.nonProxyHosts": "local|*.local|169.254/16|*.169.254/16",
+   "java.awt.graphicsenv": "sun.awt.CGraphicsEnvironment",
+   "java.awt.headless": "true",
+   "java.awt.printerjob": "sun.lwawt.macosx.CPrinterJob",
+   "java.class.path": "/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/modules/lang-groovy/build/classes/test:/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/modules/lang-groovy/build/resources/test:/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/modules/lang-groovy/generated-resources:/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/modules/lang-groovy/build/classes/main:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.4.4/139af316ac35534120c53f05393ce46d60d6da48/groovy-2.4.4-indy.jar:/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/core/build/libs/elasticsearch-3.0.0-SNAPSHOT.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.spatial4j/spatial4j/0.5/6e16edaf6b1ba76db7f08c2f3723fce3b358ecc3/spatial4j-0.5.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.vividsolutions/jts/1.13/3ccfb9b60f04d71add996a666ceb8902904fd805/jts-1.13.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/log4j/apache-log4j-extras/1.2.17/85863614d82185d7e51fe21c00aa9117a523a8b6/apache-log4j-extras-1.2.17.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.6.2/8619e95939167fb37245b5670135e4feb0ec7d50/slf4j-api-1.6.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.1.0/1c12d070e602efd8021891cdd7fd18bc129372d4/jna-4.1.0.jar:/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/test/framework/build/libs/framework-3.0.0-SNAPSHOT.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/5.5.0-snapshot-1721183/f6854c65c7f4c6d9de583f4daa4fd3ae8a3800f1/lucene-core-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-analyzers-common/5.5.0-snapshot-1721183/69e187ef1d2d9c9570363eb4186821e0341df5b8/lucene-analyzers-common-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-backward-codecs/5.5.0-snapshot-1721183/fa00a45ff9bc6a4df44db81f2e4e44ea94bf88e/lucene-backward-codecs-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-grouping/5.5.0-snapshot-1721183/e996e6c723eb415ba2cfa7f5e98bbf194a4918dd/lucene-grouping-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-highlighter/5.5.0-snapshot-1721183/3b7a5d97b10885f16eb53deb15d64c942b9f9fdb/lucene-highlighter-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-join/5.5.0-snapshot-1721183/e4dda3eeb76e340aa4713a3b20d68c4a1504e505/lucene-join-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-memory/5.5.0-snapshot-1721183/800442a5d7612ce4c8748831871b4d436a50554e/lucene-memory-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-misc/5.5.0-snapshot-1721183/bdf184de9b5773c7af3ae908af78eeb1e512470c/lucene-misc-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-queries/5.5.0-snapshot-1721183/fc59de52bd2c7e420edfd235723cb8b0dd44e92d/lucene-queries-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-queryparser/5.5.0-snapshot-1721183/1d341e6a4f11f3170773ccffdbe6815b45967e3d/lucene-queryparser-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-sandbox/5.5.0-snapshot-1721183/a1b02c2b595ac92f45f0d2be03841a3a7fcae1f1/lucene-sandbox-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-spatial/5.5.0-snapshot-1721183/e3ea422b56734329fb6974e9cf9f66478adb5793/lucene-spatial-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-spatial3d/5.5.0-snapshot-1721183/5eadbd4e63120b59ab6445e39489205f98420471/lucene-spatial3d-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-suggest/5.5.0-snapshot-1721183/a336287e65d082535f02a8427666dbe46b1b9b74/lucene-suggest-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.elasticsearch/securesm/1.0/c0c6cf986ba0057390bfcc80c366a0e3157f944b/securesm-1.0.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.3.1/1303efbc4b181e5a58bf2e967dc156a3132b97c0/commons-cli-1.3.1.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.carrotsearch/hppc/0.7.1/8b5057f74ea378c0150a1860874a3ebdcb713767/hppc-0.7.1.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.8.2/d27c24204c5e507b16fec01006b3d0f1ec42aed4/joda-time-2.8.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.joda/joda-convert/1.2/35ec554f0cd00c956cc69051514d9488b1374dec/joda-convert-1.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.6.2/123f29333b2c6b3516b14252b6e93226bfcd6e37/jackson-core-2.6.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/2.6.2/395d18c1a1dd730b8026ee59c4067e5d2b45ba6e/jackson-dataformat-smile-2.6.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.6.2/4ae23088dd3fae47c66843f2e4251d7255ee140e/jackson-dataformat-yaml-2.6.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.6.2/1e13c575f914c83761bb8e2aca7dfd9e4c647579/jackson-dataformat-cbor-2.6.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.10.5.Final/9ca7d55d246092bddd29b867706e2f6c7db701a0/netty-3.10.5.Final.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.tdunning/t-digest/3.0/84ccf145ac2215e6bfa63baa3101c0af41017cfc/t-digest-3.0.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.6/7495feb7f71ee124bd2a7e7d83590e296d71d80e/HdrHistogram-2.1.6.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.carrotsearch.randomizedtesting/randomizedtesting-runner/2.3.2/307965917fe8a22b7ee72deba39ef4b8e6ebc069/randomizedtesting-runner-2.3.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-all/1.3/63a21ebc981131004ad02e0434e799fd7f3a8d5a/hamcrest-all-1.3.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-test-framework/5.5.0-snapshot-1721183/a8d851d0ad82182b3a02f4b30c336e7aa0e173cb/lucene-test-framework-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-codecs/5.5.0-snapshot-1721183/8aa59442b028c7a2c1a516accb6142a8910ba5fc/lucene-codecs-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.6/4c47155e3e6c9a41a28db36680b828ced53b8af4/httpclient-4.3.6.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.3/f91b7a4aadc5cf486df6e4634748d7dd7a73f06d/httpcore-4.3.3.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.elasticsearch/securemock/1.2/98201d4ad5ac93f6b415ae9172d52b5e7cda490e/securemock-1.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.carrotsearch.randomizedtesting/junit4-ant/2.3.2/dc8f03f6111974092491f35b8269eb0fc57f52f7/junit4-ant-2.3.2.jar",
+   "java.class.version": "52.0",
+   "java.endorsed.dirs": "/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/endorsed",
+   "java.ext.dirs": "/Users/lwiskowski/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java",
+   "java.home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre",
+   "java.io.tmpdir": "./temp",
+   "java.library.path": "/Users/lwiskowski/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.",
+   "java.runtime.name": "Java(TM) SE Runtime Environment",
+   "java.runtime.version": "1.8.0_71-b15",
+   "java.specification.name": "Java Platform API Specification",
+   "java.specification.vendor": "Oracle Corporation",
+   "java.specification.version": "1.8",
+   "java.vendor": "Oracle Corporation",
+   "java.vendor.url": "http://java.oracle.com/",
+   "java.vendor.url.bug": "http://bugreport.sun.com/bugreport/",
+   "java.version": "1.8.0_71",
+   "java.vm.info": "mixed mode",
+   "java.vm.name": "Java HotSpot(TM) 64-Bit Server VM",
+   "java.vm.specification.name": "Java Virtual Machine Specification",
+   "java.vm.specification.vendor": "Oracle Corporation",
+   "java.vm.specification.version": "1.8",
+   "java.vm.vendor": "Oracle Corporation",
+   "java.vm.version": "25.71-b15",
+   "junit4.childvm.count": "4",
+   "junit4.childvm.cwd": "/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/modules/lang-groovy/build/testrun/test/J1",
+   "junit4.childvm.id": "1",
+   "junit4.memory.total": "514850816",
+   "junit4.pidString": "3740@host238-95.aruba.fit.edu",
+   "junit4.processors": "8",
+   "line.separator": "\n",
+   "os.arch": "x86_64",
+   "os.name": "Mac OS X",
+   "os.version": "10.11.4",
+   "path.separator": ":",
+   "socksNonProxyHosts": "local|*.local|169.254/16|*.169.254/16",
+   "sun.arch.data.model": "64",
+   "sun.boot.class.path": "/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/classes",
+   "sun.boot.library.path": "/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib",
+   "sun.cpu.endian": "little",
+   "sun.cpu.isalist": "",
+   "sun.io.unicode.encoding": "UnicodeBig",
+   "sun.java.command": "com.carrotsearch.ant.tasks.junit4.slave.SlaveMainSafe -eventsfile /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/modules/lang-groovy/build/testrun/test/temp/junit4-J1-20160418_030901_664.events @/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/modules/lang-groovy/build/testrun/test/temp/junit4-J1-20160418_030901_664.suites -stdin",
+   "sun.java.launcher": "SUN_STANDARD",
+   "sun.jnu.encoding": "UTF-8",
+   "sun.management.compiler": "HotSpot 64-Bit Tiered Compilers",
+   "sun.os.patch.level": "unknown",
+   "tests.artifact": "lang-groovy",
+   "tests.ifNoTests": "fail",
+   "tests.maven": "true",
+   "tests.prefix": "tests",
+   "tests.security.manager": "true",
+   "tests.seed": "5815F9C3943BAEBA",
+   "tests.task": ":modules:lang-groovy:test",
+   "user.country": "US",
+   "user.dir": "/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/modules/lang-groovy/build/testrun/test/J1",
+   "user.home": "/Users/lwiskowski",
+   "user.language": "en",
+   "user.name": "lwiskowski",
+   "user.timezone": ""
+  }
+ }
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.messy.tests.SearchStatsTests",
+   "displayName": "org.elasticsearch.messy.tests.SearchStatsTests",
+   "methodName": null,
+   "className": "org.elasticsearch.messy.tests.SearchStatsTests",
+   "children": [
+    {
+     "id": "ID#testOpenContexts(org.elasticsearch.messy.tests.SearchStatsTests)",
+     "displayName": "testOpenContexts(org.elasticsearch.messy.tests.SearchStatsTests)",
+     "methodName": "testOpenContexts",
+     "className": "org.elasticsearch.messy.tests.SearchStatsTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSimpleStats(org.elasticsearch.messy.tests.SearchStatsTests)",
+     "displayName": "testSimpleStats(org.elasticsearch.messy.tests.SearchStatsTests)",
+     "methodName": "testSimpleStats",
+     "className": "org.elasticsearch.messy.tests.SearchStatsTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963342350
+ }
+]
+
+[
+ "APPEND_STDOUT",
+ {
+  "chunk": "[2016-04-18 03:09:02,747][WARN ][org.elasticsearch.bootstrap] Unable to lock JVM Memory: error=78,reason=Function not implemented%0A"
+ }
+]
+
+[
+ "APPEND_STDOUT",
+ {
+  "chunk": "[2016-04-18 03:09:02,748][WARN ][org.elasticsearch.bootstrap] This can result in part of the JVM being swapped out.%0A"
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testOpenContexts(org.elasticsearch.messy.tests.SearchStatsTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testOpenContexts(org.elasticsearch.messy.tests.SearchStatsTests)",
+  "startTimestamp": 1460963344316,
+  "executionTime": 11953
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSimpleStats(org.elasticsearch.messy.tests.SearchStatsTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSimpleStats(org.elasticsearch.messy.tests.SearchStatsTests)",
+  "startTimestamp": 1460963356270,
+  "executionTime": 5695
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.messy.tests.SearchStatsTests",
+  "startTimestamp": 1460963342350,
+  "executionTime": 19680
+ }
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.messy.tests.FunctionScoreTests",
+   "displayName": "org.elasticsearch.messy.tests.FunctionScoreTests",
+   "methodName": null,
+   "className": "org.elasticsearch.messy.tests.FunctionScoreTests",
+   "children": [
+    {
+     "id": "ID#testMinScoreFunctionScoreManyDocsAndRandomMinScore(org.elasticsearch.messy.tests.FunctionScoreTests)",
+     "displayName": "testMinScoreFunctionScoreManyDocsAndRandomMinScore(org.elasticsearch.messy.tests.FunctionScoreTests)",
+     "methodName": "testMinScoreFunctionScoreManyDocsAndRandomMinScore",
+     "className": "org.elasticsearch.messy.tests.FunctionScoreTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMinScoreFunctionScoreBasic(org.elasticsearch.messy.tests.FunctionScoreTests)",
+     "displayName": "testMinScoreFunctionScoreBasic(org.elasticsearch.messy.tests.FunctionScoreTests)",
+     "methodName": "testMinScoreFunctionScoreBasic",
+     "className": "org.elasticsearch.messy.tests.FunctionScoreTests",
+     "children": []
+    },
+    {
+     "id": "ID#testScriptScoresNested(org.elasticsearch.messy.tests.FunctionScoreTests)",
+     "displayName": "testScriptScoresNested(org.elasticsearch.messy.tests.FunctionScoreTests)",
+     "methodName": "testScriptScoresNested",
+     "className": "org.elasticsearch.messy.tests.FunctionScoreTests",
+     "children": []
+    },
+    {
+     "id": "ID#testWithEmptyFunctions(org.elasticsearch.messy.tests.FunctionScoreTests)",
+     "displayName": "testWithEmptyFunctions(org.elasticsearch.messy.tests.FunctionScoreTests)",
+     "methodName": "testWithEmptyFunctions",
+     "className": "org.elasticsearch.messy.tests.FunctionScoreTests",
+     "children": []
+    },
+    {
+     "id": "ID#testScriptScoresWithAgg(org.elasticsearch.messy.tests.FunctionScoreTests)",
+     "displayName": "testScriptScoresWithAgg(org.elasticsearch.messy.tests.FunctionScoreTests)",
+     "methodName": "testScriptScoresWithAgg",
+     "className": "org.elasticsearch.messy.tests.FunctionScoreTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963362043
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMinScoreFunctionScoreManyDocsAndRandomMinScore(org.elasticsearch.messy.tests.FunctionScoreTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMinScoreFunctionScoreManyDocsAndRandomMinScore(org.elasticsearch.messy.tests.FunctionScoreTests)",
+  "startTimestamp": 1460963362064,
+  "executionTime": 4726
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMinScoreFunctionScoreBasic(org.elasticsearch.messy.tests.FunctionScoreTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMinScoreFunctionScoreBasic(org.elasticsearch.messy.tests.FunctionScoreTests)",
+  "startTimestamp": 1460963366790,
+  "executionTime": 591
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptScoresNested(org.elasticsearch.messy.tests.FunctionScoreTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptScoresNested(org.elasticsearch.messy.tests.FunctionScoreTests)",
+  "startTimestamp": 1460963367381,
+  "executionTime": 987
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testWithEmptyFunctions(org.elasticsearch.messy.tests.FunctionScoreTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testWithEmptyFunctions(org.elasticsearch.messy.tests.FunctionScoreTests)",
+  "startTimestamp": 1460963368368,
+  "executionTime": 805
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptScoresWithAgg(org.elasticsearch.messy.tests.FunctionScoreTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptScoresWithAgg(org.elasticsearch.messy.tests.FunctionScoreTests)",
+  "startTimestamp": 1460963369174,
+  "executionTime": 1757
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.messy.tests.FunctionScoreTests",
+  "startTimestamp": 1460963362043,
+  "executionTime": 8950
+ }
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.messy.tests.HDRPercentilesTests",
+   "displayName": "org.elasticsearch.messy.tests.HDRPercentilesTests",
+   "methodName": null,
+   "className": "org.elasticsearch.messy.tests.HDRPercentilesTests",
+   "children": [
+    {
+     "id": "ID#testScriptMultiValuedWithParams(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "displayName": "testScriptMultiValuedWithParams(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "methodName": "testScriptMultiValuedWithParams",
+     "className": "org.elasticsearch.messy.tests.HDRPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testScriptSingleValued(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "displayName": "testScriptSingleValued(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "methodName": "testScriptSingleValued",
+     "className": "org.elasticsearch.messy.tests.HDRPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "displayName": "testSingleValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "methodName": "testSingleValuedFieldWithValueScriptWithParams",
+     "className": "org.elasticsearch.messy.tests.HDRPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedFieldGetProperty(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "displayName": "testSingleValuedFieldGetProperty(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "methodName": "testSingleValuedFieldGetProperty",
+     "className": "org.elasticsearch.messy.tests.HDRPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiValuedFieldWithValueScript(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "displayName": "testMultiValuedFieldWithValueScript(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "methodName": "testMultiValuedFieldWithValueScript",
+     "className": "org.elasticsearch.messy.tests.HDRPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedFieldWithValueScript(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "displayName": "testSingleValuedFieldWithValueScript(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "methodName": "testSingleValuedFieldWithValueScript",
+     "className": "org.elasticsearch.messy.tests.HDRPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testScriptMultiValued(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "displayName": "testScriptMultiValued(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "methodName": "testScriptMultiValued",
+     "className": "org.elasticsearch.messy.tests.HDRPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiValuedField(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "displayName": "testMultiValuedField(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "methodName": "testMultiValuedField",
+     "className": "org.elasticsearch.messy.tests.HDRPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedFieldPartiallyUnmapped(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "displayName": "testSingleValuedFieldPartiallyUnmapped(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "methodName": "testSingleValuedFieldPartiallyUnmapped",
+     "className": "org.elasticsearch.messy.tests.HDRPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiValuedFieldWithValueScriptReverse(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "displayName": "testMultiValuedFieldWithValueScriptReverse(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "methodName": "testMultiValuedFieldWithValueScriptReverse",
+     "className": "org.elasticsearch.messy.tests.HDRPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedField(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "displayName": "testSingleValuedField(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "methodName": "testSingleValuedField",
+     "className": "org.elasticsearch.messy.tests.HDRPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "displayName": "testMultiValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "methodName": "testMultiValuedFieldWithValueScriptWithParams",
+     "className": "org.elasticsearch.messy.tests.HDRPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testUnmapped(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "displayName": "testUnmapped(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "methodName": "testUnmapped",
+     "className": "org.elasticsearch.messy.tests.HDRPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testOrderBySubAggregation(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "displayName": "testOrderBySubAggregation(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "methodName": "testOrderBySubAggregation",
+     "className": "org.elasticsearch.messy.tests.HDRPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testEmptyAggregation(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "displayName": "testEmptyAggregation(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "methodName": "testEmptyAggregation",
+     "className": "org.elasticsearch.messy.tests.HDRPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testScriptSingleValuedWithParams(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "displayName": "testScriptSingleValuedWithParams(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+     "methodName": "testScriptSingleValuedWithParams",
+     "className": "org.elasticsearch.messy.tests.HDRPercentilesTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963371012
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptMultiValuedWithParams(org.elasticsearch.messy.tests.HDRPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptMultiValuedWithParams(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+  "startTimestamp": 1460963371973,
+  "executionTime": 222
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptSingleValued(org.elasticsearch.messy.tests.HDRPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptSingleValued(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+  "startTimestamp": 1460963372195,
+  "executionTime": 52
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.HDRPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+  "startTimestamp": 1460963372248,
+  "executionTime": 95
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedFieldGetProperty(org.elasticsearch.messy.tests.HDRPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedFieldGetProperty(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+  "startTimestamp": 1460963372343,
+  "executionTime": 30
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiValuedFieldWithValueScript(org.elasticsearch.messy.tests.HDRPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiValuedFieldWithValueScript(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+  "startTimestamp": 1460963372373,
+  "executionTime": 53
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedFieldWithValueScript(org.elasticsearch.messy.tests.HDRPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedFieldWithValueScript(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+  "startTimestamp": 1460963372426,
+  "executionTime": 31
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptMultiValued(org.elasticsearch.messy.tests.HDRPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptMultiValued(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+  "startTimestamp": 1460963372458,
+  "executionTime": 421
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiValuedField(org.elasticsearch.messy.tests.HDRPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiValuedField(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+  "startTimestamp": 1460963372880,
+  "executionTime": 48
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedFieldPartiallyUnmapped(org.elasticsearch.messy.tests.HDRPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedFieldPartiallyUnmapped(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+  "startTimestamp": 1460963372928,
+  "executionTime": 41
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiValuedFieldWithValueScriptReverse(org.elasticsearch.messy.tests.HDRPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiValuedFieldWithValueScriptReverse(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+  "startTimestamp": 1460963372969,
+  "executionTime": 99
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedField(org.elasticsearch.messy.tests.HDRPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedField(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+  "startTimestamp": 1460963373068,
+  "executionTime": 131
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.HDRPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+  "startTimestamp": 1460963373199,
+  "executionTime": 29
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testUnmapped(org.elasticsearch.messy.tests.HDRPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testUnmapped(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+  "startTimestamp": 1460963373228,
+  "executionTime": 83
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testOrderBySubAggregation(org.elasticsearch.messy.tests.HDRPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testOrderBySubAggregation(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+  "startTimestamp": 1460963373311,
+  "executionTime": 59
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testEmptyAggregation(org.elasticsearch.messy.tests.HDRPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testEmptyAggregation(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+  "startTimestamp": 1460963373370,
+  "executionTime": 39
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptSingleValuedWithParams(org.elasticsearch.messy.tests.HDRPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptSingleValuedWithParams(org.elasticsearch.messy.tests.HDRPercentilesTests)",
+  "startTimestamp": 1460963373409,
+  "executionTime": 56
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.messy.tests.HDRPercentilesTests",
+  "startTimestamp": 1460963371012,
+  "executionTime": 2644
+ }
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.messy.tests.BucketSelectorTests",
+   "displayName": "org.elasticsearch.messy.tests.BucketSelectorTests",
+   "methodName": null,
+   "className": "org.elasticsearch.messy.tests.BucketSelectorTests",
+   "children": [
+    {
+     "id": "ID#testInlineScriptSingleVariable(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "displayName": "testInlineScriptSingleVariable(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "methodName": "testInlineScriptSingleVariable",
+     "className": "org.elasticsearch.messy.tests.BucketSelectorTests",
+     "children": []
+    },
+    {
+     "id": "ID#testInlineScript(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "displayName": "testInlineScript(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "methodName": "testInlineScript",
+     "className": "org.elasticsearch.messy.tests.BucketSelectorTests",
+     "children": []
+    },
+    {
+     "id": "ID#testInlineScriptNoBucketsLeft(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "displayName": "testInlineScriptNoBucketsLeft(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "methodName": "testInlineScriptNoBucketsLeft",
+     "className": "org.elasticsearch.messy.tests.BucketSelectorTests",
+     "children": []
+    },
+    {
+     "id": "ID#testEmptyBuckets(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "displayName": "testEmptyBuckets(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "methodName": "testEmptyBuckets",
+     "className": "org.elasticsearch.messy.tests.BucketSelectorTests",
+     "children": []
+    },
+    {
+     "id": "ID#testInlineScriptInsertZeros(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "displayName": "testInlineScriptInsertZeros(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "methodName": "testInlineScriptInsertZeros",
+     "className": "org.elasticsearch.messy.tests.BucketSelectorTests",
+     "children": []
+    },
+    {
+     "id": "ID#testInlineScriptWithParams(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "displayName": "testInlineScriptWithParams(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "methodName": "testInlineScriptWithParams",
+     "className": "org.elasticsearch.messy.tests.BucketSelectorTests",
+     "children": []
+    },
+    {
+     "id": "ID#testIndexedScript(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "displayName": "testIndexedScript(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "methodName": "testIndexedScript",
+     "className": "org.elasticsearch.messy.tests.BucketSelectorTests",
+     "children": []
+    },
+    {
+     "id": "ID#testInlineScriptNamedVars(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "displayName": "testInlineScriptNamedVars(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "methodName": "testInlineScriptNamedVars",
+     "className": "org.elasticsearch.messy.tests.BucketSelectorTests",
+     "children": []
+    },
+    {
+     "id": "ID#testInlineScriptNoBucketsPruned(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "displayName": "testInlineScriptNoBucketsPruned(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "methodName": "testInlineScriptNoBucketsPruned",
+     "className": "org.elasticsearch.messy.tests.BucketSelectorTests",
+     "children": []
+    },
+    {
+     "id": "ID#testInlineScript2(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "displayName": "testInlineScript2(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "methodName": "testInlineScript2",
+     "className": "org.elasticsearch.messy.tests.BucketSelectorTests",
+     "children": []
+    },
+    {
+     "id": "ID#testPartiallyUnmapped(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "displayName": "testPartiallyUnmapped(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "methodName": "testPartiallyUnmapped",
+     "className": "org.elasticsearch.messy.tests.BucketSelectorTests",
+     "children": []
+    },
+    {
+     "id": "ID#testUnmapped(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "displayName": "testUnmapped(org.elasticsearch.messy.tests.BucketSelectorTests)",
+     "methodName": "testUnmapped",
+     "className": "org.elasticsearch.messy.tests.BucketSelectorTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963373672
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testInlineScriptSingleVariable(org.elasticsearch.messy.tests.BucketSelectorTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testInlineScriptSingleVariable(org.elasticsearch.messy.tests.BucketSelectorTests)",
+  "startTimestamp": 1460963375646,
+  "executionTime": 99
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testInlineScript(org.elasticsearch.messy.tests.BucketSelectorTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testInlineScript(org.elasticsearch.messy.tests.BucketSelectorTests)",
+  "startTimestamp": 1460963375745,
+  "executionTime": 52
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testInlineScriptNoBucketsLeft(org.elasticsearch.messy.tests.BucketSelectorTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testInlineScriptNoBucketsLeft(org.elasticsearch.messy.tests.BucketSelectorTests)",
+  "startTimestamp": 1460963375798,
+  "executionTime": 57
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testEmptyBuckets(org.elasticsearch.messy.tests.BucketSelectorTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testEmptyBuckets(org.elasticsearch.messy.tests.BucketSelectorTests)",
+  "startTimestamp": 1460963375855,
+  "executionTime": 65
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testInlineScriptInsertZeros(org.elasticsearch.messy.tests.BucketSelectorTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testInlineScriptInsertZeros(org.elasticsearch.messy.tests.BucketSelectorTests)",
+  "startTimestamp": 1460963375920,
+  "executionTime": 47
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testInlineScriptWithParams(org.elasticsearch.messy.tests.BucketSelectorTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testInlineScriptWithParams(org.elasticsearch.messy.tests.BucketSelectorTests)",
+  "startTimestamp": 1460963375967,
+  "executionTime": 48
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testIndexedScript(org.elasticsearch.messy.tests.BucketSelectorTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testIndexedScript(org.elasticsearch.messy.tests.BucketSelectorTests)",
+  "startTimestamp": 1460963376016,
+  "executionTime": 103
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testInlineScriptNamedVars(org.elasticsearch.messy.tests.BucketSelectorTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testInlineScriptNamedVars(org.elasticsearch.messy.tests.BucketSelectorTests)",
+  "startTimestamp": 1460963376119,
+  "executionTime": 71
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testInlineScriptNoBucketsPruned(org.elasticsearch.messy.tests.BucketSelectorTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testInlineScriptNoBucketsPruned(org.elasticsearch.messy.tests.BucketSelectorTests)",
+  "startTimestamp": 1460963376190,
+  "executionTime": 70
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testInlineScript2(org.elasticsearch.messy.tests.BucketSelectorTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testInlineScript2(org.elasticsearch.messy.tests.BucketSelectorTests)",
+  "startTimestamp": 1460963376260,
+  "executionTime": 68
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testPartiallyUnmapped(org.elasticsearch.messy.tests.BucketSelectorTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testPartiallyUnmapped(org.elasticsearch.messy.tests.BucketSelectorTests)",
+  "startTimestamp": 1460963376328,
+  "executionTime": 78
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testUnmapped(org.elasticsearch.messy.tests.BucketSelectorTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testUnmapped(org.elasticsearch.messy.tests.BucketSelectorTests)",
+  "startTimestamp": 1460963376406,
+  "executionTime": 57
+ }
+]
+
+[
+ "APPEND_STDOUT",
+ {
+  "chunk": "[2016-04-18 03:09:36,821][WARN ][org.elasticsearch.transport] [node_s1] Transport response handler not found of id [171]%0A"
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.messy.tests.BucketSelectorTests",
+  "startTimestamp": 1460963373672,
+  "executionTime": 3170
+ }
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.messy.tests.DateRangeTests",
+   "displayName": "org.elasticsearch.messy.tests.DateRangeTests",
+   "methodName": null,
+   "className": "org.elasticsearch.messy.tests.DateRangeTests",
+   "children": [
+    {
+     "id": "ID#testPartiallyUnmapped(org.elasticsearch.messy.tests.DateRangeTests)",
+     "displayName": "testPartiallyUnmapped(org.elasticsearch.messy.tests.DateRangeTests)",
+     "methodName": "testPartiallyUnmapped",
+     "className": "org.elasticsearch.messy.tests.DateRangeTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDateMath(org.elasticsearch.messy.tests.DateRangeTests)",
+     "displayName": "testDateMath(org.elasticsearch.messy.tests.DateRangeTests)",
+     "methodName": "testDateMath",
+     "className": "org.elasticsearch.messy.tests.DateRangeTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedFieldWithSubAggregationInherited(org.elasticsearch.messy.tests.DateRangeTests)",
+     "displayName": "testSingleValuedFieldWithSubAggregationInherited(org.elasticsearch.messy.tests.DateRangeTests)",
+     "methodName": "testSingleValuedFieldWithSubAggregationInherited",
+     "className": "org.elasticsearch.messy.tests.DateRangeTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValueFieldWithStringDatesWithCustomFormat(org.elasticsearch.messy.tests.DateRangeTests)",
+     "displayName": "testSingleValueFieldWithStringDatesWithCustomFormat(org.elasticsearch.messy.tests.DateRangeTests)",
+     "methodName": "testSingleValueFieldWithStringDatesWithCustomFormat",
+     "className": "org.elasticsearch.messy.tests.DateRangeTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValueFieldWithCustomKey(org.elasticsearch.messy.tests.DateRangeTests)",
+     "displayName": "testSingleValueFieldWithCustomKey(org.elasticsearch.messy.tests.DateRangeTests)",
+     "methodName": "testSingleValueFieldWithCustomKey",
+     "className": "org.elasticsearch.messy.tests.DateRangeTests",
+     "children": []
+    },
+    {
+     "id": "ID#testUnmapped(org.elasticsearch.messy.tests.DateRangeTests)",
+     "displayName": "testUnmapped(org.elasticsearch.messy.tests.DateRangeTests)",
+     "methodName": "testUnmapped",
+     "className": "org.elasticsearch.messy.tests.DateRangeTests",
+     "children": []
+    },
+    {
+     "id": "ID#testScriptMultiValuedWithAggregatorInherited(org.elasticsearch.messy.tests.DateRangeTests)",
+     "displayName": "testScriptMultiValuedWithAggregatorInherited(org.elasticsearch.messy.tests.DateRangeTests)",
+     "methodName": "testScriptMultiValuedWithAggregatorInherited",
+     "className": "org.elasticsearch.messy.tests.DateRangeTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiValuedFieldWithValueScriptWithInheritedSubAggregator(org.elasticsearch.messy.tests.DateRangeTests)",
+     "displayName": "testMultiValuedFieldWithValueScriptWithInheritedSubAggregator(org.elasticsearch.messy.tests.DateRangeTests)",
+     "methodName": "testMultiValuedFieldWithValueScriptWithInheritedSubAggregator",
+     "className": "org.elasticsearch.messy.tests.DateRangeTests",
+     "children": []
+    },
+    {
+     "id": "ID#testUnmappedWithStringDates(org.elasticsearch.messy.tests.DateRangeTests)",
+     "displayName": "testUnmappedWithStringDates(org.elasticsearch.messy.tests.DateRangeTests)",
+     "methodName": "testUnmappedWithStringDates",
+     "className": "org.elasticsearch.messy.tests.DateRangeTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValueFieldWithDateMath(org.elasticsearch.messy.tests.DateRangeTests)",
+     "displayName": "testSingleValueFieldWithDateMath(org.elasticsearch.messy.tests.DateRangeTests)",
+     "methodName": "testSingleValueFieldWithDateMath",
+     "className": "org.elasticsearch.messy.tests.DateRangeTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValueFieldWithStringDates(org.elasticsearch.messy.tests.DateRangeTests)",
+     "displayName": "testSingleValueFieldWithStringDates(org.elasticsearch.messy.tests.DateRangeTests)",
+     "methodName": "testSingleValueFieldWithStringDates",
+     "className": "org.elasticsearch.messy.tests.DateRangeTests",
+     "children": []
+    },
+    {
+     "id": "ID#testScriptSingleValueWithSubAggregatorInherited(org.elasticsearch.messy.tests.DateRangeTests)",
+     "displayName": "testScriptSingleValueWithSubAggregatorInherited(org.elasticsearch.messy.tests.DateRangeTests)",
+     "methodName": "testScriptSingleValueWithSubAggregatorInherited",
+     "className": "org.elasticsearch.messy.tests.DateRangeTests",
+     "children": []
+    },
+    {
+     "id": "ID#testScriptMultiValued(org.elasticsearch.messy.tests.DateRangeTests)",
+     "displayName": "testScriptMultiValued(org.elasticsearch.messy.tests.DateRangeTests)",
+     "methodName": "testScriptMultiValued",
+     "className": "org.elasticsearch.messy.tests.DateRangeTests",
+     "children": []
+    },
+    {
+     "id": "ID#testScriptSingleValue(org.elasticsearch.messy.tests.DateRangeTests)",
+     "displayName": "testScriptSingleValue(org.elasticsearch.messy.tests.DateRangeTests)",
+     "methodName": "testScriptSingleValue",
+     "className": "org.elasticsearch.messy.tests.DateRangeTests",
+     "children": []
+    },
+    {
+     "id": "ID#testEmptyAggregation(org.elasticsearch.messy.tests.DateRangeTests)",
+     "displayName": "testEmptyAggregation(org.elasticsearch.messy.tests.DateRangeTests)",
+     "methodName": "testEmptyAggregation",
+     "className": "org.elasticsearch.messy.tests.DateRangeTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiValuedField(org.elasticsearch.messy.tests.DateRangeTests)",
+     "displayName": "testMultiValuedField(org.elasticsearch.messy.tests.DateRangeTests)",
+     "methodName": "testMultiValuedField",
+     "className": "org.elasticsearch.messy.tests.DateRangeTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValueField(org.elasticsearch.messy.tests.DateRangeTests)",
+     "displayName": "testSingleValueField(org.elasticsearch.messy.tests.DateRangeTests)",
+     "methodName": "testSingleValueField",
+     "className": "org.elasticsearch.messy.tests.DateRangeTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiValuedFieldWithValueScript(org.elasticsearch.messy.tests.DateRangeTests)",
+     "displayName": "testMultiValuedFieldWithValueScript(org.elasticsearch.messy.tests.DateRangeTests)",
+     "methodName": "testMultiValuedFieldWithValueScript",
+     "className": "org.elasticsearch.messy.tests.DateRangeTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedFieldWithSubAggregation(org.elasticsearch.messy.tests.DateRangeTests)",
+     "displayName": "testSingleValuedFieldWithSubAggregation(org.elasticsearch.messy.tests.DateRangeTests)",
+     "methodName": "testSingleValuedFieldWithSubAggregation",
+     "className": "org.elasticsearch.messy.tests.DateRangeTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963376859
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testPartiallyUnmapped(org.elasticsearch.messy.tests.DateRangeTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testPartiallyUnmapped(org.elasticsearch.messy.tests.DateRangeTests)",
+  "startTimestamp": 1460963377417,
+  "executionTime": 88
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDateMath(org.elasticsearch.messy.tests.DateRangeTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDateMath(org.elasticsearch.messy.tests.DateRangeTests)",
+  "startTimestamp": 1460963377505,
+  "executionTime": 38
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedFieldWithSubAggregationInherited(org.elasticsearch.messy.tests.DateRangeTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedFieldWithSubAggregationInherited(org.elasticsearch.messy.tests.DateRangeTests)",
+  "startTimestamp": 1460963377544,
+  "executionTime": 46
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValueFieldWithStringDatesWithCustomFormat(org.elasticsearch.messy.tests.DateRangeTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValueFieldWithStringDatesWithCustomFormat(org.elasticsearch.messy.tests.DateRangeTests)",
+  "startTimestamp": 1460963377590,
+  "executionTime": 38
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValueFieldWithCustomKey(org.elasticsearch.messy.tests.DateRangeTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValueFieldWithCustomKey(org.elasticsearch.messy.tests.DateRangeTests)",
+  "startTimestamp": 1460963377629,
+  "executionTime": 35
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testUnmapped(org.elasticsearch.messy.tests.DateRangeTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testUnmapped(org.elasticsearch.messy.tests.DateRangeTests)",
+  "startTimestamp": 1460963377665,
+  "executionTime": 16
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptMultiValuedWithAggregatorInherited(org.elasticsearch.messy.tests.DateRangeTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptMultiValuedWithAggregatorInherited(org.elasticsearch.messy.tests.DateRangeTests)",
+  "startTimestamp": 1460963377682,
+  "executionTime": 61
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiValuedFieldWithValueScriptWithInheritedSubAggregator(org.elasticsearch.messy.tests.DateRangeTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiValuedFieldWithValueScriptWithInheritedSubAggregator(org.elasticsearch.messy.tests.DateRangeTests)",
+  "startTimestamp": 1460963377744,
+  "executionTime": 152
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testUnmappedWithStringDates(org.elasticsearch.messy.tests.DateRangeTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testUnmappedWithStringDates(org.elasticsearch.messy.tests.DateRangeTests)",
+  "startTimestamp": 1460963377897,
+  "executionTime": 19
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValueFieldWithDateMath(org.elasticsearch.messy.tests.DateRangeTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValueFieldWithDateMath(org.elasticsearch.messy.tests.DateRangeTests)",
+  "startTimestamp": 1460963377916,
+  "executionTime": 40
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValueFieldWithStringDates(org.elasticsearch.messy.tests.DateRangeTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValueFieldWithStringDates(org.elasticsearch.messy.tests.DateRangeTests)",
+  "startTimestamp": 1460963377958,
+  "executionTime": 33
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptSingleValueWithSubAggregatorInherited(org.elasticsearch.messy.tests.DateRangeTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptSingleValueWithSubAggregatorInherited(org.elasticsearch.messy.tests.DateRangeTests)",
+  "startTimestamp": 1460963377991,
+  "executionTime": 22
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptMultiValued(org.elasticsearch.messy.tests.DateRangeTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptMultiValued(org.elasticsearch.messy.tests.DateRangeTests)",
+  "startTimestamp": 1460963378013,
+  "executionTime": 18
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptSingleValue(org.elasticsearch.messy.tests.DateRangeTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptSingleValue(org.elasticsearch.messy.tests.DateRangeTests)",
+  "startTimestamp": 1460963378032,
+  "executionTime": 18
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testEmptyAggregation(org.elasticsearch.messy.tests.DateRangeTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testEmptyAggregation(org.elasticsearch.messy.tests.DateRangeTests)",
+  "startTimestamp": 1460963378050,
+  "executionTime": 12
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiValuedField(org.elasticsearch.messy.tests.DateRangeTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiValuedField(org.elasticsearch.messy.tests.DateRangeTests)",
+  "startTimestamp": 1460963378062,
+  "executionTime": 22
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValueField(org.elasticsearch.messy.tests.DateRangeTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValueField(org.elasticsearch.messy.tests.DateRangeTests)",
+  "startTimestamp": 1460963378084,
+  "executionTime": 16
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiValuedFieldWithValueScript(org.elasticsearch.messy.tests.DateRangeTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiValuedFieldWithValueScript(org.elasticsearch.messy.tests.DateRangeTests)",
+  "startTimestamp": 1460963378100,
+  "executionTime": 12
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedFieldWithSubAggregation(org.elasticsearch.messy.tests.DateRangeTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedFieldWithSubAggregation(org.elasticsearch.messy.tests.DateRangeTests)",
+  "startTimestamp": 1460963378112,
+  "executionTime": 15
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.messy.tests.DateRangeTests",
+  "startTimestamp": 1460963376859,
+  "executionTime": 1435
+ }
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.messy.tests.IndexedScriptTests",
+   "displayName": "org.elasticsearch.messy.tests.IndexedScriptTests",
+   "methodName": null,
+   "className": "org.elasticsearch.messy.tests.IndexedScriptTests",
+   "children": [
+    {
+     "id": "ID#testUpdateScripts(org.elasticsearch.messy.tests.IndexedScriptTests)",
+     "displayName": "testUpdateScripts(org.elasticsearch.messy.tests.IndexedScriptTests)",
+     "methodName": "testUpdateScripts",
+     "className": "org.elasticsearch.messy.tests.IndexedScriptTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDisabledUpdateIndexedScriptsOnly(org.elasticsearch.messy.tests.IndexedScriptTests)",
+     "displayName": "testDisabledUpdateIndexedScriptsOnly(org.elasticsearch.messy.tests.IndexedScriptTests)",
+     "methodName": "testDisabledUpdateIndexedScriptsOnly",
+     "className": "org.elasticsearch.messy.tests.IndexedScriptTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDisabledAggsDynamicScripts(org.elasticsearch.messy.tests.IndexedScriptTests)",
+     "displayName": "testDisabledAggsDynamicScripts(org.elasticsearch.messy.tests.IndexedScriptTests)",
+     "methodName": "testDisabledAggsDynamicScripts",
+     "className": "org.elasticsearch.messy.tests.IndexedScriptTests",
+     "children": []
+    },
+    {
+     "id": "ID#testFieldIndexedScript(org.elasticsearch.messy.tests.IndexedScriptTests)",
+     "displayName": "testFieldIndexedScript(org.elasticsearch.messy.tests.IndexedScriptTests)",
+     "methodName": "testFieldIndexedScript",
+     "className": "org.elasticsearch.messy.tests.IndexedScriptTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963378302
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testUpdateScripts(org.elasticsearch.messy.tests.IndexedScriptTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testUpdateScripts(org.elasticsearch.messy.tests.IndexedScriptTests)",
+  "startTimestamp": 1460963378315,
+  "executionTime": 1274
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDisabledUpdateIndexedScriptsOnly(org.elasticsearch.messy.tests.IndexedScriptTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDisabledUpdateIndexedScriptsOnly(org.elasticsearch.messy.tests.IndexedScriptTests)",
+  "startTimestamp": 1460963379590,
+  "executionTime": 610
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDisabledAggsDynamicScripts(org.elasticsearch.messy.tests.IndexedScriptTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDisabledAggsDynamicScripts(org.elasticsearch.messy.tests.IndexedScriptTests)",
+  "startTimestamp": 1460963380201,
+  "executionTime": 463
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testFieldIndexedScript(org.elasticsearch.messy.tests.IndexedScriptTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testFieldIndexedScript(org.elasticsearch.messy.tests.IndexedScriptTests)",
+  "startTimestamp": 1460963380664,
+  "executionTime": 714
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.messy.tests.IndexedScriptTests",
+  "startTimestamp": 1460963378302,
+  "executionTime": 3106
+ }
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.messy.tests.MinDocCountTests",
+   "displayName": "org.elasticsearch.messy.tests.MinDocCountTests",
+   "methodName": null,
+   "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+   "children": [
+    {
+     "id": "ID#testLongScriptTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testLongScriptTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testLongScriptTermAsc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testHistogramKeyDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testHistogramKeyDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testHistogramKeyDesc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testStringScriptTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testStringScriptTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testStringScriptTermDesc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDoubleScriptCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testDoubleScriptCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testDoubleScriptCountDesc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDoubleTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testDoubleTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testDoubleTermDesc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testLongScriptCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testLongScriptCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testLongScriptCountDesc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDateHistogramKeyAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testDateHistogramKeyAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testDateHistogramKeyAsc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testHistogramCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testHistogramCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testHistogramCountDesc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDoubleScriptTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testDoubleScriptTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testDoubleScriptTermDesc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDateHistogramCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testDateHistogramCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testDateHistogramCountAsc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testStringCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testStringCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testStringCountDesc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDoubleScriptCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testDoubleScriptCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testDoubleScriptCountAsc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testStringScriptCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testStringScriptCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testStringScriptCountDesc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testLongScriptTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testLongScriptTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testLongScriptTermDesc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testStringCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testStringCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testStringCountAsc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testStringCountAscWithInclude(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testStringCountAscWithInclude(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testStringCountAscWithInclude",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testLongCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testLongCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testLongCountDesc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testLongTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testLongTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testLongTermDesc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testLongCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testLongCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testLongCountAsc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testStringScriptCountAscWithInclude(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testStringScriptCountAscWithInclude(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testStringScriptCountAscWithInclude",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDoubleScriptTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testDoubleScriptTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testDoubleScriptTermAsc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testHistogramKeyAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testHistogramKeyAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testHistogramKeyAsc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDoubleCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testDoubleCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testDoubleCountAsc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testStringScriptCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testStringScriptCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testStringScriptCountAsc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testHistogramCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testHistogramCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testHistogramCountAsc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDateHistogramCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testDateHistogramCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testDateHistogramCountDesc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testStringTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testStringTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testStringTermAsc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testStringScriptTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testStringScriptTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testStringScriptTermAsc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testLongScriptCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testLongScriptCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testLongScriptCountAsc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDateHistogramKeyDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testDateHistogramKeyDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testDateHistogramKeyDesc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDoubleCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testDoubleCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testDoubleCountDesc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testLongTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testLongTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testLongTermAsc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testStringScriptCountDescWithInclude(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testStringScriptCountDescWithInclude(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testStringScriptCountDescWithInclude",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testStringCountDescWithInclude(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testStringCountDescWithInclude(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testStringCountDescWithInclude",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDoubleTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testDoubleTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testDoubleTermAsc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    },
+    {
+     "id": "ID#testStringTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "displayName": "testStringTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+     "methodName": "testStringTermDesc",
+     "className": "org.elasticsearch.messy.tests.MinDocCountTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963381426
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testLongScriptTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testLongScriptTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963381784,
+  "executionTime": 163
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testHistogramKeyDesc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testHistogramKeyDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963381947,
+  "executionTime": 232
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testStringScriptTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testStringScriptTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963382179,
+  "executionTime": 109
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDoubleScriptCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDoubleScriptCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963382288,
+  "executionTime": 117
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDoubleTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDoubleTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963382405,
+  "executionTime": 125
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testLongScriptCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testLongScriptCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963382531,
+  "executionTime": 92
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDateHistogramKeyAsc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDateHistogramKeyAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963382623,
+  "executionTime": 196
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testHistogramCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testHistogramCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963382819,
+  "executionTime": 130
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDoubleScriptTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDoubleScriptTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963382949,
+  "executionTime": 142
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDateHistogramCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDateHistogramCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963383091,
+  "executionTime": 286
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testStringCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testStringCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963383378,
+  "executionTime": 108
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDoubleScriptCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDoubleScriptCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963383487,
+  "executionTime": 159
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testStringScriptCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testStringScriptCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963383646,
+  "executionTime": 94
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testLongScriptTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testLongScriptTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963383740,
+  "executionTime": 161
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testStringCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testStringCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963383901,
+  "executionTime": 107
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testStringCountAscWithInclude(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testStringCountAscWithInclude(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963384009,
+  "executionTime": 175
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testLongCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testLongCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963384185,
+  "executionTime": 89
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testLongTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testLongTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963384274,
+  "executionTime": 131
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testLongCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testLongCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963384405,
+  "executionTime": 53
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testStringScriptCountAscWithInclude(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testStringScriptCountAscWithInclude(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963384458,
+  "executionTime": 112
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDoubleScriptTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDoubleScriptTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963384570,
+  "executionTime": 48
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testHistogramKeyAsc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testHistogramKeyAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963384618,
+  "executionTime": 97
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDoubleCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDoubleCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963384715,
+  "executionTime": 72
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testStringScriptCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testStringScriptCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963384788,
+  "executionTime": 67
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testHistogramCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testHistogramCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963384855,
+  "executionTime": 353
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDateHistogramCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDateHistogramCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963385209,
+  "executionTime": 228
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testStringTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testStringTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963385437,
+  "executionTime": 100
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testStringScriptTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testStringScriptTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963385537,
+  "executionTime": 91
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testLongScriptCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testLongScriptCountAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963385628,
+  "executionTime": 175
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDateHistogramKeyDesc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDateHistogramKeyDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963385803,
+  "executionTime": 327
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDoubleCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDoubleCountDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963386131,
+  "executionTime": 191
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testLongTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testLongTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963386322,
+  "executionTime": 195
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testStringScriptCountDescWithInclude(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testStringScriptCountDescWithInclude(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963386517,
+  "executionTime": 190
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testStringCountDescWithInclude(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testStringCountDescWithInclude(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963386707,
+  "executionTime": 157
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDoubleTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDoubleTermAsc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963386867,
+  "executionTime": 63
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testStringTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testStringTermDesc(org.elasticsearch.messy.tests.MinDocCountTests)",
+  "startTimestamp": 1460963386930,
+  "executionTime": 106
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.messy.tests.MinDocCountTests",
+  "startTimestamp": 1460963381426,
+  "executionTime": 5700
+ }
+]
+
+[
+ "IDLE",
+ {}
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.messy.tests.HDRPercentileRanksTests",
+   "displayName": "org.elasticsearch.messy.tests.HDRPercentileRanksTests",
+   "methodName": null,
+   "className": "org.elasticsearch.messy.tests.HDRPercentileRanksTests",
+   "children": [
+    {
+     "id": "ID#testSingleValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "displayName": "testSingleValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "methodName": "testSingleValuedFieldWithValueScriptWithParams",
+     "className": "org.elasticsearch.messy.tests.HDRPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedFieldPartiallyUnmapped(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "displayName": "testSingleValuedFieldPartiallyUnmapped(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "methodName": "testSingleValuedFieldPartiallyUnmapped",
+     "className": "org.elasticsearch.messy.tests.HDRPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testOrderBySubAggregation(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "displayName": "testOrderBySubAggregation(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "methodName": "testOrderBySubAggregation",
+     "className": "org.elasticsearch.messy.tests.HDRPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testUnmapped(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "displayName": "testUnmapped(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "methodName": "testUnmapped",
+     "className": "org.elasticsearch.messy.tests.HDRPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiValuedFieldWithValueScript(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "displayName": "testMultiValuedFieldWithValueScript(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "methodName": "testMultiValuedFieldWithValueScript",
+     "className": "org.elasticsearch.messy.tests.HDRPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testScriptMultiValued(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "displayName": "testScriptMultiValued(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "methodName": "testScriptMultiValued",
+     "className": "org.elasticsearch.messy.tests.HDRPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiValuedFieldWithValueScriptReverse(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "displayName": "testMultiValuedFieldWithValueScriptReverse(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "methodName": "testMultiValuedFieldWithValueScriptReverse",
+     "className": "org.elasticsearch.messy.tests.HDRPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedFieldGetProperty(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "displayName": "testSingleValuedFieldGetProperty(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "methodName": "testSingleValuedFieldGetProperty",
+     "className": "org.elasticsearch.messy.tests.HDRPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedField(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "displayName": "testSingleValuedField(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "methodName": "testSingleValuedField",
+     "className": "org.elasticsearch.messy.tests.HDRPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testScriptSingleValuedWithParams(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "displayName": "testScriptSingleValuedWithParams(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "methodName": "testScriptSingleValuedWithParams",
+     "className": "org.elasticsearch.messy.tests.HDRPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiValuedField(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "displayName": "testMultiValuedField(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "methodName": "testMultiValuedField",
+     "className": "org.elasticsearch.messy.tests.HDRPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedFieldWithValueScript(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "displayName": "testSingleValuedFieldWithValueScript(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "methodName": "testSingleValuedFieldWithValueScript",
+     "className": "org.elasticsearch.messy.tests.HDRPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testScriptMultiValuedWithParams(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "displayName": "testScriptMultiValuedWithParams(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "methodName": "testScriptMultiValuedWithParams",
+     "className": "org.elasticsearch.messy.tests.HDRPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testEmptyAggregation(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "displayName": "testEmptyAggregation(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "methodName": "testEmptyAggregation",
+     "className": "org.elasticsearch.messy.tests.HDRPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testScriptSingleValued(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "displayName": "testScriptSingleValued(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "methodName": "testScriptSingleValued",
+     "className": "org.elasticsearch.messy.tests.HDRPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedFieldOutsideRange(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "displayName": "testSingleValuedFieldOutsideRange(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "methodName": "testSingleValuedFieldOutsideRange",
+     "className": "org.elasticsearch.messy.tests.HDRPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "displayName": "testMultiValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+     "methodName": "testMultiValuedFieldWithValueScriptWithParams",
+     "className": "org.elasticsearch.messy.tests.HDRPercentileRanksTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963387301
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.HDRPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+  "startTimestamp": 1460963387675,
+  "executionTime": 81
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedFieldPartiallyUnmapped(org.elasticsearch.messy.tests.HDRPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedFieldPartiallyUnmapped(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+  "startTimestamp": 1460963387757,
+  "executionTime": 24
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testOrderBySubAggregation(org.elasticsearch.messy.tests.HDRPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testOrderBySubAggregation(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+  "startTimestamp": 1460963387781,
+  "executionTime": 24
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testUnmapped(org.elasticsearch.messy.tests.HDRPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testUnmapped(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+  "startTimestamp": 1460963387805,
+  "executionTime": 45
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiValuedFieldWithValueScript(org.elasticsearch.messy.tests.HDRPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiValuedFieldWithValueScript(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+  "startTimestamp": 1460963387851,
+  "executionTime": 77
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptMultiValued(org.elasticsearch.messy.tests.HDRPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptMultiValued(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+  "startTimestamp": 1460963387929,
+  "executionTime": 79
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiValuedFieldWithValueScriptReverse(org.elasticsearch.messy.tests.HDRPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiValuedFieldWithValueScriptReverse(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+  "startTimestamp": 1460963388008,
+  "executionTime": 144
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedFieldGetProperty(org.elasticsearch.messy.tests.HDRPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedFieldGetProperty(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+  "startTimestamp": 1460963388152,
+  "executionTime": 39
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedField(org.elasticsearch.messy.tests.HDRPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedField(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+  "startTimestamp": 1460963388191,
+  "executionTime": 30
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptSingleValuedWithParams(org.elasticsearch.messy.tests.HDRPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptSingleValuedWithParams(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+  "startTimestamp": 1460963388221,
+  "executionTime": 75
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiValuedField(org.elasticsearch.messy.tests.HDRPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiValuedField(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+  "startTimestamp": 1460963388297,
+  "executionTime": 66
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedFieldWithValueScript(org.elasticsearch.messy.tests.HDRPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedFieldWithValueScript(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+  "startTimestamp": 1460963388363,
+  "executionTime": 51
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptMultiValuedWithParams(org.elasticsearch.messy.tests.HDRPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptMultiValuedWithParams(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+  "startTimestamp": 1460963388414,
+  "executionTime": 82
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testEmptyAggregation(org.elasticsearch.messy.tests.HDRPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testEmptyAggregation(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+  "startTimestamp": 1460963388496,
+  "executionTime": 36
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptSingleValued(org.elasticsearch.messy.tests.HDRPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptSingleValued(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+  "startTimestamp": 1460963388533,
+  "executionTime": 105
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedFieldOutsideRange(org.elasticsearch.messy.tests.HDRPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedFieldOutsideRange(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+  "startTimestamp": 1460963388638,
+  "executionTime": 49
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.HDRPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.HDRPercentileRanksTests)",
+  "startTimestamp": 1460963388687,
+  "executionTime": 21
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.messy.tests.HDRPercentileRanksTests",
+  "startTimestamp": 1460963387301,
+  "executionTime": 1575
+ }
+]
+
+[
+ "IDLE",
+ {}
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.messy.tests.ScriptIndexSettingsTests",
+   "displayName": "org.elasticsearch.messy.tests.ScriptIndexSettingsTests",
+   "methodName": null,
+   "className": "org.elasticsearch.messy.tests.ScriptIndexSettingsTests",
+   "children": [
+    {
+     "id": "ID#testDeleteScriptIndex(org.elasticsearch.messy.tests.ScriptIndexSettingsTests)",
+     "displayName": "testDeleteScriptIndex(org.elasticsearch.messy.tests.ScriptIndexSettingsTests)",
+     "methodName": "testDeleteScriptIndex",
+     "className": "org.elasticsearch.messy.tests.ScriptIndexSettingsTests",
+     "children": []
+    },
+    {
+     "id": "ID#testScriptIndexSettings(org.elasticsearch.messy.tests.ScriptIndexSettingsTests)",
+     "displayName": "testScriptIndexSettings(org.elasticsearch.messy.tests.ScriptIndexSettingsTests)",
+     "methodName": "testScriptIndexSettings",
+     "className": "org.elasticsearch.messy.tests.ScriptIndexSettingsTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963389057
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDeleteScriptIndex(org.elasticsearch.messy.tests.ScriptIndexSettingsTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDeleteScriptIndex(org.elasticsearch.messy.tests.ScriptIndexSettingsTests)",
+  "startTimestamp": 1460963389070,
+  "executionTime": 230
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptIndexSettings(org.elasticsearch.messy.tests.ScriptIndexSettingsTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptIndexSettings(org.elasticsearch.messy.tests.ScriptIndexSettingsTests)",
+  "startTimestamp": 1460963389301,
+  "executionTime": 327
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.messy.tests.ScriptIndexSettingsTests",
+  "startTimestamp": 1460963389057,
+  "executionTime": 579
+ }
+]
+
+[
+ "IDLE",
+ {}
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.messy.tests.ScriptQuerySearchTests",
+   "displayName": "org.elasticsearch.messy.tests.ScriptQuerySearchTests",
+   "methodName": null,
+   "className": "org.elasticsearch.messy.tests.ScriptQuerySearchTests",
+   "children": [
+    {
+     "id": "ID#testCustomScriptBoost(org.elasticsearch.messy.tests.ScriptQuerySearchTests)",
+     "displayName": "testCustomScriptBoost(org.elasticsearch.messy.tests.ScriptQuerySearchTests)",
+     "methodName": "testCustomScriptBoost",
+     "className": "org.elasticsearch.messy.tests.ScriptQuerySearchTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963389818
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testCustomScriptBoost(org.elasticsearch.messy.tests.ScriptQuerySearchTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testCustomScriptBoost(org.elasticsearch.messy.tests.ScriptQuerySearchTests)",
+  "startTimestamp": 1460963389830,
+  "executionTime": 662
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.messy.tests.ScriptQuerySearchTests",
+  "startTimestamp": 1460963389818,
+  "executionTime": 704
+ }
+]
+
+[
+ "IDLE",
+ {}
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.messy.tests.ScriptedMetricTests",
+   "displayName": "org.elasticsearch.messy.tests.ScriptedMetricTests",
+   "methodName": null,
+   "className": "org.elasticsearch.messy.tests.ScriptedMetricTests",
+   "children": [
+    {
+     "id": "ID#testMapReduceWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "displayName": "testMapReduceWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "methodName": "testMapReduceWithParams",
+     "className": "org.elasticsearch.messy.tests.ScriptedMetricTests",
+     "children": []
+    },
+    {
+     "id": "ID#testInitMapCombineReduceWithParamsFile(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "displayName": "testInitMapCombineReduceWithParamsFile(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "methodName": "testInitMapCombineReduceWithParamsFile",
+     "className": "org.elasticsearch.messy.tests.ScriptedMetricTests",
+     "children": []
+    },
+    {
+     "id": "ID#testInitMapCombineWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "displayName": "testInitMapCombineWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "methodName": "testInitMapCombineWithParams",
+     "className": "org.elasticsearch.messy.tests.ScriptedMetricTests",
+     "children": []
+    },
+    {
+     "id": "ID#testInitMapCombineReduceWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "displayName": "testInitMapCombineReduceWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "methodName": "testInitMapCombineReduceWithParams",
+     "className": "org.elasticsearch.messy.tests.ScriptedMetricTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMapCombineReduceWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "displayName": "testMapCombineReduceWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "methodName": "testMapCombineReduceWithParams",
+     "className": "org.elasticsearch.messy.tests.ScriptedMetricTests",
+     "children": []
+    },
+    {
+     "id": "ID#testInitMapWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "displayName": "testInitMapWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "methodName": "testInitMapWithParams",
+     "className": "org.elasticsearch.messy.tests.ScriptedMetricTests",
+     "children": []
+    },
+    {
+     "id": "ID#testInitMapCombineReduceGetProperty(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "displayName": "testInitMapCombineReduceGetProperty(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "methodName": "testInitMapCombineReduceGetProperty",
+     "className": "org.elasticsearch.messy.tests.ScriptedMetricTests",
+     "children": []
+    },
+    {
+     "id": "ID#testEmptyAggregation(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "displayName": "testEmptyAggregation(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "methodName": "testEmptyAggregation",
+     "className": "org.elasticsearch.messy.tests.ScriptedMetricTests",
+     "children": []
+    },
+    {
+     "id": "ID#testInitMapCombineReduceWithParamsIndexed(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "displayName": "testInitMapCombineReduceWithParamsIndexed(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "methodName": "testInitMapCombineReduceWithParamsIndexed",
+     "className": "org.elasticsearch.messy.tests.ScriptedMetricTests",
+     "children": []
+    },
+    {
+     "id": "ID#testInitMapCombineReduceWithParamsAsSubAgg(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "displayName": "testInitMapCombineReduceWithParamsAsSubAgg(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "methodName": "testInitMapCombineReduceWithParamsAsSubAgg",
+     "className": "org.elasticsearch.messy.tests.ScriptedMetricTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMapWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "displayName": "testMapWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "methodName": "testMapWithParams",
+     "className": "org.elasticsearch.messy.tests.ScriptedMetricTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMapCombineWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "displayName": "testMapCombineWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "methodName": "testMapCombineWithParams",
+     "className": "org.elasticsearch.messy.tests.ScriptedMetricTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMap(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "displayName": "testMap(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "methodName": "testMap",
+     "className": "org.elasticsearch.messy.tests.ScriptedMetricTests",
+     "children": []
+    },
+    {
+     "id": "ID#testInitMapCombineReduceWithParamsAndReduceParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "displayName": "testInitMapCombineReduceWithParamsAndReduceParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "methodName": "testInitMapCombineReduceWithParamsAndReduceParams",
+     "className": "org.elasticsearch.messy.tests.ScriptedMetricTests",
+     "children": []
+    },
+    {
+     "id": "ID#testInitMapReduceWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "displayName": "testInitMapReduceWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+     "methodName": "testInitMapReduceWithParams",
+     "className": "org.elasticsearch.messy.tests.ScriptedMetricTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963390582
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMapReduceWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMapReduceWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+  "startTimestamp": 1460963392495,
+  "executionTime": 257
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testInitMapCombineReduceWithParamsFile(org.elasticsearch.messy.tests.ScriptedMetricTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testInitMapCombineReduceWithParamsFile(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+  "startTimestamp": 1460963392752,
+  "executionTime": 208
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testInitMapCombineWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testInitMapCombineWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+  "startTimestamp": 1460963392960,
+  "executionTime": 175
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testInitMapCombineReduceWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testInitMapCombineReduceWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+  "startTimestamp": 1460963393136,
+  "executionTime": 63
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMapCombineReduceWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMapCombineReduceWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+  "startTimestamp": 1460963393202,
+  "executionTime": 75
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testInitMapWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testInitMapWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+  "startTimestamp": 1460963393278,
+  "executionTime": 80
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testInitMapCombineReduceGetProperty(org.elasticsearch.messy.tests.ScriptedMetricTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testInitMapCombineReduceGetProperty(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+  "startTimestamp": 1460963393358,
+  "executionTime": 119
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testEmptyAggregation(org.elasticsearch.messy.tests.ScriptedMetricTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testEmptyAggregation(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+  "startTimestamp": 1460963393477,
+  "executionTime": 97
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testInitMapCombineReduceWithParamsIndexed(org.elasticsearch.messy.tests.ScriptedMetricTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testInitMapCombineReduceWithParamsIndexed(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+  "startTimestamp": 1460963393574,
+  "executionTime": 165
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testInitMapCombineReduceWithParamsAsSubAgg(org.elasticsearch.messy.tests.ScriptedMetricTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testInitMapCombineReduceWithParamsAsSubAgg(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+  "startTimestamp": 1460963393739,
+  "executionTime": 138
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMapWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMapWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+  "startTimestamp": 1460963393877,
+  "executionTime": 73
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMapCombineWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMapCombineWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+  "startTimestamp": 1460963393951,
+  "executionTime": 71
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMap(org.elasticsearch.messy.tests.ScriptedMetricTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMap(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+  "startTimestamp": 1460963394022,
+  "executionTime": 150
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testInitMapCombineReduceWithParamsAndReduceParams(org.elasticsearch.messy.tests.ScriptedMetricTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testInitMapCombineReduceWithParamsAndReduceParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+  "startTimestamp": 1460963394173,
+  "executionTime": 76
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testInitMapReduceWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testInitMapReduceWithParams(org.elasticsearch.messy.tests.ScriptedMetricTests)",
+  "startTimestamp": 1460963394250,
+  "executionTime": 67
+ }
+]
+
+[
+ "APPEND_STDOUT",
+ {
+  "chunk": "[2016-04-18 03:09:54,458][WARN ][org.elasticsearch.transport] [node_s1] Transport response handler not found of id [224]%0A"
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.messy.tests.ScriptedMetricTests",
+  "startTimestamp": 1460963390582,
+  "executionTime": 3907
+ }
+]
+
+[
+ "IDLE",
+ {}
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.messy.tests.TDigestPercentileRanksTests",
+   "displayName": "org.elasticsearch.messy.tests.TDigestPercentileRanksTests",
+   "methodName": null,
+   "className": "org.elasticsearch.messy.tests.TDigestPercentileRanksTests",
+   "children": [
+    {
+     "id": "ID#testSingleValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "displayName": "testSingleValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "methodName": "testSingleValuedFieldWithValueScriptWithParams",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedFieldPartiallyUnmapped(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "displayName": "testSingleValuedFieldPartiallyUnmapped(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "methodName": "testSingleValuedFieldPartiallyUnmapped",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testOrderBySubAggregation(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "displayName": "testOrderBySubAggregation(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "methodName": "testOrderBySubAggregation",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testUnmapped(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "displayName": "testUnmapped(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "methodName": "testUnmapped",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiValuedFieldWithValueScript(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "displayName": "testMultiValuedFieldWithValueScript(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "methodName": "testMultiValuedFieldWithValueScript",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testScriptMultiValued(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "displayName": "testScriptMultiValued(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "methodName": "testScriptMultiValued",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiValuedFieldWithValueScriptReverse(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "displayName": "testMultiValuedFieldWithValueScriptReverse(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "methodName": "testMultiValuedFieldWithValueScriptReverse",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedFieldGetProperty(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "displayName": "testSingleValuedFieldGetProperty(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "methodName": "testSingleValuedFieldGetProperty",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedField(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "displayName": "testSingleValuedField(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "methodName": "testSingleValuedField",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testScriptSingleValuedWithParams(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "displayName": "testScriptSingleValuedWithParams(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "methodName": "testScriptSingleValuedWithParams",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiValuedField(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "displayName": "testMultiValuedField(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "methodName": "testMultiValuedField",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedFieldWithValueScript(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "displayName": "testSingleValuedFieldWithValueScript(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "methodName": "testSingleValuedFieldWithValueScript",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testScriptMultiValuedWithParams(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "displayName": "testScriptMultiValuedWithParams(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "methodName": "testScriptMultiValuedWithParams",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testEmptyAggregation(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "displayName": "testEmptyAggregation(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "methodName": "testEmptyAggregation",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testScriptSingleValued(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "displayName": "testScriptSingleValued(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "methodName": "testScriptSingleValued",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedFieldOutsideRange(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "displayName": "testSingleValuedFieldOutsideRange(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "methodName": "testSingleValuedFieldOutsideRange",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentileRanksTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "displayName": "testMultiValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+     "methodName": "testMultiValuedFieldWithValueScriptWithParams",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentileRanksTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963394611
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+  "startTimestamp": 1460963395157,
+  "executionTime": 101
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedFieldPartiallyUnmapped(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedFieldPartiallyUnmapped(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+  "startTimestamp": 1460963395258,
+  "executionTime": 64
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testOrderBySubAggregation(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testOrderBySubAggregation(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+  "startTimestamp": 1460963395322,
+  "executionTime": 20
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testUnmapped(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testUnmapped(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+  "startTimestamp": 1460963395342,
+  "executionTime": 17
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiValuedFieldWithValueScript(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiValuedFieldWithValueScript(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+  "startTimestamp": 1460963395359,
+  "executionTime": 43
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptMultiValued(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptMultiValued(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+  "startTimestamp": 1460963395403,
+  "executionTime": 26
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiValuedFieldWithValueScriptReverse(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiValuedFieldWithValueScriptReverse(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+  "startTimestamp": 1460963395429,
+  "executionTime": 43
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedFieldGetProperty(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedFieldGetProperty(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+  "startTimestamp": 1460963395472,
+  "executionTime": 66
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedField(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedField(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+  "startTimestamp": 1460963395538,
+  "executionTime": 36
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptSingleValuedWithParams(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptSingleValuedWithParams(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+  "startTimestamp": 1460963395574,
+  "executionTime": 50
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiValuedField(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiValuedField(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+  "startTimestamp": 1460963395624,
+  "executionTime": 31
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedFieldWithValueScript(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedFieldWithValueScript(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+  "startTimestamp": 1460963395655,
+  "executionTime": 19
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptMultiValuedWithParams(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptMultiValuedWithParams(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+  "startTimestamp": 1460963395674,
+  "executionTime": 42
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testEmptyAggregation(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testEmptyAggregation(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+  "startTimestamp": 1460963395716,
+  "executionTime": 39
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptSingleValued(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptSingleValued(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+  "startTimestamp": 1460963395755,
+  "executionTime": 43
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedFieldOutsideRange(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedFieldOutsideRange(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+  "startTimestamp": 1460963395798,
+  "executionTime": 47
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.TDigestPercentileRanksTests)",
+  "startTimestamp": 1460963395846,
+  "executionTime": 70
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.messy.tests.TDigestPercentileRanksTests",
+  "startTimestamp": 1460963394611,
+  "executionTime": 1532
+ }
+]
+
+[
+ "IDLE",
+ {}
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.messy.tests.TDigestPercentilesTests",
+   "displayName": "org.elasticsearch.messy.tests.TDigestPercentilesTests",
+   "methodName": null,
+   "className": "org.elasticsearch.messy.tests.TDigestPercentilesTests",
+   "children": [
+    {
+     "id": "ID#testScriptMultiValuedWithParams(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "displayName": "testScriptMultiValuedWithParams(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "methodName": "testScriptMultiValuedWithParams",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testScriptSingleValued(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "displayName": "testScriptSingleValued(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "methodName": "testScriptSingleValued",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "displayName": "testSingleValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "methodName": "testSingleValuedFieldWithValueScriptWithParams",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedFieldGetProperty(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "displayName": "testSingleValuedFieldGetProperty(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "methodName": "testSingleValuedFieldGetProperty",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiValuedFieldWithValueScript(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "displayName": "testMultiValuedFieldWithValueScript(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "methodName": "testMultiValuedFieldWithValueScript",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedFieldWithValueScript(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "displayName": "testSingleValuedFieldWithValueScript(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "methodName": "testSingleValuedFieldWithValueScript",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testScriptMultiValued(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "displayName": "testScriptMultiValued(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "methodName": "testScriptMultiValued",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiValuedField(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "displayName": "testMultiValuedField(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "methodName": "testMultiValuedField",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedFieldPartiallyUnmapped(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "displayName": "testSingleValuedFieldPartiallyUnmapped(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "methodName": "testSingleValuedFieldPartiallyUnmapped",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiValuedFieldWithValueScriptReverse(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "displayName": "testMultiValuedFieldWithValueScriptReverse(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "methodName": "testMultiValuedFieldWithValueScriptReverse",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSingleValuedField(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "displayName": "testSingleValuedField(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "methodName": "testSingleValuedField",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "displayName": "testMultiValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "methodName": "testMultiValuedFieldWithValueScriptWithParams",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testUnmapped(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "displayName": "testUnmapped(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "methodName": "testUnmapped",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testOrderBySubAggregation(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "displayName": "testOrderBySubAggregation(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "methodName": "testOrderBySubAggregation",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testEmptyAggregation(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "displayName": "testEmptyAggregation(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "methodName": "testEmptyAggregation",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentilesTests",
+     "children": []
+    },
+    {
+     "id": "ID#testScriptSingleValuedWithParams(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "displayName": "testScriptSingleValuedWithParams(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+     "methodName": "testScriptSingleValuedWithParams",
+     "className": "org.elasticsearch.messy.tests.TDigestPercentilesTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963396380
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptMultiValuedWithParams(org.elasticsearch.messy.tests.TDigestPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptMultiValuedWithParams(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+  "startTimestamp": 1460963398320,
+  "executionTime": 60
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptSingleValued(org.elasticsearch.messy.tests.TDigestPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptSingleValued(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+  "startTimestamp": 1460963398380,
+  "executionTime": 42
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.TDigestPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+  "startTimestamp": 1460963398422,
+  "executionTime": 39
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedFieldGetProperty(org.elasticsearch.messy.tests.TDigestPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedFieldGetProperty(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+  "startTimestamp": 1460963398461,
+  "executionTime": 34
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiValuedFieldWithValueScript(org.elasticsearch.messy.tests.TDigestPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiValuedFieldWithValueScript(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+  "startTimestamp": 1460963398495,
+  "executionTime": 26
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedFieldWithValueScript(org.elasticsearch.messy.tests.TDigestPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedFieldWithValueScript(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+  "startTimestamp": 1460963398522,
+  "executionTime": 14
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptMultiValued(org.elasticsearch.messy.tests.TDigestPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptMultiValued(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+  "startTimestamp": 1460963398537,
+  "executionTime": 29
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiValuedField(org.elasticsearch.messy.tests.TDigestPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiValuedField(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+  "startTimestamp": 1460963398566,
+  "executionTime": 25
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedFieldPartiallyUnmapped(org.elasticsearch.messy.tests.TDigestPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedFieldPartiallyUnmapped(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+  "startTimestamp": 1460963398591,
+  "executionTime": 52
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiValuedFieldWithValueScriptReverse(org.elasticsearch.messy.tests.TDigestPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiValuedFieldWithValueScriptReverse(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+  "startTimestamp": 1460963398643,
+  "executionTime": 46
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSingleValuedField(org.elasticsearch.messy.tests.TDigestPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSingleValuedField(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+  "startTimestamp": 1460963398690,
+  "executionTime": 34
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.TDigestPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiValuedFieldWithValueScriptWithParams(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+  "startTimestamp": 1460963398724,
+  "executionTime": 29
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testUnmapped(org.elasticsearch.messy.tests.TDigestPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testUnmapped(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+  "startTimestamp": 1460963398753,
+  "executionTime": 20
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testOrderBySubAggregation(org.elasticsearch.messy.tests.TDigestPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testOrderBySubAggregation(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+  "startTimestamp": 1460963398773,
+  "executionTime": 45
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testEmptyAggregation(org.elasticsearch.messy.tests.TDigestPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testEmptyAggregation(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+  "startTimestamp": 1460963398819,
+  "executionTime": 22
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScriptSingleValuedWithParams(org.elasticsearch.messy.tests.TDigestPercentilesTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScriptSingleValuedWithParams(org.elasticsearch.messy.tests.TDigestPercentilesTests)",
+  "startTimestamp": 1460963398841,
+  "executionTime": 54
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.messy.tests.TDigestPercentilesTests",
+  "startTimestamp": 1460963396380,
+  "executionTime": 2969
+ }
+]
+
+[
+ "IDLE",
+ {}
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.script.groovy.GroovyScriptTests",
+   "displayName": "org.elasticsearch.script.groovy.GroovyScriptTests",
+   "methodName": null,
+   "className": "org.elasticsearch.script.groovy.GroovyScriptTests",
+   "children": [
+    {
+     "id": "ID#testScoreAccess(org.elasticsearch.script.groovy.GroovyScriptTests)",
+     "displayName": "testScoreAccess(org.elasticsearch.script.groovy.GroovyScriptTests)",
+     "methodName": "testScoreAccess",
+     "className": "org.elasticsearch.script.groovy.GroovyScriptTests",
+     "children": []
+    },
+    {
+     "id": "ID#testGroovyExceptionSerialization(org.elasticsearch.script.groovy.GroovyScriptTests)",
+     "displayName": "testGroovyExceptionSerialization(org.elasticsearch.script.groovy.GroovyScriptTests)",
+     "methodName": "testGroovyExceptionSerialization",
+     "className": "org.elasticsearch.script.groovy.GroovyScriptTests",
+     "children": []
+    },
+    {
+     "id": "ID#testGroovyBigDecimalTransformation(org.elasticsearch.script.groovy.GroovyScriptTests)",
+     "displayName": "testGroovyBigDecimalTransformation(org.elasticsearch.script.groovy.GroovyScriptTests)",
+     "methodName": "testGroovyBigDecimalTransformation",
+     "className": "org.elasticsearch.script.groovy.GroovyScriptTests",
+     "children": []
+    },
+    {
+     "id": "ID#testGroovyScriptAccess(org.elasticsearch.script.groovy.GroovyScriptTests)",
+     "displayName": "testGroovyScriptAccess(org.elasticsearch.script.groovy.GroovyScriptTests)",
+     "methodName": "testGroovyScriptAccess",
+     "className": "org.elasticsearch.script.groovy.GroovyScriptTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963399412
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testScoreAccess(org.elasticsearch.script.groovy.GroovyScriptTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testScoreAccess(org.elasticsearch.script.groovy.GroovyScriptTests)",
+  "startTimestamp": 1460963399425,
+  "executionTime": 295
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testGroovyExceptionSerialization(org.elasticsearch.script.groovy.GroovyScriptTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testGroovyExceptionSerialization(org.elasticsearch.script.groovy.GroovyScriptTests)",
+  "startTimestamp": 1460963399721,
+  "executionTime": 653
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testGroovyBigDecimalTransformation(org.elasticsearch.script.groovy.GroovyScriptTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testGroovyBigDecimalTransformation(org.elasticsearch.script.groovy.GroovyScriptTests)",
+  "startTimestamp": 1460963400374,
+  "executionTime": 327
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testGroovyScriptAccess(org.elasticsearch.script.groovy.GroovyScriptTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testGroovyScriptAccess(org.elasticsearch.script.groovy.GroovyScriptTests)",
+  "startTimestamp": 1460963400702,
+  "executionTime": 494
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.script.groovy.GroovyScriptTests",
+  "startTimestamp": 1460963399412,
+  "executionTime": 1801
+ }
+]
+
+[
+ "IDLE",
+ {}
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.script.groovy.GroovySecurityTests",
+   "displayName": "org.elasticsearch.script.groovy.GroovySecurityTests",
+   "methodName": null,
+   "className": "org.elasticsearch.script.groovy.GroovySecurityTests",
+   "children": [
+    {
+     "id": "ID#testEvilGroovyScripts(org.elasticsearch.script.groovy.GroovySecurityTests)",
+     "displayName": "testEvilGroovyScripts(org.elasticsearch.script.groovy.GroovySecurityTests)",
+     "methodName": "testEvilGroovyScripts",
+     "className": "org.elasticsearch.script.groovy.GroovySecurityTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963401428
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testEvilGroovyScripts(org.elasticsearch.script.groovy.GroovySecurityTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testEvilGroovyScripts(org.elasticsearch.script.groovy.GroovySecurityTests)",
+  "startTimestamp": 1460963401436,
+  "executionTime": 795
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.script.groovy.GroovySecurityTests",
+  "startTimestamp": 1460963401428,
+  "executionTime": 808
+ }
+]
+
+[
+ "IDLE",
+ {}
+]
+
+[
+ "QUIT",
+ {}
+]
+

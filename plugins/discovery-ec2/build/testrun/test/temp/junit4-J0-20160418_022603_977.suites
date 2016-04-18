@@ -1,0 +1,2 @@
+org.elasticsearch.cloud.aws.AWSSignersTests
+org.elasticsearch.discovery.ec2.Ec2NetworkTests

@@ -1,2 +1,2 @@
-org.elasticsearch.index.mapper.murmur3.Murmur3FieldMapperTests=6835
-org.elasticsearch.index.mapper.murmur3.Murmur3FieldMapperUpgradeTests=6998
+org.elasticsearch.index.mapper.murmur3.Murmur3FieldMapperTests=6835,6327,6477
+org.elasticsearch.index.mapper.murmur3.Murmur3FieldMapperUpgradeTests=6998,6702,6635

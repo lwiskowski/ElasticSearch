@@ -1,0 +1,13 @@
+[2016-04-18 03:19:33,463][INFO ][node                     ] [Hero] version[3.0.0-SNAPSHOT], pid[4376], build[6508b0f/2016-04-18T06:58:38.616Z]
+[2016-04-18 03:19:33,463][INFO ][node                     ] [Hero] initializing ...
+[2016-04-18 03:19:33,655][INFO ][plugins                  ] [Hero] modules [], plugins [repository-azure], sites []
+[2016-04-18 03:19:33,671][INFO ][env                      ] [Hero] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [112.2gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2016-04-18 03:19:33,671][INFO ][env                      ] [Hero] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-04-18 03:19:35,081][INFO ][node                     ] [Hero] initialized
+[2016-04-18 03:19:35,081][INFO ][node                     ] [Hero] starting ...
+[2016-04-18 03:19:35,133][INFO ][transport                ] [Hero] publish_address {127.0.0.1:59248}, bound_addresses {[fe80::1]:59246}, {[::1]:59247}, {127.0.0.1:59248}
+[2016-04-18 03:19:35,140][INFO ][discovery                ] [Hero] plugins_repository-azure_integTest/Pm8XDrwKQjePg1COSCSA2A
+[2016-04-18 03:19:38,166][INFO ][cluster.service          ] [Hero] new_master {Hero}{Pm8XDrwKQjePg1COSCSA2A}{127.0.0.1}{127.0.0.1:59248}[testattr=>test], reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-18 03:19:38,182][INFO ][http                     ] [Hero] publish_address {127.0.0.1:59257}, bound_addresses {[fe80::1]:59255}, {[::1]:59256}, {127.0.0.1:59257}
+[2016-04-18 03:19:38,183][INFO ][node                     ] [Hero] started
+[2016-04-18 03:19:38,193][INFO ][gateway                  ] [Hero] recovered [0] indices into cluster_state

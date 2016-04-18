@@ -1,0 +1,8 @@
+cluster.name: plugins_store-smb_integTest
+pidfile: /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/store-smb/build/cluster/integTest node0/es.pid
+path.repo: /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/store-smb/build/cluster/integTest node0/elasticsearch-3.0.0-SNAPSHOT/repo
+path.shared_data: /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/store-smb/build/cluster/integTest node0/elasticsearch-3.0.0-SNAPSHOT/../
+node.testattr: test
+repositories.url.allowed_urls: http://snapshot.test*
+http.port: 0
+transport.tcp.port: 0

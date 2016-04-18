@@ -1,0 +1,86 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2016-04-18T03:16:47-04:00
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 49
+
+Apache Licensed: 45
+Generated Documents: 4
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/main/java/org/elasticsearch/plan/a/Analyzer.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/main/java/org/elasticsearch/plan/a/Compiler.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/main/java/org/elasticsearch/plan/a/CompilerSettings.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/main/java/org/elasticsearch/plan/a/Def.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/main/java/org/elasticsearch/plan/a/Definition.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/main/java/org/elasticsearch/plan/a/ErrorHandlingLexer.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/main/java/org/elasticsearch/plan/a/Executable.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/main/java/org/elasticsearch/plan/a/Metadata.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/main/java/org/elasticsearch/plan/a/ParserErrorStrategy.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/main/java/org/elasticsearch/plan/a/PlanAError.java
+  GEN   /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/main/java/org/elasticsearch/plan/a/PlanALexer.java
+  GEN   /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/main/java/org/elasticsearch/plan/a/PlanAParser.java
+  GEN   /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/main/java/org/elasticsearch/plan/a/PlanAParserBaseVisitor.java
+  GEN   /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/main/java/org/elasticsearch/plan/a/PlanAParserVisitor.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/main/java/org/elasticsearch/plan/a/PlanAPlugin.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/main/java/org/elasticsearch/plan/a/PlanAScriptEngineService.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/main/java/org/elasticsearch/plan/a/ScriptImpl.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/main/java/org/elasticsearch/plan/a/Utility.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/main/java/org/elasticsearch/plan/a/Writer.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/AdditionTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/AndTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/BasicAPITests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/BasicExpressionTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/BasicStatementTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/BinaryOperatorTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/CompoundAssignmentTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/ConditionalTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/DefTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/DivisionTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/EqualsTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/FieldTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/FloatOverflowDisabledTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/FloatOverflowEnabledTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/IncrementTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/IntegerOverflowDisabledTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/IntegerOverflowEnabledTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/MultiplicationTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/NoSemiColonTest.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/OrTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/PlanARestIT.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/RemainderTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/ScriptEngineTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/ScriptTestCase.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/StringTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/SubtractionTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/UnaryTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/UtilityTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/WhenThingsGoWrongTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/src/test/java/org/elasticsearch/plan/a/XorTests.java
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 

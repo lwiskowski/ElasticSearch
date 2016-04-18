@@ -23,6 +23,7 @@ import org.apache.lucene.util.BytesRef;
 import org.elasticsearch.common.Booleans;
 import org.elasticsearch.common.ParseFieldMatcher;
 import org.elasticsearch.common.xcontent.XContentParser;
+import org.apache.lucene.index.Term;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -106,8 +107,11 @@ public abstract class AbstractXContentParser implements XContentParser {
     }
 
     @Override
-    public short shortValue(boolean coerce) throws IOException {
+    public short shortValue(boolean coerce) throws IOException, IllegalArgumentException {
         Token token = currentToken();
+        if (token != Token.VALUE_STRING && token != Token.VALUE_NUMBER) {
+          throw new IllegalArgumentException();
+        }
         if (token == Token.VALUE_STRING) {
             checkCoerceString(coerce, Short.class);
             return Short.parseShort(text());
@@ -126,8 +130,11 @@ public abstract class AbstractXContentParser implements XContentParser {
 
 
     @Override
-    public int intValue(boolean coerce) throws IOException {
+    public int intValue(boolean coerce) throws IOException, IllegalArgumentException {
         Token token = currentToken();
+        if (token != Token.VALUE_STRING && token != Token.VALUE_NUMBER) {
+          throw new IllegalArgumentException();
+        }
         if (token == Token.VALUE_STRING) {
             checkCoerceString(coerce, Integer.class);
             return Integer.parseInt(text());
@@ -145,8 +152,11 @@ public abstract class AbstractXContentParser implements XContentParser {
     }
 
     @Override
-    public long longValue(boolean coerce) throws IOException {
+    public long longValue(boolean coerce) throws IOException, IllegalArgumentException {
         Token token = currentToken();
+        if (token != Token.VALUE_STRING && token != Token.VALUE_NUMBER) {
+          throw new IllegalArgumentException();
+        }
         if (token == Token.VALUE_STRING) {
             checkCoerceString(coerce, Long.class);
             return Long.parseLong(text());
@@ -164,8 +174,11 @@ public abstract class AbstractXContentParser implements XContentParser {
     }
 
     @Override
-    public float floatValue(boolean coerce) throws IOException {
+    public float floatValue(boolean coerce) throws IOException, IllegalArgumentException {
         Token token = currentToken();
+        if (token != Token.VALUE_STRING && token != Token.VALUE_NUMBER) {
+          throw new IllegalArgumentException();
+        }
         if (token == Token.VALUE_STRING) {
             checkCoerceString(coerce, Float.class);
             return Float.parseFloat(text());
@@ -182,8 +195,11 @@ public abstract class AbstractXContentParser implements XContentParser {
     }
 
     @Override
-    public double doubleValue(boolean coerce) throws IOException {
+    public double doubleValue(boolean coerce) throws IOException, IllegalArgumentException {
         Token token = currentToken();
+        if (token != Token.VALUE_STRING && token != Token.VALUE_NUMBER) {
+          throw new IllegalArgumentException();
+        }
         if (token == Token.VALUE_STRING) {
             checkCoerceString(coerce, Double.class);
             return Double.parseDouble(text());

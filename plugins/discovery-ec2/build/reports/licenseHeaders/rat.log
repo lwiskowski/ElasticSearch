@@ -1,0 +1,55 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2016-04-18T03:14:02-04:00
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 18
+
+Apache Licensed: 18
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-ec2/src/main/java/org/elasticsearch/cloud/aws/AwsEc2Service.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-ec2/src/main/java/org/elasticsearch/cloud/aws/AwsEc2ServiceImpl.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-ec2/src/main/java/org/elasticsearch/cloud/aws/AwsSigner.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-ec2/src/main/java/org/elasticsearch/cloud/aws/Ec2Module.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-ec2/src/main/java/org/elasticsearch/cloud/aws/network/Ec2NameResolver.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-ec2/src/main/java/org/elasticsearch/cloud/aws/node/Ec2CustomNodeAttributes.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-ec2/src/main/java/org/elasticsearch/discovery/ec2/AwsEc2UnicastHostsProvider.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-ec2/src/main/java/org/elasticsearch/discovery/ec2/Ec2Discovery.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-ec2/src/main/java/org/elasticsearch/plugin/discovery/ec2/Ec2DiscoveryPlugin.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-ec2/src/test/java/org/elasticsearch/cloud/aws/AWSSignersTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-ec2/src/test/java/org/elasticsearch/cloud/aws/AbstractAwsTestCase.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-ec2/src/test/java/org/elasticsearch/cloud/aws/DiscoveryEc2RestIT.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-ec2/src/test/java/org/elasticsearch/discovery/ec2/AmazonEC2Mock.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-ec2/src/test/java/org/elasticsearch/discovery/ec2/AwsEc2ServiceMock.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-ec2/src/test/java/org/elasticsearch/discovery/ec2/Ec2DiscoverySettingsTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-ec2/src/test/java/org/elasticsearch/discovery/ec2/Ec2DiscoveryTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-ec2/src/test/java/org/elasticsearch/discovery/ec2/Ec2DiscoveryUpdateSettingsTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/discovery-ec2/src/test/java/org/elasticsearch/discovery/ec2/Ec2NetworkTests.java
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 

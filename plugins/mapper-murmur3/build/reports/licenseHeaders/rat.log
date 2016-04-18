@@ -1,0 +1,42 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2016-04-18T03:18:42-04:00
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 5
+
+Apache Licensed: 5
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-murmur3/src/main/java/org/elasticsearch/index/mapper/murmur3/Murmur3FieldMapper.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-murmur3/src/main/java/org/elasticsearch/plugin/mapper/MapperMurmur3Plugin.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-murmur3/src/test/java/org/elasticsearch/index/mapper/murmur3/MapperMurmur3RestIT.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-murmur3/src/test/java/org/elasticsearch/index/mapper/murmur3/Murmur3FieldMapperTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-murmur3/src/test/java/org/elasticsearch/index/mapper/murmur3/Murmur3FieldMapperUpgradeTests.java
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 

@@ -1,2 +1,2 @@
-org.elasticsearch.plugin.example.ExampleExternalIT=768
-org.elasticsearch.plugin.example.JvmExampleRestIT=358
+org.elasticsearch.plugin.example.ExampleExternalIT=768,891,37
+org.elasticsearch.plugin.example.JvmExampleRestIT=358,378,851

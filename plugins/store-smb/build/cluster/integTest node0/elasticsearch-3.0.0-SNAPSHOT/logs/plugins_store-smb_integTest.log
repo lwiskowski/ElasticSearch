@@ -1,0 +1,13 @@
+[2016-04-18 03:21:06,357][INFO ][node                     ] [Dredmund Druid] version[3.0.0-SNAPSHOT], pid[4515], build[6508b0f/2016-04-18T06:58:38.616Z]
+[2016-04-18 03:21:06,357][INFO ][node                     ] [Dredmund Druid] initializing ...
+[2016-04-18 03:21:06,544][INFO ][plugins                  ] [Dredmund Druid] modules [], plugins [store-smb], sites []
+[2016-04-18 03:21:06,562][INFO ][env                      ] [Dredmund Druid] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [112.2gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2016-04-18 03:21:06,562][INFO ][env                      ] [Dredmund Druid] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-04-18 03:21:07,908][INFO ][node                     ] [Dredmund Druid] initialized
+[2016-04-18 03:21:07,908][INFO ][node                     ] [Dredmund Druid] starting ...
+[2016-04-18 03:21:07,970][INFO ][transport                ] [Dredmund Druid] publish_address {127.0.0.1:59388}, bound_addresses {[fe80::1]:59386}, {[::1]:59387}, {127.0.0.1:59388}
+[2016-04-18 03:21:07,978][INFO ][discovery                ] [Dredmund Druid] plugins_store-smb_integTest/66QiYJpXT1i9cKUhhgiJDA
+[2016-04-18 03:21:11,000][INFO ][cluster.service          ] [Dredmund Druid] new_master {Dredmund Druid}{66QiYJpXT1i9cKUhhgiJDA}{127.0.0.1}{127.0.0.1:59388}[testattr=>test], reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-18 03:21:11,015][INFO ][http                     ] [Dredmund Druid] publish_address {127.0.0.1:59397}, bound_addresses {[fe80::1]:59395}, {[::1]:59396}, {127.0.0.1:59397}
+[2016-04-18 03:21:11,016][INFO ][node                     ] [Dredmund Druid] started
+[2016-04-18 03:21:11,026][INFO ][gateway                  ] [Dredmund Druid] recovered [0] indices into cluster_state

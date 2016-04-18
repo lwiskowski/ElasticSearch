@@ -1,0 +1,3 @@
+org.elasticsearch.tribe.TribeUnitTests
+org.elasticsearch.bootstrap.SeccompTests
+org.elasticsearch.plugins.PluginManagerPermissionTests

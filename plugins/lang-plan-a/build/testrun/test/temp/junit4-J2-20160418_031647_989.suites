@@ -1,0 +1,6 @@
+org.elasticsearch.plan.a.OrTests
+org.elasticsearch.plan.a.EqualsTests
+org.elasticsearch.plan.a.XorTests
+org.elasticsearch.plan.a.IncrementTests
+org.elasticsearch.plan.a.CompoundAssignmentTests
+org.elasticsearch.plan.a.BasicAPITestsorg.elasticsearch.plan.a.ScriptEngineTests

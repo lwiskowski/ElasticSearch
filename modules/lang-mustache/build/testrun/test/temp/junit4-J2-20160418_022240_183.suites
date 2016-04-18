@@ -1,0 +1,2 @@
+org.elasticsearch.script.mustache.MustacheTests
+org.elasticsearch.messy.tests.SuggestSearchTests

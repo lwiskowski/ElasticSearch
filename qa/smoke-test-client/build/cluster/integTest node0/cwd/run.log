@@ -1,0 +1,16 @@
+[2016-04-18 03:21:24,957][INFO ][node                     ] [Black Knight] version[3.0.0-SNAPSHOT], pid[4538], build[6508b0f/2016-04-18T06:58:38.616Z]
+[2016-04-18 03:21:24,957][INFO ][node                     ] [Black Knight] initializing ...
+[2016-04-18 03:21:25,255][INFO ][plugins                  ] [Black Knight] modules [lang-mustache, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-18 03:21:25,279][INFO ][env                      ] [Black Knight] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [112.2gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2016-04-18 03:21:25,279][INFO ][env                      ] [Black Knight] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-04-18 03:21:27,072][INFO ][node                     ] [Black Knight] initialized
+[2016-04-18 03:21:27,073][INFO ][node                     ] [Black Knight] starting ...
+[2016-04-18 03:21:27,142][INFO ][transport                ] [Black Knight] publish_address {127.0.0.1:59409}, bound_addresses {[fe80::1]:59407}, {[::1]:59408}, {127.0.0.1:59409}
+[2016-04-18 03:21:27,149][INFO ][discovery                ] [Black Knight] qa_smoke-test-client_integTest/jQvuIug6SdCPuxvvWuJKlg
+[2016-04-18 03:21:30,173][INFO ][cluster.service          ] [Black Knight] new_master {Black Knight}{jQvuIug6SdCPuxvvWuJKlg}{127.0.0.1}{127.0.0.1:59409}[testattr=>test], reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-18 03:21:30,187][INFO ][http                     ] [Black Knight] publish_address {127.0.0.1:59418}, bound_addresses {[fe80::1]:59416}, {[::1]:59417}, {127.0.0.1:59418}
+[2016-04-18 03:21:30,188][INFO ][node                     ] [Black Knight] started
+[2016-04-18 03:21:30,199][INFO ][gateway                  ] [Black Knight] recovered [0] indices into cluster_state
+[2016-04-18 03:21:32,304][INFO ][cluster.metadata         ] [Black Knight] [qa-smoke-test-client-qjlirccgis] creating index, cause [auto(index api)], templates [], shards [5]/[1], mappings [doc]
+[2016-04-18 03:21:32,513][INFO ][cluster.routing.allocation] [Black Knight] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[qa-smoke-test-client-qjlirccgis][4], [qa-smoke-test-client-qjlirccgis][4]] ...]).
+[2016-04-18 03:21:32,526][INFO ][cluster.metadata         ] [Black Knight] [qa-smoke-test-client-qjlirccgis] update_mapping [doc]

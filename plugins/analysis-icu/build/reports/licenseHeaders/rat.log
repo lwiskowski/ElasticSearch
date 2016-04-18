@@ -1,0 +1,52 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2016-04-18T03:11:44-04:00
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 15
+
+Apache Licensed: 15
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/analysis-icu/src/main/java/org/elasticsearch/index/analysis/ICUCollationKeyFilter.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/analysis-icu/src/main/java/org/elasticsearch/index/analysis/IcuCollationTokenFilterFactory.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/analysis-icu/src/main/java/org/elasticsearch/index/analysis/IcuFoldingTokenFilterFactory.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/analysis-icu/src/main/java/org/elasticsearch/index/analysis/IcuNormalizerCharFilterFactory.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/analysis-icu/src/main/java/org/elasticsearch/index/analysis/IcuNormalizerTokenFilterFactory.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/analysis-icu/src/main/java/org/elasticsearch/index/analysis/IcuTokenizerFactory.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/analysis-icu/src/main/java/org/elasticsearch/index/analysis/IcuTransformTokenFilterFactory.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/analysis-icu/src/main/java/org/elasticsearch/index/analysis/IndexableBinaryStringTools.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/analysis-icu/src/main/java/org/elasticsearch/plugin/analysis/icu/AnalysisICUPlugin.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/analysis-icu/src/test/java/org/elasticsearch/index/analysis/AnalysisICURestIT.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/analysis-icu/src/test/java/org/elasticsearch/index/analysis/AnalysisTestUtils.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/analysis-icu/src/test/java/org/elasticsearch/index/analysis/SimpleIcuAnalysisTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/analysis-icu/src/test/java/org/elasticsearch/index/analysis/SimpleIcuCollationTokenFilterTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/analysis-icu/src/test/java/org/elasticsearch/index/analysis/SimpleIcuNormalizerCharFilterTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/analysis-icu/src/test/java/org/elasticsearch/index/analysis/TestIndexableBinaryStringTools.java
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 

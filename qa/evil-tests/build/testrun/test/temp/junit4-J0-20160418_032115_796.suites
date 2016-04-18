@@ -1,0 +1,3 @@
+org.elasticsearch.bootstrap.BootstrapCliParserTests
+org.elasticsearch.plugins.PluginManagerPermissionTests
+org.elasticsearch.bootstrap.SeccompTests

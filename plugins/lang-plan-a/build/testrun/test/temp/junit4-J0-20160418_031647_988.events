@@ -1,0 +1,2075 @@
+[
+ "BOOTSTRAP",
+ {
+  "defaultCharset": "UTF-8",
+  "pidString": "4205@host238-95.aruba.fit.edu",
+  "systemProperties": {
+   "awt.toolkit": "sun.lwawt.macosx.LWCToolkit",
+   "es.logger.level": "WARN",
+   "file.encoding": "UTF-8",
+   "file.encoding.pkg": "sun.io",
+   "file.separator": "/",
+   "ftp.nonProxyHosts": "local|*.local|169.254/16|*.169.254/16",
+   "gopherProxySet": "false",
+   "http.nonProxyHosts": "local|*.local|169.254/16|*.169.254/16",
+   "java.awt.graphicsenv": "sun.awt.CGraphicsEnvironment",
+   "java.awt.headless": "true",
+   "java.awt.printerjob": "sun.lwawt.macosx.CPrinterJob",
+   "java.class.path": "/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/build/classes/test:/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/build/resources/test:/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/generated-resources:/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/build/classes/main:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.5.1-1/66144204f9d6d7d3f3f775622c2dd7e9bd511d97/antlr4-runtime-4.5.1-1.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.0.4/da08b8cce7bbf903602a25a3a163ae252435795/asm-5.0.4.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/5.0.4/5a556786086c23cd689a0328f8519db93821c04c/asm-commons-5.0.4.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.0.4/396ce0c07ba2b481f25a70195c7c94922f0d1b0b/asm-tree-5.0.4.jar:/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/core/build/libs/elasticsearch-3.0.0-SNAPSHOT.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.spatial4j/spatial4j/0.5/6e16edaf6b1ba76db7f08c2f3723fce3b358ecc3/spatial4j-0.5.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.vividsolutions/jts/1.13/3ccfb9b60f04d71add996a666ceb8902904fd805/jts-1.13.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/log4j/log4j/1.2.17/5af35056b4d257e4b64b9e8069c0746e8b08629f/log4j-1.2.17.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/log4j/apache-log4j-extras/1.2.17/85863614d82185d7e51fe21c00aa9117a523a8b6/apache-log4j-extras-1.2.17.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.6.2/8619e95939167fb37245b5670135e4feb0ec7d50/slf4j-api-1.6.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.1.0/1c12d070e602efd8021891cdd7fd18bc129372d4/jna-4.1.0.jar:/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/test/framework/build/libs/framework-3.0.0-SNAPSHOT.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/5.5.0-snapshot-1721183/f6854c65c7f4c6d9de583f4daa4fd3ae8a3800f1/lucene-core-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-analyzers-common/5.5.0-snapshot-1721183/69e187ef1d2d9c9570363eb4186821e0341df5b8/lucene-analyzers-common-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-backward-codecs/5.5.0-snapshot-1721183/fa00a45ff9bc6a4df44db81f2e4e44ea94bf88e/lucene-backward-codecs-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-grouping/5.5.0-snapshot-1721183/e996e6c723eb415ba2cfa7f5e98bbf194a4918dd/lucene-grouping-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-highlighter/5.5.0-snapshot-1721183/3b7a5d97b10885f16eb53deb15d64c942b9f9fdb/lucene-highlighter-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-join/5.5.0-snapshot-1721183/e4dda3eeb76e340aa4713a3b20d68c4a1504e505/lucene-join-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-memory/5.5.0-snapshot-1721183/800442a5d7612ce4c8748831871b4d436a50554e/lucene-memory-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-misc/5.5.0-snapshot-1721183/bdf184de9b5773c7af3ae908af78eeb1e512470c/lucene-misc-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-queries/5.5.0-snapshot-1721183/fc59de52bd2c7e420edfd235723cb8b0dd44e92d/lucene-queries-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-queryparser/5.5.0-snapshot-1721183/1d341e6a4f11f3170773ccffdbe6815b45967e3d/lucene-queryparser-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-sandbox/5.5.0-snapshot-1721183/a1b02c2b595ac92f45f0d2be03841a3a7fcae1f1/lucene-sandbox-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-spatial/5.5.0-snapshot-1721183/e3ea422b56734329fb6974e9cf9f66478adb5793/lucene-spatial-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-spatial3d/5.5.0-snapshot-1721183/5eadbd4e63120b59ab6445e39489205f98420471/lucene-spatial3d-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-suggest/5.5.0-snapshot-1721183/a336287e65d082535f02a8427666dbe46b1b9b74/lucene-suggest-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.elasticsearch/securesm/1.0/c0c6cf986ba0057390bfcc80c366a0e3157f944b/securesm-1.0.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.3.1/1303efbc4b181e5a58bf2e967dc156a3132b97c0/commons-cli-1.3.1.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.carrotsearch/hppc/0.7.1/8b5057f74ea378c0150a1860874a3ebdcb713767/hppc-0.7.1.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.8.2/d27c24204c5e507b16fec01006b3d0f1ec42aed4/joda-time-2.8.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.joda/joda-convert/1.2/35ec554f0cd00c956cc69051514d9488b1374dec/joda-convert-1.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.6.2/123f29333b2c6b3516b14252b6e93226bfcd6e37/jackson-core-2.6.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/2.6.2/395d18c1a1dd730b8026ee59c4067e5d2b45ba6e/jackson-dataformat-smile-2.6.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.6.2/4ae23088dd3fae47c66843f2e4251d7255ee140e/jackson-dataformat-yaml-2.6.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.6.2/1e13c575f914c83761bb8e2aca7dfd9e4c647579/jackson-dataformat-cbor-2.6.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/io.netty/netty/3.10.5.Final/9ca7d55d246092bddd29b867706e2f6c7db701a0/netty-3.10.5.Final.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.tdunning/t-digest/3.0/84ccf145ac2215e6bfa63baa3101c0af41017cfc/t-digest-3.0.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.6/7495feb7f71ee124bd2a7e7d83590e296d71d80e/HdrHistogram-2.1.6.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.carrotsearch.randomizedtesting/randomizedtesting-runner/2.3.2/307965917fe8a22b7ee72deba39ef4b8e6ebc069/randomizedtesting-runner-2.3.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/junit/junit/4.11/4e031bb61df09069aeb2bffb4019e7a5034a4ee0/junit-4.11.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-all/1.3/63a21ebc981131004ad02e0434e799fd7f3a8d5a/hamcrest-all-1.3.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-test-framework/5.5.0-snapshot-1721183/a8d851d0ad82182b3a02f4b30c336e7aa0e173cb/lucene-test-framework-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-codecs/5.5.0-snapshot-1721183/8aa59442b028c7a2c1a516accb6142a8910ba5fc/lucene-codecs-5.5.0-snapshot-1721183.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.6/4c47155e3e6c9a41a28db36680b828ced53b8af4/httpclient-4.3.6.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.3/f91b7a4aadc5cf486df6e4634748d7dd7a73f06d/httpcore-4.3.3.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/org.elasticsearch/securemock/1.2/98201d4ad5ac93f6b415ae9172d52b5e7cda490e/securemock-1.2.jar:/Users/lwiskowski/.gradle/caches/modules-2/files-2.1/com.carrotsearch.randomizedtesting/junit4-ant/2.3.2/dc8f03f6111974092491f35b8269eb0fc57f52f7/junit4-ant-2.3.2.jar",
+   "java.class.version": "52.0",
+   "java.endorsed.dirs": "/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/endorsed",
+   "java.ext.dirs": "/Users/lwiskowski/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java",
+   "java.home": "/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre",
+   "java.io.tmpdir": "./temp",
+   "java.library.path": "/Users/lwiskowski/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.",
+   "java.runtime.name": "Java(TM) SE Runtime Environment",
+   "java.runtime.version": "1.8.0_71-b15",
+   "java.specification.name": "Java Platform API Specification",
+   "java.specification.vendor": "Oracle Corporation",
+   "java.specification.version": "1.8",
+   "java.vendor": "Oracle Corporation",
+   "java.vendor.url": "http://java.oracle.com/",
+   "java.vendor.url.bug": "http://bugreport.sun.com/bugreport/",
+   "java.version": "1.8.0_71",
+   "java.vm.info": "mixed mode",
+   "java.vm.name": "Java HotSpot(TM) 64-Bit Server VM",
+   "java.vm.specification.name": "Java Virtual Machine Specification",
+   "java.vm.specification.vendor": "Oracle Corporation",
+   "java.vm.specification.version": "1.8",
+   "java.vm.vendor": "Oracle Corporation",
+   "java.vm.version": "25.71-b15",
+   "junit4.childvm.count": "4",
+   "junit4.childvm.cwd": "/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/build/testrun/test/J0",
+   "junit4.childvm.id": "0",
+   "junit4.memory.total": "514850816",
+   "junit4.pidString": "4205@host238-95.aruba.fit.edu",
+   "junit4.processors": "8",
+   "line.separator": "\n",
+   "os.arch": "x86_64",
+   "os.name": "Mac OS X",
+   "os.version": "10.11.4",
+   "path.separator": ":",
+   "socksNonProxyHosts": "local|*.local|169.254/16|*.169.254/16",
+   "sun.arch.data.model": "64",
+   "sun.boot.class.path": "/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/classes",
+   "sun.boot.library.path": "/Library/Java/JavaVirtualMachines/jdk1.8.0_71.jdk/Contents/Home/jre/lib",
+   "sun.cpu.endian": "little",
+   "sun.cpu.isalist": "",
+   "sun.io.unicode.encoding": "UnicodeBig",
+   "sun.java.command": "com.carrotsearch.ant.tasks.junit4.slave.SlaveMainSafe -eventsfile /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/build/testrun/test/temp/junit4-J0-20160418_031647_988.events @/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/build/testrun/test/temp/junit4-J0-20160418_031647_988.suites -stdin",
+   "sun.java.launcher": "SUN_STANDARD",
+   "sun.jnu.encoding": "UTF-8",
+   "sun.management.compiler": "HotSpot 64-Bit Tiered Compilers",
+   "sun.os.patch.level": "unknown",
+   "tests.artifact": "lang-plan-a",
+   "tests.ifNoTests": "fail",
+   "tests.maven": "true",
+   "tests.prefix": "tests",
+   "tests.security.manager": "true",
+   "tests.seed": "2B3860D8336FA005",
+   "tests.task": ":plugins:lang-plan-a:test",
+   "user.country": "US",
+   "user.dir": "/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-plan-a/build/testrun/test/J0",
+   "user.home": "/Users/lwiskowski",
+   "user.language": "en",
+   "user.name": "lwiskowski",
+   "user.timezone": ""
+  }
+ }
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.plan.a.IntegerOverflowEnabledTests",
+   "displayName": "org.elasticsearch.plan.a.IntegerOverflowEnabledTests",
+   "methodName": null,
+   "className": "org.elasticsearch.plan.a.IntegerOverflowEnabledTests",
+   "children": [
+    {
+     "id": "ID#testNegationOverflow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "displayName": "testNegationOverflow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "methodName": "testNegationOverflow",
+     "className": "org.elasticsearch.plan.a.IntegerOverflowEnabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testAssignmentDivisionOverflow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "displayName": "testAssignmentDivisionOverflow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "methodName": "testAssignmentDivisionOverflow",
+     "className": "org.elasticsearch.plan.a.IntegerOverflowEnabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testAssignmentAdditionOverflow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "displayName": "testAssignmentAdditionOverflow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "methodName": "testAssignmentAdditionOverflow",
+     "className": "org.elasticsearch.plan.a.IntegerOverflowEnabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testAssignmentSubtractionOverflow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "displayName": "testAssignmentSubtractionOverflow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "methodName": "testAssignmentSubtractionOverflow",
+     "className": "org.elasticsearch.plan.a.IntegerOverflowEnabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testIncrementOverFlow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "displayName": "testIncrementOverFlow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "methodName": "testIncrementOverFlow",
+     "className": "org.elasticsearch.plan.a.IntegerOverflowEnabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testAdditionConst(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "displayName": "testAdditionConst(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "methodName": "testAdditionConst",
+     "className": "org.elasticsearch.plan.a.IntegerOverflowEnabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testAssignmentMultiplicationOverflow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "displayName": "testAssignmentMultiplicationOverflow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "methodName": "testAssignmentMultiplicationOverflow",
+     "className": "org.elasticsearch.plan.a.IntegerOverflowEnabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSubtractionConst(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "displayName": "testSubtractionConst(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "methodName": "testSubtractionConst",
+     "className": "org.elasticsearch.plan.a.IntegerOverflowEnabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDivisionConst(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "displayName": "testDivisionConst(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "methodName": "testDivisionConst",
+     "className": "org.elasticsearch.plan.a.IntegerOverflowEnabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiplicationConst(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "displayName": "testMultiplicationConst(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "methodName": "testMultiplicationConst",
+     "className": "org.elasticsearch.plan.a.IntegerOverflowEnabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testAddition(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "displayName": "testAddition(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "methodName": "testAddition",
+     "className": "org.elasticsearch.plan.a.IntegerOverflowEnabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDivision(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "displayName": "testDivision(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "methodName": "testDivision",
+     "className": "org.elasticsearch.plan.a.IntegerOverflowEnabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiplication(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "displayName": "testMultiplication(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "methodName": "testMultiplication",
+     "className": "org.elasticsearch.plan.a.IntegerOverflowEnabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testNegationOverflowConst(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "displayName": "testNegationOverflowConst(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "methodName": "testNegationOverflowConst",
+     "className": "org.elasticsearch.plan.a.IntegerOverflowEnabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSubtraction(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "displayName": "testSubtraction(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+     "methodName": "testSubtraction",
+     "className": "org.elasticsearch.plan.a.IntegerOverflowEnabledTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963808586
+ }
+]
+
+[
+ "APPEND_STDOUT",
+ {
+  "chunk": "[2016-04-18 03:16:48,912][WARN ][org.elasticsearch.bootstrap] Unable to lock JVM Memory: error=78,reason=Function not implemented%0A"
+ }
+]
+
+[
+ "APPEND_STDOUT",
+ {
+  "chunk": "[2016-04-18 03:16:48,913][WARN ][org.elasticsearch.bootstrap] This can result in part of the JVM being swapped out.%0A"
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testNegationOverflow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testNegationOverflow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+  "startTimestamp": 1460963810433,
+  "executionTime": 837
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testAssignmentDivisionOverflow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testAssignmentDivisionOverflow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+  "startTimestamp": 1460963811271,
+  "executionTime": 30
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testAssignmentAdditionOverflow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testAssignmentAdditionOverflow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+  "startTimestamp": 1460963811301,
+  "executionTime": 34
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testAssignmentSubtractionOverflow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testAssignmentSubtractionOverflow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+  "startTimestamp": 1460963811335,
+  "executionTime": 32
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testIncrementOverFlow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testIncrementOverFlow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+  "startTimestamp": 1460963811368,
+  "executionTime": 90
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testAdditionConst(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testAdditionConst(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+  "startTimestamp": 1460963811459,
+  "executionTime": 9
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testAssignmentMultiplicationOverflow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testAssignmentMultiplicationOverflow(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+  "startTimestamp": 1460963811468,
+  "executionTime": 15
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSubtractionConst(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSubtractionConst(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+  "startTimestamp": 1460963811483,
+  "executionTime": 30
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDivisionConst(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDivisionConst(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+  "startTimestamp": 1460963811516,
+  "executionTime": 7
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiplicationConst(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiplicationConst(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+  "startTimestamp": 1460963811524,
+  "executionTime": 4
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testAddition(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testAddition(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+  "startTimestamp": 1460963811528,
+  "executionTime": 8
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDivision(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDivision(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+  "startTimestamp": 1460963811536,
+  "executionTime": 5
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiplication(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiplication(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+  "startTimestamp": 1460963811542,
+  "executionTime": 6
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testNegationOverflowConst(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testNegationOverflowConst(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+  "startTimestamp": 1460963811645,
+  "executionTime": 5
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSubtraction(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSubtraction(org.elasticsearch.plan.a.IntegerOverflowEnabledTests)",
+  "startTimestamp": 1460963811650,
+  "executionTime": 7
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.plan.a.IntegerOverflowEnabledTests",
+  "startTimestamp": 1460963808586,
+  "executionTime": 3119
+ }
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.plan.a.DefTests",
+   "displayName": "org.elasticsearch.plan.a.DefTests",
+   "methodName": null,
+   "className": "org.elasticsearch.plan.a.DefTests",
+   "children": [
+    {
+     "id": "ID#testEq(org.elasticsearch.plan.a.DefTests)",
+     "displayName": "testEq(org.elasticsearch.plan.a.DefTests)",
+     "methodName": "testEq",
+     "className": "org.elasticsearch.plan.a.DefTests",
+     "children": []
+    },
+    {
+     "id": "ID#testRem(org.elasticsearch.plan.a.DefTests)",
+     "displayName": "testRem(org.elasticsearch.plan.a.DefTests)",
+     "methodName": "testRem",
+     "className": "org.elasticsearch.plan.a.DefTests",
+     "children": []
+    },
+    {
+     "id": "ID#testNer(org.elasticsearch.plan.a.DefTests)",
+     "displayName": "testNer(org.elasticsearch.plan.a.DefTests)",
+     "methodName": "testNer",
+     "className": "org.elasticsearch.plan.a.DefTests",
+     "children": []
+    },
+    {
+     "id": "ID#testLte(org.elasticsearch.plan.a.DefTests)",
+     "displayName": "testLte(org.elasticsearch.plan.a.DefTests)",
+     "methodName": "testLte",
+     "className": "org.elasticsearch.plan.a.DefTests",
+     "children": []
+    },
+    {
+     "id": "ID#testXor(org.elasticsearch.plan.a.DefTests)",
+     "displayName": "testXor(org.elasticsearch.plan.a.DefTests)",
+     "methodName": "testXor",
+     "className": "org.elasticsearch.plan.a.DefTests",
+     "children": []
+    },
+    {
+     "id": "ID#testNe(org.elasticsearch.plan.a.DefTests)",
+     "displayName": "testNe(org.elasticsearch.plan.a.DefTests)",
+     "methodName": "testNe",
+     "className": "org.elasticsearch.plan.a.DefTests",
+     "children": []
+    },
+    {
+     "id": "ID#testRsh(org.elasticsearch.plan.a.DefTests)",
+     "displayName": "testRsh(org.elasticsearch.plan.a.DefTests)",
+     "methodName": "testRsh",
+     "className": "org.elasticsearch.plan.a.DefTests",
+     "children": []
+    },
+    {
+     "id": "ID#testNeg(org.elasticsearch.plan.a.DefTests)",
+     "displayName": "testNeg(org.elasticsearch.plan.a.DefTests)",
+     "methodName": "testNeg",
+     "className": "org.elasticsearch.plan.a.DefTests",
+     "children": []
+    },
+    {
+     "id": "ID#testLt(org.elasticsearch.plan.a.DefTests)",
+     "displayName": "testLt(org.elasticsearch.plan.a.DefTests)",
+     "methodName": "testLt",
+     "className": "org.elasticsearch.plan.a.DefTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSub(org.elasticsearch.plan.a.DefTests)",
+     "displayName": "testSub(org.elasticsearch.plan.a.DefTests)",
+     "methodName": "testSub",
+     "className": "org.elasticsearch.plan.a.DefTests",
+     "children": []
+    },
+    {
+     "id": "ID#testOr(org.elasticsearch.plan.a.DefTests)",
+     "displayName": "testOr(org.elasticsearch.plan.a.DefTests)",
+     "methodName": "testOr",
+     "className": "org.elasticsearch.plan.a.DefTests",
+     "children": []
+    },
+    {
+     "id": "ID#testAnd(org.elasticsearch.plan.a.DefTests)",
+     "displayName": "testAnd(org.elasticsearch.plan.a.DefTests)",
+     "methodName": "testAnd",
+     "className": "org.elasticsearch.plan.a.DefTests",
+     "children": []
+    },
+    {
+     "id": "ID#testGt(org.elasticsearch.plan.a.DefTests)",
+     "displayName": "testGt(org.elasticsearch.plan.a.DefTests)",
+     "methodName": "testGt",
+     "className": "org.elasticsearch.plan.a.DefTests",
+     "children": []
+    },
+    {
+     "id": "ID#testGte(org.elasticsearch.plan.a.DefTests)",
+     "displayName": "testGte(org.elasticsearch.plan.a.DefTests)",
+     "methodName": "testGte",
+     "className": "org.elasticsearch.plan.a.DefTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMul(org.elasticsearch.plan.a.DefTests)",
+     "displayName": "testMul(org.elasticsearch.plan.a.DefTests)",
+     "methodName": "testMul",
+     "className": "org.elasticsearch.plan.a.DefTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDiv(org.elasticsearch.plan.a.DefTests)",
+     "displayName": "testDiv(org.elasticsearch.plan.a.DefTests)",
+     "methodName": "testDiv",
+     "className": "org.elasticsearch.plan.a.DefTests",
+     "children": []
+    },
+    {
+     "id": "ID#testEqr(org.elasticsearch.plan.a.DefTests)",
+     "displayName": "testEqr(org.elasticsearch.plan.a.DefTests)",
+     "methodName": "testEqr",
+     "className": "org.elasticsearch.plan.a.DefTests",
+     "children": []
+    },
+    {
+     "id": "ID#testAdd(org.elasticsearch.plan.a.DefTests)",
+     "displayName": "testAdd(org.elasticsearch.plan.a.DefTests)",
+     "methodName": "testAdd",
+     "className": "org.elasticsearch.plan.a.DefTests",
+     "children": []
+    },
+    {
+     "id": "ID#testLsh(org.elasticsearch.plan.a.DefTests)",
+     "displayName": "testLsh(org.elasticsearch.plan.a.DefTests)",
+     "methodName": "testLsh",
+     "className": "org.elasticsearch.plan.a.DefTests",
+     "children": []
+    },
+    {
+     "id": "ID#testNot(org.elasticsearch.plan.a.DefTests)",
+     "displayName": "testNot(org.elasticsearch.plan.a.DefTests)",
+     "methodName": "testNot",
+     "className": "org.elasticsearch.plan.a.DefTests",
+     "children": []
+    },
+    {
+     "id": "ID#testUsh(org.elasticsearch.plan.a.DefTests)",
+     "displayName": "testUsh(org.elasticsearch.plan.a.DefTests)",
+     "methodName": "testUsh",
+     "className": "org.elasticsearch.plan.a.DefTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963811718
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testEq(org.elasticsearch.plan.a.DefTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testEq(org.elasticsearch.plan.a.DefTests)",
+  "startTimestamp": 1460963811732,
+  "executionTime": 51
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testRem(org.elasticsearch.plan.a.DefTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testRem(org.elasticsearch.plan.a.DefTests)",
+  "startTimestamp": 1460963811783,
+  "executionTime": 126
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testNer(org.elasticsearch.plan.a.DefTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testNer(org.elasticsearch.plan.a.DefTests)",
+  "startTimestamp": 1460963811909,
+  "executionTime": 20
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testLte(org.elasticsearch.plan.a.DefTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testLte(org.elasticsearch.plan.a.DefTests)",
+  "startTimestamp": 1460963811929,
+  "executionTime": 134
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testXor(org.elasticsearch.plan.a.DefTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testXor(org.elasticsearch.plan.a.DefTests)",
+  "startTimestamp": 1460963812063,
+  "executionTime": 279
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testNe(org.elasticsearch.plan.a.DefTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testNe(org.elasticsearch.plan.a.DefTests)",
+  "startTimestamp": 1460963812342,
+  "executionTime": 73
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testRsh(org.elasticsearch.plan.a.DefTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testRsh(org.elasticsearch.plan.a.DefTests)",
+  "startTimestamp": 1460963812416,
+  "executionTime": 167
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testNeg(org.elasticsearch.plan.a.DefTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testNeg(org.elasticsearch.plan.a.DefTests)",
+  "startTimestamp": 1460963812583,
+  "executionTime": 18
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testLt(org.elasticsearch.plan.a.DefTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testLt(org.elasticsearch.plan.a.DefTests)",
+  "startTimestamp": 1460963812602,
+  "executionTime": 61
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSub(org.elasticsearch.plan.a.DefTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSub(org.elasticsearch.plan.a.DefTests)",
+  "startTimestamp": 1460963812663,
+  "executionTime": 211
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testOr(org.elasticsearch.plan.a.DefTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testOr(org.elasticsearch.plan.a.DefTests)",
+  "startTimestamp": 1460963812875,
+  "executionTime": 170
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testAnd(org.elasticsearch.plan.a.DefTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testAnd(org.elasticsearch.plan.a.DefTests)",
+  "startTimestamp": 1460963813045,
+  "executionTime": 127
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testGt(org.elasticsearch.plan.a.DefTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testGt(org.elasticsearch.plan.a.DefTests)",
+  "startTimestamp": 1460963813173,
+  "executionTime": 41
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testGte(org.elasticsearch.plan.a.DefTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testGte(org.elasticsearch.plan.a.DefTests)",
+  "startTimestamp": 1460963813214,
+  "executionTime": 19
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMul(org.elasticsearch.plan.a.DefTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMul(org.elasticsearch.plan.a.DefTests)",
+  "startTimestamp": 1460963813233,
+  "executionTime": 106
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDiv(org.elasticsearch.plan.a.DefTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDiv(org.elasticsearch.plan.a.DefTests)",
+  "startTimestamp": 1460963813339,
+  "executionTime": 115
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testEqr(org.elasticsearch.plan.a.DefTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testEqr(org.elasticsearch.plan.a.DefTests)",
+  "startTimestamp": 1460963813455,
+  "executionTime": 20
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testAdd(org.elasticsearch.plan.a.DefTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testAdd(org.elasticsearch.plan.a.DefTests)",
+  "startTimestamp": 1460963813476,
+  "executionTime": 139
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testLsh(org.elasticsearch.plan.a.DefTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testLsh(org.elasticsearch.plan.a.DefTests)",
+  "startTimestamp": 1460963813615,
+  "executionTime": 109
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testNot(org.elasticsearch.plan.a.DefTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testNot(org.elasticsearch.plan.a.DefTests)",
+  "startTimestamp": 1460963813724,
+  "executionTime": 6
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testUsh(org.elasticsearch.plan.a.DefTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testUsh(org.elasticsearch.plan.a.DefTests)",
+  "startTimestamp": 1460963813730,
+  "executionTime": 101
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.plan.a.DefTests",
+  "startTimestamp": 1460963811718,
+  "executionTime": 2115
+ }
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.plan.a.UtilityTests",
+   "displayName": "org.elasticsearch.plan.a.UtilityTests",
+   "methodName": null,
+   "className": "org.elasticsearch.plan.a.UtilityTests",
+   "children": [
+    {
+     "id": "ID#testSubtractWithoutOverflowFloat(org.elasticsearch.plan.a.UtilityTests)",
+     "displayName": "testSubtractWithoutOverflowFloat(org.elasticsearch.plan.a.UtilityTests)",
+     "methodName": "testSubtractWithoutOverflowFloat",
+     "className": "org.elasticsearch.plan.a.UtilityTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDivideWithoutOverflowFloat(org.elasticsearch.plan.a.UtilityTests)",
+     "displayName": "testDivideWithoutOverflowFloat(org.elasticsearch.plan.a.UtilityTests)",
+     "methodName": "testDivideWithoutOverflowFloat",
+     "className": "org.elasticsearch.plan.a.UtilityTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDivideWithoutOverflowDouble(org.elasticsearch.plan.a.UtilityTests)",
+     "displayName": "testDivideWithoutOverflowDouble(org.elasticsearch.plan.a.UtilityTests)",
+     "methodName": "testDivideWithoutOverflowDouble",
+     "className": "org.elasticsearch.plan.a.UtilityTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDivideWithoutOverflowLong(org.elasticsearch.plan.a.UtilityTests)",
+     "displayName": "testDivideWithoutOverflowLong(org.elasticsearch.plan.a.UtilityTests)",
+     "methodName": "testDivideWithoutOverflowLong",
+     "className": "org.elasticsearch.plan.a.UtilityTests",
+     "children": []
+    },
+    {
+     "id": "ID#testRemainderWithoutOverflowDouble(org.elasticsearch.plan.a.UtilityTests)",
+     "displayName": "testRemainderWithoutOverflowDouble(org.elasticsearch.plan.a.UtilityTests)",
+     "methodName": "testRemainderWithoutOverflowDouble",
+     "className": "org.elasticsearch.plan.a.UtilityTests",
+     "children": []
+    },
+    {
+     "id": "ID#testAddWithoutOverflowFloat(org.elasticsearch.plan.a.UtilityTests)",
+     "displayName": "testAddWithoutOverflowFloat(org.elasticsearch.plan.a.UtilityTests)",
+     "methodName": "testAddWithoutOverflowFloat",
+     "className": "org.elasticsearch.plan.a.UtilityTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDivideWithoutOverflowInt(org.elasticsearch.plan.a.UtilityTests)",
+     "displayName": "testDivideWithoutOverflowInt(org.elasticsearch.plan.a.UtilityTests)",
+     "methodName": "testDivideWithoutOverflowInt",
+     "className": "org.elasticsearch.plan.a.UtilityTests",
+     "children": []
+    },
+    {
+     "id": "ID#testToShortExact(org.elasticsearch.plan.a.UtilityTests)",
+     "displayName": "testToShortExact(org.elasticsearch.plan.a.UtilityTests)",
+     "methodName": "testToShortExact",
+     "className": "org.elasticsearch.plan.a.UtilityTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiplyWithoutOverflowFloat(org.elasticsearch.plan.a.UtilityTests)",
+     "displayName": "testMultiplyWithoutOverflowFloat(org.elasticsearch.plan.a.UtilityTests)",
+     "methodName": "testMultiplyWithoutOverflowFloat",
+     "className": "org.elasticsearch.plan.a.UtilityTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSubtractWithoutOverflowDouble(org.elasticsearch.plan.a.UtilityTests)",
+     "displayName": "testSubtractWithoutOverflowDouble(org.elasticsearch.plan.a.UtilityTests)",
+     "methodName": "testSubtractWithoutOverflowDouble",
+     "className": "org.elasticsearch.plan.a.UtilityTests",
+     "children": []
+    },
+    {
+     "id": "ID#testAddWithoutOverflowDouble(org.elasticsearch.plan.a.UtilityTests)",
+     "displayName": "testAddWithoutOverflowDouble(org.elasticsearch.plan.a.UtilityTests)",
+     "methodName": "testAddWithoutOverflowDouble",
+     "className": "org.elasticsearch.plan.a.UtilityTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiplyWithoutOverflowDouble(org.elasticsearch.plan.a.UtilityTests)",
+     "displayName": "testMultiplyWithoutOverflowDouble(org.elasticsearch.plan.a.UtilityTests)",
+     "methodName": "testMultiplyWithoutOverflowDouble",
+     "className": "org.elasticsearch.plan.a.UtilityTests",
+     "children": []
+    },
+    {
+     "id": "ID#testRemainderWithoutOverflowFloat(org.elasticsearch.plan.a.UtilityTests)",
+     "displayName": "testRemainderWithoutOverflowFloat(org.elasticsearch.plan.a.UtilityTests)",
+     "methodName": "testRemainderWithoutOverflowFloat",
+     "className": "org.elasticsearch.plan.a.UtilityTests",
+     "children": []
+    },
+    {
+     "id": "ID#testToByteExact(org.elasticsearch.plan.a.UtilityTests)",
+     "displayName": "testToByteExact(org.elasticsearch.plan.a.UtilityTests)",
+     "methodName": "testToByteExact",
+     "className": "org.elasticsearch.plan.a.UtilityTests",
+     "children": []
+    },
+    {
+     "id": "ID#testToCharExact(org.elasticsearch.plan.a.UtilityTests)",
+     "displayName": "testToCharExact(org.elasticsearch.plan.a.UtilityTests)",
+     "methodName": "testToCharExact",
+     "className": "org.elasticsearch.plan.a.UtilityTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963813841
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSubtractWithoutOverflowFloat(org.elasticsearch.plan.a.UtilityTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSubtractWithoutOverflowFloat(org.elasticsearch.plan.a.UtilityTests)",
+  "startTimestamp": 1460963813860,
+  "executionTime": 2
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDivideWithoutOverflowFloat(org.elasticsearch.plan.a.UtilityTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDivideWithoutOverflowFloat(org.elasticsearch.plan.a.UtilityTests)",
+  "startTimestamp": 1460963813862,
+  "executionTime": 2
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDivideWithoutOverflowDouble(org.elasticsearch.plan.a.UtilityTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDivideWithoutOverflowDouble(org.elasticsearch.plan.a.UtilityTests)",
+  "startTimestamp": 1460963813864,
+  "executionTime": 2
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDivideWithoutOverflowLong(org.elasticsearch.plan.a.UtilityTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDivideWithoutOverflowLong(org.elasticsearch.plan.a.UtilityTests)",
+  "startTimestamp": 1460963813866,
+  "executionTime": 2
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testRemainderWithoutOverflowDouble(org.elasticsearch.plan.a.UtilityTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testRemainderWithoutOverflowDouble(org.elasticsearch.plan.a.UtilityTests)",
+  "startTimestamp": 1460963813868,
+  "executionTime": 2
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testAddWithoutOverflowFloat(org.elasticsearch.plan.a.UtilityTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testAddWithoutOverflowFloat(org.elasticsearch.plan.a.UtilityTests)",
+  "startTimestamp": 1460963813870,
+  "executionTime": 2
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDivideWithoutOverflowInt(org.elasticsearch.plan.a.UtilityTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDivideWithoutOverflowInt(org.elasticsearch.plan.a.UtilityTests)",
+  "startTimestamp": 1460963813872,
+  "executionTime": 2
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testToShortExact(org.elasticsearch.plan.a.UtilityTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testToShortExact(org.elasticsearch.plan.a.UtilityTests)",
+  "startTimestamp": 1460963813874,
+  "executionTime": 12
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiplyWithoutOverflowFloat(org.elasticsearch.plan.a.UtilityTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiplyWithoutOverflowFloat(org.elasticsearch.plan.a.UtilityTests)",
+  "startTimestamp": 1460963813886,
+  "executionTime": 2
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSubtractWithoutOverflowDouble(org.elasticsearch.plan.a.UtilityTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSubtractWithoutOverflowDouble(org.elasticsearch.plan.a.UtilityTests)",
+  "startTimestamp": 1460963813888,
+  "executionTime": 3
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testAddWithoutOverflowDouble(org.elasticsearch.plan.a.UtilityTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testAddWithoutOverflowDouble(org.elasticsearch.plan.a.UtilityTests)",
+  "startTimestamp": 1460963813891,
+  "executionTime": 2
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiplyWithoutOverflowDouble(org.elasticsearch.plan.a.UtilityTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiplyWithoutOverflowDouble(org.elasticsearch.plan.a.UtilityTests)",
+  "startTimestamp": 1460963813893,
+  "executionTime": 2
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testRemainderWithoutOverflowFloat(org.elasticsearch.plan.a.UtilityTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testRemainderWithoutOverflowFloat(org.elasticsearch.plan.a.UtilityTests)",
+  "startTimestamp": 1460963813895,
+  "executionTime": 3
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testToByteExact(org.elasticsearch.plan.a.UtilityTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testToByteExact(org.elasticsearch.plan.a.UtilityTests)",
+  "startTimestamp": 1460963813898,
+  "executionTime": 2
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testToCharExact(org.elasticsearch.plan.a.UtilityTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testToCharExact(org.elasticsearch.plan.a.UtilityTests)",
+  "startTimestamp": 1460963813900,
+  "executionTime": 12
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.plan.a.UtilityTests",
+  "startTimestamp": 1460963813841,
+  "executionTime": 74
+ }
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.plan.a.FloatOverflowDisabledTests",
+   "displayName": "org.elasticsearch.plan.a.FloatOverflowDisabledTests",
+   "methodName": null,
+   "className": "org.elasticsearch.plan.a.FloatOverflowDisabledTests",
+   "children": [
+    {
+     "id": "ID#testMultiplication(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "displayName": "testMultiplication(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "methodName": "testMultiplication",
+     "className": "org.elasticsearch.plan.a.FloatOverflowDisabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testAddition(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "displayName": "testAddition(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "methodName": "testAddition",
+     "className": "org.elasticsearch.plan.a.FloatOverflowDisabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testRemainderNaN(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "displayName": "testRemainderNaN(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "methodName": "testRemainderNaN",
+     "className": "org.elasticsearch.plan.a.FloatOverflowDisabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testAssignmentMultiplicationOverflow(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "displayName": "testAssignmentMultiplicationOverflow(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "methodName": "testAssignmentMultiplicationOverflow",
+     "className": "org.elasticsearch.plan.a.FloatOverflowDisabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testAssignmentAdditionOverflow(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "displayName": "testAssignmentAdditionOverflow(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "methodName": "testAssignmentAdditionOverflow",
+     "className": "org.elasticsearch.plan.a.FloatOverflowDisabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testAdditionConst(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "displayName": "testAdditionConst(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "methodName": "testAdditionConst",
+     "className": "org.elasticsearch.plan.a.FloatOverflowDisabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDivision(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "displayName": "testDivision(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "methodName": "testDivision",
+     "className": "org.elasticsearch.plan.a.FloatOverflowDisabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testMultiplicationConst(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "displayName": "testMultiplicationConst(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "methodName": "testMultiplicationConst",
+     "className": "org.elasticsearch.plan.a.FloatOverflowDisabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSubtractionConst(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "displayName": "testSubtractionConst(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "methodName": "testSubtractionConst",
+     "className": "org.elasticsearch.plan.a.FloatOverflowDisabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDivisionConst(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "displayName": "testDivisionConst(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "methodName": "testDivisionConst",
+     "className": "org.elasticsearch.plan.a.FloatOverflowDisabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDivisionNaN(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "displayName": "testDivisionNaN(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "methodName": "testDivisionNaN",
+     "className": "org.elasticsearch.plan.a.FloatOverflowDisabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testSubtraction(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "displayName": "testSubtraction(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "methodName": "testSubtraction",
+     "className": "org.elasticsearch.plan.a.FloatOverflowDisabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testAssignmentDivisionOverflow(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "displayName": "testAssignmentDivisionOverflow(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "methodName": "testAssignmentDivisionOverflow",
+     "className": "org.elasticsearch.plan.a.FloatOverflowDisabledTests",
+     "children": []
+    },
+    {
+     "id": "ID#testAssignmentSubtractionOverflow(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "displayName": "testAssignmentSubtractionOverflow(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+     "methodName": "testAssignmentSubtractionOverflow",
+     "className": "org.elasticsearch.plan.a.FloatOverflowDisabledTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963813922
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiplication(org.elasticsearch.plan.a.FloatOverflowDisabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiplication(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+  "startTimestamp": 1460963813935,
+  "executionTime": 6
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testAddition(org.elasticsearch.plan.a.FloatOverflowDisabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testAddition(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+  "startTimestamp": 1460963813941,
+  "executionTime": 5
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testRemainderNaN(org.elasticsearch.plan.a.FloatOverflowDisabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testRemainderNaN(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+  "startTimestamp": 1460963813947,
+  "executionTime": 6
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testAssignmentMultiplicationOverflow(org.elasticsearch.plan.a.FloatOverflowDisabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testAssignmentMultiplicationOverflow(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+  "startTimestamp": 1460963813953,
+  "executionTime": 5
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testAssignmentAdditionOverflow(org.elasticsearch.plan.a.FloatOverflowDisabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testAssignmentAdditionOverflow(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+  "startTimestamp": 1460963813958,
+  "executionTime": 80
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testAdditionConst(org.elasticsearch.plan.a.FloatOverflowDisabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testAdditionConst(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+  "startTimestamp": 1460963814038,
+  "executionTime": 5
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDivision(org.elasticsearch.plan.a.FloatOverflowDisabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDivision(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+  "startTimestamp": 1460963814043,
+  "executionTime": 6
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testMultiplicationConst(org.elasticsearch.plan.a.FloatOverflowDisabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testMultiplicationConst(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+  "startTimestamp": 1460963814049,
+  "executionTime": 3
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSubtractionConst(org.elasticsearch.plan.a.FloatOverflowDisabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSubtractionConst(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+  "startTimestamp": 1460963814052,
+  "executionTime": 4
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDivisionConst(org.elasticsearch.plan.a.FloatOverflowDisabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDivisionConst(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+  "startTimestamp": 1460963814056,
+  "executionTime": 4
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDivisionNaN(org.elasticsearch.plan.a.FloatOverflowDisabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDivisionNaN(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+  "startTimestamp": 1460963814060,
+  "executionTime": 5
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testSubtraction(org.elasticsearch.plan.a.FloatOverflowDisabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testSubtraction(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+  "startTimestamp": 1460963814066,
+  "executionTime": 4
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testAssignmentDivisionOverflow(org.elasticsearch.plan.a.FloatOverflowDisabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testAssignmentDivisionOverflow(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+  "startTimestamp": 1460963814070,
+  "executionTime": 7
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testAssignmentSubtractionOverflow(org.elasticsearch.plan.a.FloatOverflowDisabledTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testAssignmentSubtractionOverflow(org.elasticsearch.plan.a.FloatOverflowDisabledTests)",
+  "startTimestamp": 1460963814077,
+  "executionTime": 5
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.plan.a.FloatOverflowDisabledTests",
+  "startTimestamp": 1460963813922,
+  "executionTime": 161
+ }
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.plan.a.BasicStatementTests",
+   "displayName": "org.elasticsearch.plan.a.BasicStatementTests",
+   "methodName": null,
+   "className": "org.elasticsearch.plan.a.BasicStatementTests",
+   "children": [
+    {
+     "id": "ID#testBreakStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+     "displayName": "testBreakStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+     "methodName": "testBreakStatement",
+     "className": "org.elasticsearch.plan.a.BasicStatementTests",
+     "children": []
+    },
+    {
+     "id": "ID#testContinueStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+     "displayName": "testContinueStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+     "methodName": "testContinueStatement",
+     "className": "org.elasticsearch.plan.a.BasicStatementTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDeclarationStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+     "displayName": "testDeclarationStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+     "methodName": "testDeclarationStatement",
+     "className": "org.elasticsearch.plan.a.BasicStatementTests",
+     "children": []
+    },
+    {
+     "id": "ID#testWhileStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+     "displayName": "testWhileStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+     "methodName": "testWhileStatement",
+     "className": "org.elasticsearch.plan.a.BasicStatementTests",
+     "children": []
+    },
+    {
+     "id": "ID#testForStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+     "displayName": "testForStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+     "methodName": "testForStatement",
+     "className": "org.elasticsearch.plan.a.BasicStatementTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDoWhileStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+     "displayName": "testDoWhileStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+     "methodName": "testDoWhileStatement",
+     "className": "org.elasticsearch.plan.a.BasicStatementTests",
+     "children": []
+    },
+    {
+     "id": "ID#testIfStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+     "displayName": "testIfStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+     "methodName": "testIfStatement",
+     "className": "org.elasticsearch.plan.a.BasicStatementTests",
+     "children": []
+    },
+    {
+     "id": "ID#testReturnStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+     "displayName": "testReturnStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+     "methodName": "testReturnStatement",
+     "className": "org.elasticsearch.plan.a.BasicStatementTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963814090
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testBreakStatement(org.elasticsearch.plan.a.BasicStatementTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testBreakStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+  "startTimestamp": 1460963814102,
+  "executionTime": 6
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testContinueStatement(org.elasticsearch.plan.a.BasicStatementTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testContinueStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+  "startTimestamp": 1460963814108,
+  "executionTime": 3
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDeclarationStatement(org.elasticsearch.plan.a.BasicStatementTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDeclarationStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+  "startTimestamp": 1460963814111,
+  "executionTime": 25
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testWhileStatement(org.elasticsearch.plan.a.BasicStatementTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testWhileStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+  "startTimestamp": 1460963814136,
+  "executionTime": 8
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testForStatement(org.elasticsearch.plan.a.BasicStatementTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testForStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+  "startTimestamp": 1460963814144,
+  "executionTime": 6
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDoWhileStatement(org.elasticsearch.plan.a.BasicStatementTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDoWhileStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+  "startTimestamp": 1460963814150,
+  "executionTime": 5
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testIfStatement(org.elasticsearch.plan.a.BasicStatementTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testIfStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+  "startTimestamp": 1460963814155,
+  "executionTime": 5
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testReturnStatement(org.elasticsearch.plan.a.BasicStatementTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testReturnStatement(org.elasticsearch.plan.a.BasicStatementTests)",
+  "startTimestamp": 1460963814160,
+  "executionTime": 4
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.plan.a.BasicStatementTests",
+  "startTimestamp": 1460963814090,
+  "executionTime": 76
+ }
+]
+
+[
+ "SUITE_STARTED",
+ {
+  "description": {
+   "id": "ID#org.elasticsearch.plan.a.AdditionTests",
+   "displayName": "org.elasticsearch.plan.a.AdditionTests",
+   "methodName": null,
+   "className": "org.elasticsearch.plan.a.AdditionTests",
+   "children": [
+    {
+     "id": "ID#testIntConst(org.elasticsearch.plan.a.AdditionTests)",
+     "displayName": "testIntConst(org.elasticsearch.plan.a.AdditionTests)",
+     "methodName": "testIntConst",
+     "className": "org.elasticsearch.plan.a.AdditionTests",
+     "children": []
+    },
+    {
+     "id": "ID#testByte(org.elasticsearch.plan.a.AdditionTests)",
+     "displayName": "testByte(org.elasticsearch.plan.a.AdditionTests)",
+     "methodName": "testByte",
+     "className": "org.elasticsearch.plan.a.AdditionTests",
+     "children": []
+    },
+    {
+     "id": "ID#testLongConst(org.elasticsearch.plan.a.AdditionTests)",
+     "displayName": "testLongConst(org.elasticsearch.plan.a.AdditionTests)",
+     "methodName": "testLongConst",
+     "className": "org.elasticsearch.plan.a.AdditionTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDouble(org.elasticsearch.plan.a.AdditionTests)",
+     "displayName": "testDouble(org.elasticsearch.plan.a.AdditionTests)",
+     "methodName": "testDouble",
+     "className": "org.elasticsearch.plan.a.AdditionTests",
+     "children": []
+    },
+    {
+     "id": "ID#testChar(org.elasticsearch.plan.a.AdditionTests)",
+     "displayName": "testChar(org.elasticsearch.plan.a.AdditionTests)",
+     "methodName": "testChar",
+     "className": "org.elasticsearch.plan.a.AdditionTests",
+     "children": []
+    },
+    {
+     "id": "ID#testByteConst(org.elasticsearch.plan.a.AdditionTests)",
+     "displayName": "testByteConst(org.elasticsearch.plan.a.AdditionTests)",
+     "methodName": "testByteConst",
+     "className": "org.elasticsearch.plan.a.AdditionTests",
+     "children": []
+    },
+    {
+     "id": "ID#testFloat(org.elasticsearch.plan.a.AdditionTests)",
+     "displayName": "testFloat(org.elasticsearch.plan.a.AdditionTests)",
+     "methodName": "testFloat",
+     "className": "org.elasticsearch.plan.a.AdditionTests",
+     "children": []
+    },
+    {
+     "id": "ID#testLong(org.elasticsearch.plan.a.AdditionTests)",
+     "displayName": "testLong(org.elasticsearch.plan.a.AdditionTests)",
+     "methodName": "testLong",
+     "className": "org.elasticsearch.plan.a.AdditionTests",
+     "children": []
+    },
+    {
+     "id": "ID#testShortConst(org.elasticsearch.plan.a.AdditionTests)",
+     "displayName": "testShortConst(org.elasticsearch.plan.a.AdditionTests)",
+     "methodName": "testShortConst",
+     "className": "org.elasticsearch.plan.a.AdditionTests",
+     "children": []
+    },
+    {
+     "id": "ID#testFloatConst(org.elasticsearch.plan.a.AdditionTests)",
+     "displayName": "testFloatConst(org.elasticsearch.plan.a.AdditionTests)",
+     "methodName": "testFloatConst",
+     "className": "org.elasticsearch.plan.a.AdditionTests",
+     "children": []
+    },
+    {
+     "id": "ID#testInt(org.elasticsearch.plan.a.AdditionTests)",
+     "displayName": "testInt(org.elasticsearch.plan.a.AdditionTests)",
+     "methodName": "testInt",
+     "className": "org.elasticsearch.plan.a.AdditionTests",
+     "children": []
+    },
+    {
+     "id": "ID#testShort(org.elasticsearch.plan.a.AdditionTests)",
+     "displayName": "testShort(org.elasticsearch.plan.a.AdditionTests)",
+     "methodName": "testShort",
+     "className": "org.elasticsearch.plan.a.AdditionTests",
+     "children": []
+    },
+    {
+     "id": "ID#testCharConst(org.elasticsearch.plan.a.AdditionTests)",
+     "displayName": "testCharConst(org.elasticsearch.plan.a.AdditionTests)",
+     "methodName": "testCharConst",
+     "className": "org.elasticsearch.plan.a.AdditionTests",
+     "children": []
+    },
+    {
+     "id": "ID#testDoubleConst(org.elasticsearch.plan.a.AdditionTests)",
+     "displayName": "testDoubleConst(org.elasticsearch.plan.a.AdditionTests)",
+     "methodName": "testDoubleConst",
+     "className": "org.elasticsearch.plan.a.AdditionTests",
+     "children": []
+    }
+   ]
+  },
+  "startTimestamp": 1460963814172
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testIntConst(org.elasticsearch.plan.a.AdditionTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testIntConst(org.elasticsearch.plan.a.AdditionTests)",
+  "startTimestamp": 1460963814181,
+  "executionTime": 9
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testByte(org.elasticsearch.plan.a.AdditionTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testByte(org.elasticsearch.plan.a.AdditionTests)",
+  "startTimestamp": 1460963814190,
+  "executionTime": 11
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testLongConst(org.elasticsearch.plan.a.AdditionTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testLongConst(org.elasticsearch.plan.a.AdditionTests)",
+  "startTimestamp": 1460963814201,
+  "executionTime": 7
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDouble(org.elasticsearch.plan.a.AdditionTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDouble(org.elasticsearch.plan.a.AdditionTests)",
+  "startTimestamp": 1460963814208,
+  "executionTime": 8
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testChar(org.elasticsearch.plan.a.AdditionTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testChar(org.elasticsearch.plan.a.AdditionTests)",
+  "startTimestamp": 1460963814216,
+  "executionTime": 9
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testByteConst(org.elasticsearch.plan.a.AdditionTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testByteConst(org.elasticsearch.plan.a.AdditionTests)",
+  "startTimestamp": 1460963814225,
+  "executionTime": 12
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testFloat(org.elasticsearch.plan.a.AdditionTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testFloat(org.elasticsearch.plan.a.AdditionTests)",
+  "startTimestamp": 1460963814237,
+  "executionTime": 8
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testLong(org.elasticsearch.plan.a.AdditionTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testLong(org.elasticsearch.plan.a.AdditionTests)",
+  "startTimestamp": 1460963814245,
+  "executionTime": 9
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testShortConst(org.elasticsearch.plan.a.AdditionTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testShortConst(org.elasticsearch.plan.a.AdditionTests)",
+  "startTimestamp": 1460963814254,
+  "executionTime": 9
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testFloatConst(org.elasticsearch.plan.a.AdditionTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testFloatConst(org.elasticsearch.plan.a.AdditionTests)",
+  "startTimestamp": 1460963814264,
+  "executionTime": 6
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testInt(org.elasticsearch.plan.a.AdditionTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testInt(org.elasticsearch.plan.a.AdditionTests)",
+  "startTimestamp": 1460963814270,
+  "executionTime": 12
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testShort(org.elasticsearch.plan.a.AdditionTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testShort(org.elasticsearch.plan.a.AdditionTests)",
+  "startTimestamp": 1460963814282,
+  "executionTime": 9
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testCharConst(org.elasticsearch.plan.a.AdditionTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testCharConst(org.elasticsearch.plan.a.AdditionTests)",
+  "startTimestamp": 1460963814291,
+  "executionTime": 10
+ }
+]
+
+[
+ "TEST_STARTED",
+ "ID#testDoubleConst(org.elasticsearch.plan.a.AdditionTests)"
+]
+
+[
+ "TEST_FINISHED",
+ {
+  "description": "ID#testDoubleConst(org.elasticsearch.plan.a.AdditionTests)",
+  "startTimestamp": 1460963814302,
+  "executionTime": 6
+ }
+]
+
+[
+ "SUITE_COMPLETED",
+ {
+  "description": "ID#org.elasticsearch.plan.a.AdditionTests",
+  "startTimestamp": 1460963814172,
+  "executionTime": 137
+ }
+]
+
+[
+ "IDLE",
+ {}
+]
+
+[
+ "QUIT",
+ {}
+]
+

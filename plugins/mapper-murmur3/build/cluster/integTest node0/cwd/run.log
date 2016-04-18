@@ -1,0 +1,15 @@
+[2016-04-18 03:18:51,307][INFO ][node                     ] [Ka-Zar] version[3.0.0-SNAPSHOT], pid[4314], build[6508b0f/2016-04-18T06:58:38.616Z]
+[2016-04-18 03:18:51,307][INFO ][node                     ] [Ka-Zar] initializing ...
+[2016-04-18 03:18:51,489][INFO ][plugins                  ] [Ka-Zar] modules [], plugins [mapper-murmur3], sites []
+[2016-04-18 03:18:51,505][INFO ][env                      ] [Ka-Zar] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [112.2gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2016-04-18 03:18:51,505][INFO ][env                      ] [Ka-Zar] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-04-18 03:18:52,834][INFO ][node                     ] [Ka-Zar] initialized
+[2016-04-18 03:18:52,834][INFO ][node                     ] [Ka-Zar] starting ...
+[2016-04-18 03:18:52,899][INFO ][transport                ] [Ka-Zar] publish_address {127.0.0.1:59204}, bound_addresses {[fe80::1]:59202}, {[::1]:59203}, {127.0.0.1:59204}
+[2016-04-18 03:18:52,905][INFO ][discovery                ] [Ka-Zar] plugins_mapper-murmur3_integTest/rqK2uamUR6i2KeRB890NCg
+[2016-04-18 03:18:55,930][INFO ][cluster.service          ] [Ka-Zar] new_master {Ka-Zar}{rqK2uamUR6i2KeRB890NCg}{127.0.0.1}{127.0.0.1:59204}[testattr=>test], reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-18 03:18:55,946][INFO ][http                     ] [Ka-Zar] publish_address {127.0.0.1:59213}, bound_addresses {[fe80::1]:59211}, {[::1]:59212}, {127.0.0.1:59213}
+[2016-04-18 03:18:55,947][INFO ][node                     ] [Ka-Zar] started
+[2016-04-18 03:18:55,957][INFO ][gateway                  ] [Ka-Zar] recovered [0] indices into cluster_state
+[2016-04-18 03:18:58,341][INFO ][cluster.metadata         ] [Ka-Zar] [test] creating index, cause [api], templates [], shards [5]/[1], mappings [type1]
+[2016-04-18 03:18:58,528][INFO ][cluster.routing.allocation] [Ka-Zar] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][4]] ...]).

@@ -1,0 +1,12 @@
+[2016-04-18 03:21:34,972][INFO ][node                     ] [Tyr] version[3.0.0-SNAPSHOT], pid[4565], build[6508b0f/2016-04-18T06:58:38.616Z]
+[2016-04-18 03:21:34,972][INFO ][node                     ] [Tyr] initializing ...
+[2016-04-18 03:21:35,320][INFO ][plugins                  ] [Tyr] modules [lang-mustache, lang-expression, lang-groovy], plugins [], sites []
+[2016-04-18 03:21:35,338][INFO ][env                      ] [Tyr] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [112.2gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2016-04-18 03:21:35,338][INFO ][env                      ] [Tyr] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-04-18 03:21:37,209][INFO ][node                     ] [Tyr] initialized
+[2016-04-18 03:21:37,209][INFO ][node                     ] [Tyr] starting ...
+[2016-04-18 03:21:37,306][INFO ][transport                ] [Tyr] publish_address {127.0.0.1:9500}, bound_addresses {[fe80::1]:9500}, {[::1]:9500}, {127.0.0.1:9500}
+[2016-04-18 03:21:37,313][INFO ][discovery                ] [Tyr] qa_smoke-test-multinode_integTest/eOKHElYhQty7orIOG_OLCw
+[2016-04-18 03:21:40,706][INFO ][cluster.service          ] [Tyr] detected_master {Timeshadow}{7FqlZ0_9R4mCOBs3-ooZPw}{127.0.0.1}{127.0.0.1:9501}[testattr=>test], added {{Timeshadow}{7FqlZ0_9R4mCOBs3-ooZPw}{127.0.0.1}{127.0.0.1:9501}[testattr=>test],}, reason: zen-disco-receive(from master [master {Timeshadow}{7FqlZ0_9R4mCOBs3-ooZPw}{127.0.0.1}{127.0.0.1:9501}[testattr=>test] committed version [1]])
+[2016-04-18 03:21:40,719][INFO ][http                     ] [Tyr] publish_address {127.0.0.1:9400}, bound_addresses {[fe80::1]:9400}, {[::1]:9400}, {127.0.0.1:9400}
+[2016-04-18 03:21:40,721][INFO ][node                     ] [Tyr] started

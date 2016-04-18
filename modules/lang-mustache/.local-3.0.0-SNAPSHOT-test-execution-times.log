@@ -1,7 +1,7 @@
-org.elasticsearch.messy.tests.ContextAndHeaderTransportTests=15920
-org.elasticsearch.messy.tests.RenderSearchTemplateTests=12817
-org.elasticsearch.messy.tests.SuggestSearchTests=18814
-org.elasticsearch.messy.tests.TemplateQueryParserTests=7727
-org.elasticsearch.messy.tests.TemplateQueryTests=5874
-org.elasticsearch.script.mustache.MustacheScriptEngineTests=55
-org.elasticsearch.script.mustache.MustacheTests=33
+org.elasticsearch.messy.tests.ContextAndHeaderTransportTests=15920,1707,977
+org.elasticsearch.messy.tests.RenderSearchTemplateTests=12817,9736,9551
+org.elasticsearch.messy.tests.SuggestSearchTests=18814,14945,18679
+org.elasticsearch.messy.tests.TemplateQueryParserTests=7727,8567,7251
+org.elasticsearch.messy.tests.TemplateQueryTests=5874,19116,18406
+org.elasticsearch.script.mustache.MustacheScriptEngineTests=55,2517,2266
+org.elasticsearch.script.mustache.MustacheTests=33,2356,2230

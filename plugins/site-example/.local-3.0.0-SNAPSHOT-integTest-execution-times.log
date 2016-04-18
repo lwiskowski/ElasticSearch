@@ -1,2 +1,2 @@
-org.elasticsearch.example.SiteContentsIT=1326
-org.elasticsearch.example.SiteRestIT=780
+org.elasticsearch.example.SiteContentsIT=1326,1455,2429
+org.elasticsearch.example.SiteRestIT=780,851,92

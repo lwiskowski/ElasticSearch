@@ -1,0 +1,1 @@
+"/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/lang-python/build/cluster/integTest node0/elasticsearch-3.0.0-SNAPSHOT/bin/elasticsearch" "$@" > run.log 2>&1 ; if [ $? != 0 ]; then touch run.failed; fi

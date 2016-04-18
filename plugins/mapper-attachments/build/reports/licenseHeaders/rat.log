@@ -1,0 +1,52 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2016-04-18T03:17:53-04:00
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 15
+
+Apache Licensed: 15
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/src/main/java/org/elasticsearch/mapper/attachments/AttachmentMapper.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/src/main/java/org/elasticsearch/mapper/attachments/MapperAttachmentsPlugin.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/src/main/java/org/elasticsearch/mapper/attachments/TikaImpl.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/src/test/java/org/elasticsearch/mapper/attachments/AttachmentUnitTestCase.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/src/test/java/org/elasticsearch/mapper/attachments/DateAttachmentMapperTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/src/test/java/org/elasticsearch/mapper/attachments/EncryptedDocMapperTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/src/test/java/org/elasticsearch/mapper/attachments/LanguageDetectionAttachmentMapperTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/src/test/java/org/elasticsearch/mapper/attachments/MapperAttachmentsRestIT.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/src/test/java/org/elasticsearch/mapper/attachments/MetadataMapperTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/src/test/java/org/elasticsearch/mapper/attachments/MultifieldAttachmentMapperTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/src/test/java/org/elasticsearch/mapper/attachments/SimpleAttachmentMapperTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/src/test/java/org/elasticsearch/mapper/attachments/StandaloneRunner.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/src/test/java/org/elasticsearch/mapper/attachments/TikaDocTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/src/test/java/org/elasticsearch/mapper/attachments/TikaImplTests.java
+  AL    /Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/plugins/mapper-attachments/src/test/java/org/elasticsearch/mapper/attachments/VariousDocTests.java
+ 
+*****************************************************
+ Printing headers for files without AL header...
+ 
+ 

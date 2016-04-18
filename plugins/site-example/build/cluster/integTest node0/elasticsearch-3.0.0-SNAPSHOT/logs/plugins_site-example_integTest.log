@@ -1,0 +1,13 @@
+[2016-04-18 03:20:42,582][INFO ][node                     ] [Beyonder] version[3.0.0-SNAPSHOT], pid[4483], build[6508b0f/2016-04-18T06:58:38.616Z]
+[2016-04-18 03:20:42,583][INFO ][node                     ] [Beyonder] initializing ...
+[2016-04-18 03:20:42,659][INFO ][plugins                  ] [Beyonder] modules [], plugins [site-example], sites [site-example]
+[2016-04-18 03:20:42,679][INFO ][env                      ] [Beyonder] using [1] data paths, mounts [[/ (/dev/disk1)]], net usable_space [112.2gb], net total_space [232.6gb], spins? [unknown], types [hfs]
+[2016-04-18 03:20:42,680][INFO ][env                      ] [Beyonder] heap size [989.8mb], compressed ordinary object pointers [true]
+[2016-04-18 03:20:44,074][INFO ][node                     ] [Beyonder] initialized
+[2016-04-18 03:20:44,075][INFO ][node                     ] [Beyonder] starting ...
+[2016-04-18 03:20:44,138][INFO ][transport                ] [Beyonder] publish_address {127.0.0.1:59357}, bound_addresses {[fe80::1]:59355}, {[::1]:59356}, {127.0.0.1:59357}
+[2016-04-18 03:20:44,144][INFO ][discovery                ] [Beyonder] plugins_site-example_integTest/0zTpCQeeSOOJJPDq2EzBcA
+[2016-04-18 03:20:47,170][INFO ][cluster.service          ] [Beyonder] new_master {Beyonder}{0zTpCQeeSOOJJPDq2EzBcA}{127.0.0.1}{127.0.0.1:59357}[testattr=>test], reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-04-18 03:20:47,184][INFO ][http                     ] [Beyonder] publish_address {127.0.0.1:59366}, bound_addresses {[fe80::1]:59364}, {[::1]:59365}, {127.0.0.1:59366}
+[2016-04-18 03:20:47,186][INFO ][node                     ] [Beyonder] started
+[2016-04-18 03:20:47,196][INFO ][gateway                  ] [Beyonder] recovered [0] indices into cluster_state
