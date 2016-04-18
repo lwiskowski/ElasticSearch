@@ -1,2 +1,0 @@
-org.elasticsearch.script.mustache.MustacheScriptEngineTests
-org.elasticsearch.messy.tests.RenderSearchTemplateTests

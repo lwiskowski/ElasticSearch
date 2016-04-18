@@ -1,4 +1,0 @@
-org.elasticsearch.test.rest.test.SetupSectionParserTests
-org.elasticsearch.test.rest.test.AssertionParsersTests
-org.elasticsearch.test.rest.test.RestApiParserFailingTestsorg.elasticsearch.test.test.LoggingListenerTests
-org.elasticsearch.test.test.VersionUtilsTests

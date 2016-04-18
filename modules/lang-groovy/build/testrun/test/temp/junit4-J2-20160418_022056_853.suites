@@ -1,7 +1,0 @@
-org.elasticsearch.messy.tests.BulkTests
-org.elasticsearch.messy.tests.ScriptQuerySearchTests
-org.elasticsearch.messy.tests.SimpleSortTests
-org.elasticsearch.messy.tests.HistogramTests
-org.elasticsearch.messy.tests.IndicesRequestTests
-org.elasticsearch.messy.tests.TDigestPercentilesTests
-org.elasticsearch.messy.tests.DoubleTermsTests

@@ -1,6 +1,0 @@
-org.elasticsearch.plan.a.IntegerOverflowEnabledTests
-org.elasticsearch.plan.a.DefTests
-org.elasticsearch.plan.a.UtilityTests
-org.elasticsearch.plan.a.FloatOverflowDisabledTests
-org.elasticsearch.plan.a.BasicStatementTests
-org.elasticsearch.plan.a.AdditionTests

@@ -1,3 +1,0 @@
-org.elasticsearch.bootstrap.EvilJarHellTests
-org.elasticsearch.plugins.PluginManagerUnitTests
-org.elasticsearch.common.cli.CliToolTestsorg.elasticsearch.tribe.TribeUnitTests

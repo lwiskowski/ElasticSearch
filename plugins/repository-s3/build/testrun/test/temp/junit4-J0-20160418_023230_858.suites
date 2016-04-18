@@ -1,2 +1,0 @@
-org.elasticsearch.repositories.s3.S3SnapshotRestoreOverHttpTests
-org.elasticsearch.cloud.aws.AWSSignersTests

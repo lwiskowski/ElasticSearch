@@ -1,3 +1,0 @@
-org.elasticsearch.bootstrap.ESPolicyUnitTests
-org.elasticsearch.plugins.PluginManagerTests
-org.elasticsearch.common.cli.CheckFileCommandTests

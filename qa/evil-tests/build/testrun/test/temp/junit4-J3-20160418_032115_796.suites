@@ -1,3 +1,0 @@
-org.elasticsearch.bootstrap.EvilSecurityTests
-org.elasticsearch.plugins.PluginSecurityTests
-org.elasticsearch.node.internal.EvilInternalSettingsPreparerTests

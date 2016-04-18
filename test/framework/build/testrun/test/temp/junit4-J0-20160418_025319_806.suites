@@ -1,3 +1,0 @@
-org.elasticsearch.test.rest.BlacklistedPathPatternMatcherTests
-org.elasticsearch.test.test.InternalTestClusterTests
-org.elasticsearch.test.rest.test.JsonPathTests

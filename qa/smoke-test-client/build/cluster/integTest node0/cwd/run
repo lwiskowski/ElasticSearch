@@ -1,1 +1,0 @@
-"/Users/lwiskowski/CSE2410_spring2016_projectileDysfunction/qa/smoke-test-client/build/cluster/integTest node0/elasticsearch-3.0.0-SNAPSHOT/bin/elasticsearch" "$@" > run.log 2>&1 ; if [ $? != 0 ]; then touch run.failed; fi

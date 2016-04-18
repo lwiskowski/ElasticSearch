@@ -1,2 +1,0 @@
-org.elasticsearch.repositories.s3.S3SnapshotRestoreOverHttpsTests
-org.elasticsearch.cloud.aws.blobstore.S3BlobStoreTests

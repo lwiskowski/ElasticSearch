@@ -1,5 +1,0 @@
-org.elasticsearch.plan.a.FieldTests
-org.elasticsearch.plan.a.ConditionalTests
-org.elasticsearch.plan.a.RemainderTests
-org.elasticsearch.plan.a.UnaryTests
-org.elasticsearch.plan.a.BasicExpressionTestsorg.elasticsearch.plan.a.AdditionTests
