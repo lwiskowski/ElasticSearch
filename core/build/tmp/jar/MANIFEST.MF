@@ -2,16 +2,16 @@ Manifest-Version: 1.0
 Implementation-Title: org.elasticsearch#core;3.0.0-SNAPSHOT
 Implementation-Version: 3.0.0-SNAPSHOT
 Built-Status: integration
-Built-By: ogbonnayacngwu
+Built-By: lwiskowski
 Built-OS: Mac OS X
-Build-Date: 2016-04-20T15:40:35.005Z
+Build-Date: 2016-05-01T03:53:35.139Z
 Gradle-Version: 2.10
-Created-By: 1.8.0_11-b12 (Oracle Corporation)
-Build-Java-Version: 1.8.0_11
+Created-By: 1.8.0_71-b15 (Oracle Corporation)
+Build-Java-Version: 1.8.0_71
 Module-Source: /core
 Module-Origin: https://github.fit.edu/lwiskowski2014/CSE2410_spring201
- 6_projectileDysfunction
-Change: 88fa654
+ 6_projectileDysfunction.git
+Change: 4b8932a
 Branch: master
 X-Compile-Target-JDK: 1.8
 X-Compile-Source-JDK: 1.8
