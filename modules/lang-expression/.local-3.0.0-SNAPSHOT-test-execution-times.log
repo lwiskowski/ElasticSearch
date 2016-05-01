@@ -1,3 +1,3 @@
-org.elasticsearch.script.expression.ExpressionTests=9757,9597,9304
-org.elasticsearch.script.expression.IndexedExpressionTests=10768,10304,9724
-org.elasticsearch.script.expression.MoreExpressionTests=14450,12987,14010
+org.elasticsearch.script.expression.ExpressionTests=10031,10064,10582,11019,8356,11078,10278,9546,11021,8963
+org.elasticsearch.script.expression.IndexedExpressionTests=10392,11047,11835,12307,9223,11944,11155,10427,10894,9572
+org.elasticsearch.script.expression.MoreExpressionTests=13447,15618,15890,15996,12066,18725,15059,15252,15740,12353

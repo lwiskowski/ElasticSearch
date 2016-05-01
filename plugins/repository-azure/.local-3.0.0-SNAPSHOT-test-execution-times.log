@@ -1,2 +1,2 @@
-org.elasticsearch.repositories.azure.AzureSnapshotRestoreServiceTests=6259,6509,6017
-org.elasticsearch.repositories.azure.AzureSnapshotRestoreTests=472,488,495
+org.elasticsearch.repositories.azure.AzureSnapshotRestoreServiceTests=6259,6509,6017,7509,6048,7757
+org.elasticsearch.repositories.azure.AzureSnapshotRestoreTests=472,488,495,531,445,557

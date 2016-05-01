@@ -33,6 +33,12 @@ import org.elasticsearch.test.rest.section.LengthAssertion;
 import org.elasticsearch.test.rest.section.LessThanAssertion;
 import org.elasticsearch.test.rest.section.MatchAssertion;
 
+import com.fasterxml.jackson.core.JsonParser;
+import org.elasticsearch.common.bytes.BytesArray;
+import org.elasticsearch.common.xcontent.XContentParser.Token;
+import org.elasticsearch.common.xcontent.XContentParser;
+import org.elasticsearch.test.ESTestCase;
+
 import java.util.List;
 import java.util.Map;
 
@@ -78,6 +84,16 @@ public class AssertionParsersTests extends AbstractParserTestCase {
         assertThat((Integer) greaterThanAssertion.getExpectedValue(), equalTo(3));
     }
 
+    // public void testValueType() throws Exception {
+    //   parser = YamlXContent.yamlXContent.createParser(
+    //           "{ field: 3}"
+    //   );
+    //   assertEquals(parser.longValue(true), parser.longValue(true));
+    //   assertEquals(parser.intValue(true), parser.intValue(true));
+    // //  assertEquals(parser.doubleValue(true),parser.doubleValue(true) );
+    //   assertEquals(parser.shortValue(true), parser.shortValue(true));
+    // }
+
     public void testParseLessThan() throws Exception {
         parser = YamlXContent.yamlXContent.createParser(
                 "{ field: 3}"
@@ -117,6 +133,22 @@ public class AssertionParsersTests extends AbstractParserTestCase {
         assertThat(matchAssertion.getExpectedValue(), instanceOf(Integer.class));
         assertThat((Integer) matchAssertion.getExpectedValue(), equalTo(10));
     }
+
+    public void testParseMatchSimpleDoubleValue() throws Exception { //test for double values
+        parser = YamlXContent.yamlXContent.createParser(
+                "{ field: 10.0 }"
+        );
+
+        MatchParser matchParser = new MatchParser();
+        MatchAssertion matchAssertion = matchParser.parse(new RestTestSuiteParseContext("api", "suite", parser));
+
+        assertThat(matchAssertion, notNullValue());
+        assertThat(matchAssertion.getField(), equalTo("field"));
+        assertThat(matchAssertion.getExpectedValue(), instanceOf(Double.class));
+        assertThat((Double) matchAssertion.getExpectedValue(), equalTo(10.0));
+    }
+
+
 
     public void testParseMatchSimpleStringValue() throws Exception {
         parser = YamlXContent.yamlXContent.createParser(

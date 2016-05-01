@@ -1,4 +1,4 @@
-org.apache.lucene.store.SmbMMapDirectoryTests=3932,4243,4023
-org.apache.lucene.store.SmbSimpleFSDirectoryTests=3780,4299,3682
-org.elasticsearch.index.store.SmbMMapFsTests=9584,10402,10378
-org.elasticsearch.index.store.SmbSimpleFsTests=10153,10571,9985
+org.apache.lucene.store.SmbMMapDirectoryTests=3932,4243,4023,3899,3757,4918
+org.apache.lucene.store.SmbSimpleFSDirectoryTests=3780,4299,3682,3821,3690,4845
+org.elasticsearch.index.store.SmbMMapFsTests=9584,10402,10378,11448,9360,12231
+org.elasticsearch.index.store.SmbSimpleFsTests=10153,10571,9985,11381,9536,11780

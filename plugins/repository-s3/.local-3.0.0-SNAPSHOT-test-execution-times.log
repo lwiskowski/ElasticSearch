@@ -1,6 +1,6 @@
-org.elasticsearch.cloud.aws.AWSSignersTests=1000,844,892
-org.elasticsearch.cloud.aws.blobstore.S3BlobStoreTests=1089,1084,918
-org.elasticsearch.cloud.aws.blobstore.S3OutputStreamTests=8213,8337,7803
-org.elasticsearch.repositories.s3.S3ProxiedSnapshotRestoreOverHttpsTests=1845,2003,1854
-org.elasticsearch.repositories.s3.S3SnapshotRestoreOverHttpTests=1841,2155,1843
-org.elasticsearch.repositories.s3.S3SnapshotRestoreOverHttpsTests=1946,1943,2018
+org.elasticsearch.cloud.aws.AWSSignersTests=1000,844,892,1110,2919,1320
+org.elasticsearch.cloud.aws.blobstore.S3BlobStoreTests=1089,1084,918,1254,3232,1264
+org.elasticsearch.cloud.aws.blobstore.S3OutputStreamTests=8213,8337,7803,7744,7785,9103
+org.elasticsearch.repositories.s3.S3ProxiedSnapshotRestoreOverHttpsTests=1845,2003,1854,2031,1729,2480
+org.elasticsearch.repositories.s3.S3SnapshotRestoreOverHttpTests=1841,2155,1843,2008,36,2164
+org.elasticsearch.repositories.s3.S3SnapshotRestoreOverHttpsTests=1946,1943,2018,1920,23,2364

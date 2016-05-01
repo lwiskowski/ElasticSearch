@@ -36,6 +36,7 @@ import java.nio.CharBuffer;
  */
 public class JsonXContentParser extends AbstractXContentParser {
 
+
     final JsonParser parser;
 
     public JsonXContentParser(JsonParser parser) {

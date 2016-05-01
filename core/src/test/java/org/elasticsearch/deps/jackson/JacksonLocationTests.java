@@ -63,6 +63,7 @@ public class JacksonLocationTests extends ESTestCase {
         assertThat(parser.nextToken(), equalTo(JsonToken.FIELD_NAME)); // "index"
         assertThat(parser.nextToken(), equalTo(JsonToken.VALUE_STRING));
         assertThat(parser.nextToken(), equalTo(JsonToken.FIELD_NAME)); // "source"
+
 //        JsonLocation location1 = parser.getCurrentLocation();
 //        parser.skipChildren();
 //        JsonLocation location2 = parser.getCurrentLocation();

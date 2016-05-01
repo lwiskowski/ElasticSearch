@@ -1,2 +1,2 @@
-org.elasticsearch.index.mapper.size.MapperSizeRestIT=381,1325,413
-org.elasticsearch.index.mapper.size.SizeMappingIT=3012,1927,3050
+org.elasticsearch.index.mapper.size.MapperSizeRestIT=381,1325,413,437,397,434
+org.elasticsearch.index.mapper.size.SizeMappingIT=3012,1927,3050,3542,3026,3681

@@ -1,4 +1,4 @@
-org.elasticsearch.discovery.gce.GceDiscoverySettingsTests=2061,2069,2158
-org.elasticsearch.discovery.gce.GceDiscoveryTests=2501,2698,2934
-org.elasticsearch.discovery.gce.GceNetworkTests=2177,2433,2512
-org.elasticsearch.discovery.gce.RetryHttpInitializerWrapperTests=2229,2334,2591
+org.elasticsearch.discovery.gce.GceDiscoverySettingsTests=2061,2069,2158,2289,2247,2595
+org.elasticsearch.discovery.gce.GceDiscoveryTests=2501,2698,2934,3150,2992,3146
+org.elasticsearch.discovery.gce.GceNetworkTests=2177,2433,2512,2758,2491,2456
+org.elasticsearch.discovery.gce.RetryHttpInitializerWrapperTests=2229,2334,2591,2545,2657,2767
